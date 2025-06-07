@@ -22,3 +22,9 @@ Nuestro proyecto es un "Gestor de Colección de Videojuegos Retro", una aplicaci
 
 * 💾 Guardar todo localmente en un archivo JSON (para que no se pierda al cerrar el programa).
 
+LISTA DE APIS POSIBLES PARA EL PROYECTO:
+https://www.giantbomb.com/api/  ( con registro , gratuita, soporte en foros de errores) 
+https://api-docs.igdb.com/#examples ( necesito registro con cuenta en twitch ) 
+https://openretro.org/browse/gb/a ( base de datos bastante completa) 
+https://retro.gg/api      -  https://retro.gg/game/super-mario-bros/261  ( bastante completa ) 
+https://rawg.io/apidocs#pricing ( tiene version gratuita con registro  se ve bastante actualizada)
