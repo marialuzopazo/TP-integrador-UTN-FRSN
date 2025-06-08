@@ -734,7 +734,106 @@
               "El juego se caracteriza por su atmósfera tensa, recursos limitados (como munición y curas), y una narrativa que se desarrolla desde dos perspectivas diferentes, lo que incentivaba múltiples partidas para conocer toda la historia. Mezcla"
               "exploración, resolución de acertijos y enfrentamientos con enemigos grotescos."
     },
-
+{
+      "nombre": "Crash Bandicoot",
+      "fecha_lanzamiento": "1996-09-09",
+      "creador": "Andy Gavin, Jason Rubin",
+      "editores": ["Sony Computer Entertainment"],
+      "clasificacion": "E",
+      "genero": "Plataformas",
+      "modo_juego": "Un jugador",
+      "licencia": "Propietaria",
+      "imagen": "https://cdn.example.com/images/ps1_game_4.jpg",
+      "descripcion": "Crash se volvió la mascota de Sony con este juego de plataformas vibrante, desafiante y lleno de personalidad. El inicio de una trilogía icónica. El jugador controla a Crash, un bandicut (animal marsupial) mutado accidentalmente por el malvado"
+             "Dr. Neo Cortex, quien ahora intenta detener al científico para salvar a su novia Tawna y frustrar sus planes de dominación."
+             "El juego se desarrolla a través de niveles lineales con desplazamiento hacia adelante, lateral o hacia atrás, combinando saltos precisos, obstáculos peligrosos y enemigos variados. Crash puede girar para atacar, saltar sobre enemigos y recolectar frutas"
+             "wumpa, vidas y máscaras protectoras."
+    },
+    {
+      "nombre": "Gran Turismo",
+      "fecha_lanzamiento": "1997-12-23",
+      "creador": "Kazunori Yamauchi",
+      "editores": ["Sony Computer Entertainment"],
+      "clasificacion": "E",
+      "genero": "Simulación de carreras",
+      "modo_juego": "Un jugador",
+      "licencia": "Propietaria",
+      "imagen": "https://cdn.example.com/images/ps1_game_5.jpg",
+      "descripcion": "El simulador de carreras más realista de su época. Con decenas de autos y pistas, elevó el estándar gráfico y físico en consolas. El juego permite a los jugadores participar en competiciones y desafíos, obtener licencias de conducción, y comprar"
+             "o modificar vehículos reales de marcas reconocidas como Honda, Toyota, Nissan y más. Su modo Gran Turismo combina progresión y estrategia, mientras que el modo Arcade permite carreras más rápidas y directas."
+             "Se creó con el objetivo de representar fielmente la física y el comportamiento de los autos, gracias a años de desarrollo por parte de Kazunori Yamauchi y su equipo. "
+    },
+    {
+      "nombre": "Tekken 3",
+      "fecha_lanzamiento": "1998-03-20",
+      "creador": "Katsuhiro Harada",
+      "editores": ["Namco"],
+      "clasificacion": "T",
+      "genero": "Pelea",
+      "modo_juego": "Multijugador",
+      "licencia": "Propietaria",
+      "imagen": "https://cdn.example.com/images/ps1_game_6.jpg",
+      "descripcion": "Uno de los juegos de pelea más populares de todos los tiempos. Tekken 3 ofrecía jugabilidad fluida, nuevos personajes y profundidad técnica. El juego presenta una nueva generación de luchadores, con protagonistas como Jin Kazama, Hwoarang y Ling Xiaoyu,"
+               "junto a veteranos como Paul Phoenix y Heihachi Mishima. Cada personaje tiene un estilo de combate único, con combinaciones de golpes, lanzamientos y movimientos especiales. Una de sus grandes innovaciones fue el uso más dinámico del eje z (movimiento lateral),"
+               "mejorando la estrategia en los combates."
+    },
+    {
+      "nombre": "Castlevania: Symphony of the Night",
+      "fecha_lanzamiento": "1997-03-20",
+      "creador": "Koji Igarashi",
+      "editores": ["Konami"],
+      "clasificacion": "T",
+      "genero": "Metroidvania",
+      "modo_juego": "Un jugador",
+      "licencia": "Propietaria",
+      "imagen": "https://cdn.example.com/images/ps1_game_7.jpg",
+      "descripcion": "Revolucionó la franquicia Castlevania con exploración no lineal, mejoras de personaje y una banda sonora majestuosa. Es considerado uno de los mejores juegos 2D jamás hechos.  A diferencia de los títulos anteriores de la saga, este juego introdujo un enfoque"
+              "no lineal, con elementos de RPG y un vasto castillo por explorar, marcando el nacimiento del estilo conocido como Metroidvania."
+               "En el juego controlas a Alucard, el hijo de Drácula, quien entra al castillo para detener el resurgimiento del mal tras la desaparición de Richter Belmont. A medida que avanzas, obtienes nuevas habilidades, armas y hechizos que te permiten acceder a zonas previamente inaccesibles."
+               "Fue creado para dar un giro a la fórmula tradicional de Castlevania, apostando por una experiencia más profunda y libre, con énfasis en la atmósfera gótica, el arte detallado, la música memorable y una jugabilidad refinada. Aunque en su lanzamiento fue discretamente recibido, con"
+                "el tiempo se convirtió en uno de los juegos más influyentes y valorados del género."
+    },
+    {
+      "nombre": "Spyro the Dragon",
+      "fecha_lanzamiento": "1998-09-10",
+      "creador": "Insomniac Games",
+      "editores": ["Sony Computer Entertainment"],
+      "clasificacion": "E",
+      "genero": "Plataformas 3D",
+      "modo_juego": "Un jugador",
+      "licencia": "Propietaria",
+      "imagen": "https://cdn.example.com/images/ps1_game_8.jpg",
+      "descripcion": "Colorido y accesible, Spyro ofrecía un mundo abierto en 3D ideal para jugadores más jóvenes, con controles precisos y humor encantador. En este juego controlas a Spyro, un pequeño dragón púrpura con una gran personalidad, que debe rescatar a sus compañeros dragones y recuperar"
+               "el mundo de la amenaza del malvado Gnasty Gnorc."
+                "El juego combina exploración en mundos abiertos, recolección de gemas y combate sencillo usando el aliento de fuego, embestidas y saltos ágiles. Cada nivel ofrece diferentes retos, enemigos y secretos por descubrir, fomentando la exploración y el uso de habilidades especiales de Spyro."
+    },
+    {
+      "nombre": "Tomb Raider",
+      "fecha_lanzamiento": "1996-10-25",
+      "creador": "Toby Gard",
+      "editores": ["Eidos Interactive"],
+      "clasificacion": "T",
+      "genero": "Aventura",
+      "modo_juego": "Un jugador",
+      "licencia": "Comercial",
+      "imagen": "https://cdn.example.com/images/ps1_game_9.jpg",
+      "descripcion": "Lara Croft se convirtió en un ícono con este título pionero de aventura en 3D. Plataformas, exploración, combate y arqueología en una combinación revolucionaria.  Fue desarrollado por Core Design y presenta a Lara Croft, una arqueóloga y exploradora, como protagonista."
+                "El juego combina exploración de tumbas antiguas, resolución de puzzles, y combates contra enemigos y trampas mortales. Lara debe atravesar escenarios llenos de desafíos para encontrar tesoros y secretos ocultos, usando su agilidad, armas y habilidades para sobrevivir."
+    },
+    {
+      "nombre": "Tony Hawk's Pro Skater 2",
+      "fecha_lanzamiento": "2000-09-20",
+      "creador": "Neversoft",
+      "editores": ["Activision"],
+      "clasificacion": "T",
+      "genero": "Deportes",
+      "modo_juego": "Multijugador",
+      "licencia": "Comercial",
+      "imagen": "https://cdn.example.com/images/ps1_game_10.jpg",
+      "descripcion": "Uno de los juegos de skate más influyentes. Controles fluidos, trucos locos y una banda sonora memorable lo convirtieron en un fenómeno cultural.  Es la segunda entrega de la exitosa saga de skateboarding protagonizada por el legendario skater Tony Hawk y otros profesionales del deporte."
+               "El juego permite a los jugadores realizar trucos espectaculares como ollies, flips, grabs y grinds en una variedad de escenarios urbanos y parques de skate. Una de sus mayores innovaciones fue la introducción del manual, una técnica que permitió encadenar combos más largos y complejos. También "
+                "incluye un modo carrera con objetivos por nivel, un sistema de mejora de habilidades y un editor de parques."
+    }
                     ]
                   }
                 ]
