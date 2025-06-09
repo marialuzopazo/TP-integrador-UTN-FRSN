@@ -22,9 +22,12 @@ Nuestro proyecto es un "Gestor de Colección de Videojuegos Retro", una aplicaci
 
 * 💾 Guardar todo localmente en un archivo JSON (para que no se pierda al cerrar el programa).
 
-LISTA DE APIS POSIBLES PARA EL PROYECTO:
-https://www.giantbomb.com/api/  ( con registro , gratuita, soporte en foros de errores) 
-https://api-docs.igdb.com/#examples ( necesito registro con cuenta en twitch ) 
-https://openretro.org/browse/gb/a ( base de datos bastante completa) 
-https://retro.gg/api      -  https://retro.gg/game/super-mario-bros/261  ( bastante completa ) 
-https://rawg.io/apidocs#pricing ( tiene version gratuita con registro  se ve bastante actualizada)
+--------------------------------------
+DIARIO DE AVANCES DEL EQUIPO: 
+VIERNES 6 / JUNIO: Definimos la idea del proyecto - la presentamos al docente a cargo de evaluar este proyecto (visto bueno para la propuesta)
+SABADO 7 / JUNIO: realizamos videollamada grupal, con las partes que tendrá el menu del usuario, las posibilidades de evaluar cada api encontrada y sus caracteristicas 
+DOMINGO 8 / JUNIO: nueva videollamada grupal, por inconvenientes de la api seleccionada, y los plazos de entrega, se propuso "simular la api"
+en consecuencia, se buscaron los datos necesarios para el tp + se realizaron los primeros bocetos del UML 
+-- el json se subió a este repositorio 
+-- el borrador del UML se subió en el repositorio ( se acordó presentar el borrador durante la próxima clase, para poder avanzar ) 
+-- para la parte del museo se acordó generar patrones ASCII / para mejorar la experiencia del usuario y considerar sumarlo en caso de contar con tiempo en el menu. 
