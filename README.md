@@ -5,7 +5,7 @@
 ---------------------------
 
 
-## nombres de integrantes de este trabajo :
+## Nombres de integrantes de este trabajo : 👩 👩 👩
 
 *  Pilar
 * Candela
