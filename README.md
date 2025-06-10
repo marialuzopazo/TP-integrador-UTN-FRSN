@@ -37,3 +37,5 @@ en consecuencia, se buscaron los datos necesarios para el tp + se realizaron los
 -- el borrador del UML se subió en el repositorio ( se acordó presentar el borrador durante la próxima clase, para poder avanzar ) 
 
 -- para la parte del museo se acordó generar patrones ASCII / para mejorar la experiencia del usuario y considerar sumarlo en caso de contar con tiempo en el menu. 
+
+MARTES 10 / JUNIO : revision del UML por el docente, tareas: mejorar el UML: colección unir con usuario - definir la relación de museo - modificar el nombre juego en lista de colección ( debe ser videojuego ) - chequear videojuego retro 
