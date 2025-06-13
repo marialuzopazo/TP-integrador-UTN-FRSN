@@ -833,7 +833,7 @@
       "descripcion": "Uno de los juegos de skate más influyentes. Controles fluidos, trucos locos y una banda sonora memorable lo convirtieron en un fenómeno cultural.  Es la segunda entrega de la exitosa saga de skateboarding protagonizada por el legendario skater Tony Hawk y otros profesionales del deporte."
                "El juego permite a los jugadores realizar trucos espectaculares como ollies, flips, grabs y grinds en una variedad de escenarios urbanos y parques de skate. Una de sus mayores innovaciones fue la introducción del manual, una técnica que permitió encadenar combos más largos y complejos. También "
                 "incluye un modo carrera con objetivos por nivel, un sistema de mejora de habilidades y un editor de parques."
-    }
+                      }
                     ]
                   }
                 ]
@@ -844,4 +844,119 @@
       }
     }
   }
-}
+},
+"/boardgames": {
+      "get": {
+        "summary": "Lista todos los juegos de mesa",
+        "operationId": "getBoardGames",
+        "responses": {
+          "200": {
+            "description": "Lista de juegos de mesa",
+            "content": {
+              "application/json": {
+                "example": [
+{
+  "tipo": "juegos_de_mesa",
+  "origen": "Internacional",
+  "juegos": [
+    {
+      "nombre": "Monopoly",
+      "creador": "Charles Darrow",
+      "año_lanzamiento": 1935,
+      "fecha_lanzamiento": "1935-11-05",
+      "genero": "Económico",
+      "estilo_juego": "Económico / Competitivo",
+      "descripcion": "Juego de bienes raíces donde los jugadores compran, venden y arriendan propiedades. El objetivo es hacer quebrar a los demás jugadores acumulando monopolios y cobrando rentas elevadas. Incluye tarjetas de suerte, impuestos, hipotecas y mejoras como casas y hoteles."
+    },
+    {
+      "nombre": "Catan",
+      "creador": "Klaus Teuber",
+      "año_lanzamiento": 1995,
+      "fecha_lanzamiento": "1995-04-01",
+      "genero": "Estrategia",
+      "estilo_juego": "Gestión de recursos / Colonización",
+      "descripcion": "Los jugadores colonizan una isla, recolectan recursos (madera, ladrillo, lana, trigo y mineral) y construyen carreteras, pueblos y ciudades. El comercio entre jugadores es clave. Gana quien llegue a 10 puntos de victoria construyendo y negociando de forma efectiva."
+    },
+    {
+      "nombre": "Risk",
+      "creador": "Albert Lamorisse",
+      "año_lanzamiento": 1957,
+      "fecha_lanzamiento": "1957-08-15",
+      "genero": "Estrategia militar",
+      "estilo_juego": "Estrategia militar / Control de área",
+      "descripcion": "Juego de conquista global. Cada jugador controla un ejército y lucha por dominar territorios en un mapa mundial. Las batallas se resuelven con dados. Gana el jugador que conquiste todos los territorios o cumpla su misión secreta."
+    },
+    {
+      "nombre": "Clue (Cluedo)",
+      "creador": "Anthony E. Pratt",
+      "año_lanzamiento": 1949,
+      "fecha_lanzamiento": "1949-06-01",
+      "genero": "Misterio",
+      "estilo_juego": "Deducción / Misterio",
+      "descripcion": "Juego de asesinato en una mansión. Los jugadores deben descubrir quién cometió el crimen, con qué arma y en qué habitación. A través de la deducción lógica y las pistas ocultas, los jugadores eliminan posibilidades hasta resolver el caso."
+    },
+    {
+      "nombre": "Scrabble",
+      "creador": "Alfred Butts",
+      "año_lanzamiento": 1938,
+      "fecha_lanzamiento": "1938-07-01",
+      "genero": "Educativo / Palabras",
+      "estilo_juego": "Palabras / Competencia lingüística",
+      "descripcion": "Juego de formación de palabras. Los jugadores usan fichas con letras para formar palabras en un tablero. Cada letra tiene un valor, y hay casillas con bonificaciones. Gana quien acumule más puntos al final de la partida."
+    },
+    {
+      "nombre": "Uno",
+      "creador": "Merle Robbins",
+      "año_lanzamiento": 1971,
+      "fecha_lanzamiento": "1971-07-01",
+      "genero": "Familiar / Cartas",
+      "estilo_juego": "Cartas / Eliminación",
+      "descripcion": "Juego de cartas rápido donde los jugadores deben deshacerse de todas sus cartas combinando colores o números. Incluye cartas de acción como 'roba 2', 'salta', 'cambio de sentido' y 'comodines'. Grita 'UNO' al quedarte con una carta o recibirás penalización."
+    },
+    {
+      "nombre": "Jenga",
+      "creador": "Leslie Scott",
+      "año_lanzamiento": 1983,
+      "fecha_lanzamiento": "1983-04-15",
+      "genero": "Habilidad / Fiesta",
+      "estilo_juego": "Destreza / Física",
+      "descripcion": "Juego de habilidad en el que los jugadores retiran bloques de una torre de madera y los colocan en la parte superior sin que esta se derrumbe. Pierde quien haga caer la torre. Se juega por turnos y exige pulso y estrategia."
+    },
+    {
+      "nombre": "Trivial Pursuit",
+      "creador": "Scott Abbott y Chris Haney",
+      "año_lanzamiento": 1981,
+      "fecha_lanzamiento": "1981-12-10",
+      "genero": "Trivia / Conocimiento",
+      "estilo_juego": "Trivia / Conocimiento general",
+      "descripcion": "Juego de preguntas y respuestas. Los jugadores deben recorrer un tablero respondiendo preguntas de diferentes categorías para ganar cuñas. Gana quien complete su ficha con las seis cuñas de colores y responda correctamente la pregunta final."
+    },
+    {
+      "nombre": "Pictionary",
+      "creador": "Robert Angel",
+      "año_lanzamiento": 1985,
+      "fecha_lanzamiento": "1985-06-01",
+      "genero": "Fiesta / Dibujo",
+      "estilo_juego": "Dibujo / Juego de fiesta",
+      "descripcion": "Los jugadores deben dibujar una palabra o frase sin hablar, mientras su equipo intenta adivinarla antes de que se acabe el tiempo. Las categorías incluyen objetos, acciones y lugares. Gana el equipo que adivine más palabras."
+    },
+    {
+      "nombre": "Ajedrez",
+      "creador": "Origen histórico (India, siglo VI)",
+      "año_lanzamiento": 1475,
+      "fecha_lanzamiento": "1475-01-01",
+      "genero": "Clásico / Estrategia",
+      "estilo_juego": "Estrategia abstracta",
+      "descripcion": "Juego de estrategia para dos jugadores. Cada uno controla 16 piezas con movimientos únicos. El objetivo es dar jaque mate al rey rival. Considerado un clásico universal de lógica, táctica y pensamiento anticipado."
+                }
+              ]
+             }
+            }
+          }
+        }
+      }
+    }
+  }
+},
+
+
