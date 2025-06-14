@@ -42,3 +42,6 @@ MARTES 10 / JUNIO : revision del UML por el docente, tareas: mejorar el UML: col
 
 
 https://app.diagrams.net/  para hacer el uml
+
+borrador para tratar en videollamada del sabado la composicion y nueva estructura del gestor de juegos ! 
+![borradorpararearmarel gestor](https://github.com/user-attachments/assets/34bb0a03-1a04-42b5-91c1-a3005f77bf1f)
