@@ -1,1 +1,60 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Misjuegos
+{
+     public abstract class Juego
+    { private  string nombre;
+      private int año;
+      private string creador;
+      private string genero;
+
+        public Juego(string nombre, int año, string creador, string genero)
+        {
+            this.nombre = nombre;
+            this.año = año;
+            this.creador = creador;
+            this.genero = genero;
+
+        }
+        public string Nombre
+        {
+            get { return nombre; }
+            set { nombre = value; }
+        }
+
+        public int Año
+        {
+            get { return año; }
+            set { año= value; }
+
+        }
+        public string Creador
+        {
+            get { return creador; }
+            set { creador = value; }
+
+
+        }
+        public string Genero
+        {
+            get { return genero; }
+            set { genero = value; }
+        }
+
+        public abstract void mostrarInfo();
+            
+        
+
+
+
+
+
+
+
+    }
+}
 
