@@ -1,792 +1,797 @@
 {
-  "juegos_por_consola": [
-    {
-      "nombre_consola":"Amber Pegasus",
-      "fabricante": "Amber Electronics",
-  "año_creacion": 1984,
-  "pais_origen": "Japón",
-  "juegos": [
-    {
-      "nombre": "Sky Riders",
-      "fecha_lanzamiento": "1985-03-21",
-      "creador": "Hideo Nakamura",
-      "editores": ["Amber Studios"],
-      "clasificacion": "E",
-      "genero": "Plataformas",
-      "modo_juego": "Un jugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/amber_pegasus_game_1.jpg",
-      "descripcion": "Sky Riders fue uno de los primeros juegos de plataformas de la Amber Pegasus. El jugador controla a un piloto que debe sortear obstáculos y enemigos en un mundo aéreo dividido en múltiples niveles. Aclamado por su estilo artístico pixelado y su música sintetizada, Sky Riders marcó un hito en la narrativa visual de la era de los 80. Sky Riders es un juego de carreras futuristas en el que los jugadores pilotean naves voladoras a gran velocidad por circuitos suspendidos en el cielo. El objetivo es llegar a la meta antes que los oponentes, esquivando obstáculos y usando potenciadores estratégicos.  Cada nave tiene habilidades especiales y puede mejorarse a medida que se avanza en el juego. Fue creado para ofrecer una experiencia dinámica y desafiante en un entorno visualmente impactante, combinando velocidad, acción y maniobras aéreas en un mundo de islas flotantes."
-    },
-    {
-      "nombre": "Pegasus Quest",
-      "fecha_lanzamiento": "1986-09-15",
-      "creador": "Mika Tanaka",
-      "editores": ["Amber Studios"],
-      "clasificacion": "T",
-      "genero": "Aventura",
-      "modo_juego": "Un jugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/amber_pegasus_game_2.jpg",
-      "descripcion": "Pegasus Quest llevó a los jugadores a una odisea épica a través de tierras misteriosas. Con un sistema de inventario avanzado para su tiempo y una historia compleja contada mediante diálogos y objetos ocultos, este título posicionó a la consola como una plataforma seria para aventuras profundas. Pegasus Quest es un juego de aventura y fantasía donde el jugador controla a un joven héroe acompañado por un majestuoso pegaso alado. Juntos recorren reinos mágicos, enfrentan criaturas míticas y resuelven acertijos para restaurar el equilibrio de un mundo antiguo amenazado por una fuerza oscura. El juego combina exploración aérea, combates ligeros y desafíos de lógica. El pegaso no solo sirve como medio de transporte, sino también como aliado en combate y clave para superar obstáculos. A medida que se avanza, se desbloquean nuevas habilidades y zonas del mapa."
-    },
-    {
-      "nombre": "Cyber Drift",
-      "fecha_lanzamiento": "1985-11-10",
-      "creador": "Kenji Sato",
-      "editores": ["Amber Corp"],
-      "clasificacion": "E",
-      "genero": "Carreras",
-      "modo_juego": "Multijugador",
-      "licencia": "Libre",
-      "imagen": "https://cdn.example.com/images/amber_pegasus_game_3.jpg",
-      "descripcion": "Cyber Drift era un juego futurista de carreras con autos voladores y pistas antigravedad. Con un diseño visual audaz y música electrónica pulsante, fue un pionero en los títulos de conducción del futuro. Cyber Drift es un juego de carreras futuristas ambientado en una ciudad cibernética llena de luces de neón y pistas llenas de curvas peligrosas. Los jugadores controlan vehículos de alta tecnología que pueden deslizarse a gran velocidad mientras realizan maniobras precisas para ganar ventaja sobre sus rivales. El juego se centra en el dominio del “drift” o derrape controlado, combinando velocidad, reflejos y estrategia para tomar las curvas sin perder impulso. Además, cuenta con modos de juego para un solo jugador y multijugador, con opciones para personalizar y mejorar los vehículos."
-    },
-    {
-      "nombre": "Meteor Storm",
-      "fecha_lanzamiento": "1986-02-01",
-      "creador": "Rina Aoyama",
-      "editores": ["Amber Studios"],
-      "clasificacion": "E",
-      "genero": "Shooter",
-      "modo_juego": "Un jugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/amber_pegasus_game_4.jpg",
-      "descripcion": "En Meteor Storm, los jugadores defendían la Tierra de una lluvia constante de meteoritos y naves hostiles. Su mecánica simple pero desafiante fue el gancho que lo convirtió en un clásico de puntuación alta. Meteor Storm es un juego de acción y supervivencia espacial donde el jugador controla una nave que debe navegar a través de una intensa lluvia de meteoritos. El objetivo es esquivar los fragmentos espaciales, destruir asteroides peligrosos y sobrevivir el mayor tiempo posible mientras acumula puntos y mejoras para la nave. El juego combina reflejos rápidos con estrategia para administrar recursos y elegir el mejor momento para atacar o evadir. A medida que avanzas, los niveles se vuelven más desafiantes y aparecen nuevos tipos de meteoritos y enemigos espaciales."
-    },
-    {
-      "nombre": "Temple Trials",
-      "fecha_lanzamiento": "1987-04-20",
-      "creador": "Daichi Ito",
-      "editores": ["Amber"],
-      "clasificacion": "T",
-      "genero": "Puzzle/Aventura",
-      "modo_juego": "Un jugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/amber_pegasus_game_5.jpg",
-      "descripcion": "Juego de exploración y resolución de acertijos dentro de antiguos templos. Aclamado por su atmósfera misteriosa y su música envolvente, Temple Trials fue una experiencia envolvente. Temple Trials es un juego de aventura y puzzle en el que el jugador explora antiguos templos llenos de trampas, enigmas y secretos escondidos. El objetivo es avanzar a través de diferentes cámaras resolviendo acertijos, evitando peligros y recolectando tesoros para descubrir la historia oculta de cada templo. El juego combina exploración, lógica y agilidad, desafiando al jugador a pensar rápido y reaccionar con precisión. Cada nivel presenta nuevos retos y mecánicas que ponen a prueba la habilidad y la creatividad."
-    },
-    {
-      "nombre": "Code Zero",
-      "fecha_lanzamiento": "1988-07-07",
-      "creador": "Tetsuya Morimoto",
-      "editores": ["Amber Studios"],
-      "clasificacion": "M",
-      "genero": "Acción/Estrategia",
-      "modo_juego": "Un jugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/amber_pegasus_game_6.jpg",
-      "descripcion": "Un juego de espionaje táctico con mecánicas de sigilo y hacking. Fue innovador por su narrativa fragmentada y múltiples finales dependiendo de las decisiones del jugador. Code Zero es un juego de acción y sigilo en un mundo futurista donde el jugador asume el papel de un hacker experto que debe infiltrarse en sistemas altamente protegidos para detener una amenaza global. La misión es evitar ser detectado mientras desactiva dispositivos, roba información y supera defensas tecnológicas. El juego combina estrategia, puzzles y movimientos tácticos, donde cada decisión puede cambiar el rumbo de la misión. Los niveles aumentan en dificultad, exigiendo rapidez mental y precisión para sortear obstáculos digitales y enemigos."
-    },
-    {
-      "nombre": "Orbital Force",
-      "fecha_lanzamiento": "1985-08-13",
-      "creador": "Mai Fujimoto",
-      "editores": ["Amber"],
-      "clasificacion": "E",
-      "genero": "Shooter",
-      "modo_juego": "Un jugador",
-      "licencia": "Libre",
-      "imagen": "https://cdn.example.com/images/amber_pegasus_game_7.jpg",
-      "descripcion": "Orbital Force combinaba disparos espaciales con misiones tácticas. Fue uno de los primeros shooters con fases no lineales, y su diseño influyó en futuros títulos espaciales. Orbital Force es un juego de estrategia y acción espacial en el que el jugador controla una flota de naves encargadas de proteger colonias y recursos en órbitas alrededor de diferentes planetas. El objetivo es defender las bases contra oleadas de enemigos, gestionar recursos y planificar ataques tácticos para expandir el dominio en el espacio. El juego combina combate en tiempo real con elementos estratégicos, donde el posicionamiento y la coordinación de las naves son clave para sobrevivir y avanzar. A medida que progresas, puedes mejorar tu flota y desbloquear tecnologías avanzadas.Orbital Force es un juego de estrategia y acción espacial en el que el jugador controla una flota de naves encargadas de proteger colonias y recursos en órbitas alrededor de diferentes planetas. El objetivo es defender las bases contra oleadas de enemigos, gestionar recursos y planificar ataques tácticos para expandir el dominio en el espacio. El juego combina combate en tiempo real con elementos estratégicos, donde el posicionamiento y la coordinación de las naves son clave para sobrevivir y avanzar. A medida que progresas, puedes mejorar tu flota y desbloquear tecnologías avanzadas."
-    },
-    {
-      "nombre": "Dungeon Depths",
-      "fecha_lanzamiento": "1987-10-12",
-      "creador": "Rei Matsuda",
-      "editores": ["Amber Studios"],
-      "clasificacion": "T",
-      "genero": "RPG",
-      "modo_juego": "Un jugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/amber_pegasus_game_8.jpg",
-      "descripcion": "Uno de los primeros RPGs tácticos con perspectiva isométrica en consola. Innovó con su sistema de clases personalizables y narración basada en decisiones del jugador. Dungeon Depths es un juego de aventura y exploración donde el jugador se adentra en mazmorras misteriosas y llenas de peligros para buscar tesoros, enfrentarse a monstruos y descubrir secretos ocultos. Cada nivel es generado de forma única, con trampas, enemigos y desafíos que ponen a prueba la habilidad y la estrategia del jugador. El juego combina combates tácticos, recolección de objetos y resolución de puzzles en un ambiente oscuro y atmosférico. A medida que se avanza, el héroe puede mejorar sus habilidades y equipamiento para enfrentar retos más difíciles."
-    },
-    {
-      "nombre": "Wind Spirits",
-      "fecha_lanzamiento": "1986-06-01",
-      "creador": "Haruki Nomura",
-      "editores": ["Amber"],
-      "clasificacion": "E",
-      "genero": "Simulación",
-      "modo_juego": "Un jugador",
-      "licencia": "Libre",
-      "imagen": "https://cdn.example.com/images/amber_pegasus_game_9.jpg",
-      "descripcion": "Simulador de vuelo ambientado en un mundo donde el viento es la única forma de transporte. Fue elogiado por su originalidad y estilo artístico relajante."Wind Spirits es un juego de aventura y exploración en un mundo fantástico donde el jugador controla a un joven elegido que puede comunicarse y controlar los espíritus del viento. La misión es recorrer paisajes naturales, resolver acertijos ambientales y restaurar el equilibrio entre los elementos. El juego combina mecánicas de plataforma y puzzles, utilizando los poderes del viento para superar obstáculos, volar y manipular el entorno. A medida que avanzas, desbloqueas nuevas habilidades que permiten explorar áreas más amplias y enfrentar desafíos mayores."
-    },
-    {
-      "nombre": "Neo Arena",
-      "fecha_lanzamiento": "1988-12-24",
-      "creador": "Tomo Arakawa",
-      "editores": ["Amber"],
-      "clasificacion": "T",
-      "genero": "Pelea",
-      "modo_juego": "Multijugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/amber_pegasus_game_10.jpg",
-      "descripcion": "Juego de combate competitivo con personajes futuristas y arenas móviles. Inspiró torneos comunitarios y mods caseros por su sistema de físicas dinámicas."Neo Arena es un juego de acción y combate estilo hack 'n' slash en 2D ambientado en un mundo ciberpunk. Los jugadores asumen el rol de un guerrero que debe enfrentarse a hordas de enemigos demoníacos tecnológicos conocidos como "Oni". El objetivo es sobrevivir el mayor tiempo posible, derrotando a los Oni y acumulando puntos para lograr la puntuación más alta. El juego se caracteriza por su ritmo rápido, controles sencillos y un estilo visual inspirado en el cyberpunk. A medida que avanzas, los enemigos se vuelven más desafiantes, poniendo a prueba tus reflejos y habilidades de combate."
-       }
-      ]
-    },
-"nombre_consola":"Arcade",
-  "fabricante": "Diversos",
-  "año_creacion": 1971,
-  "pais_origen": "Estados Unidos",
-  "juegos": [
-    {
-      "nombre": "Pac-Man",
-      "fecha_lanzamiento": "1980-05-22",
-      "creador": "Toru Iwatani",
-      "editores": ["Namco"],
-      "clasificacion": "E",
-      "genero": "Arcade",
-      "modo_juego": "Un jugador, Multijugador alternado",
-      "licencia": "Comercial",
-      "imagen": "https://cdn.example.com/images/arcade_game_1.jpg",
-      "descripcion": "Pac-Man revolucionó los videojuegos arcade con su concepto simple pero adictivo. El jugador guía a Pac-Man a través de un laberinto, comiendo puntos y evitando fantasmas. Su mecánica atemporal, personajes memorables y diseño lo convirtieron en un fenómeno cultural global."Pac-Man es un juego de laberinto en el que controlas a Pac-Man, una criatura amarilla que debe comer todos los puntos en el mapa mientras evita a los fantasmas enemigos. El jugador utiliza un joystick para mover a Pac-Man en cuatro direcciones, intentando limpiar el laberinto sin ser atrapado. Fue creado para ofrecer una experiencia sencilla, divertida y accesible, revolucionando el género arcade con su diseño único y personajes memorables."
-    },
-    {
-      "nombre": "Donkey Kong",
-      "fecha_lanzamiento": "1981-07-09",
-      "creador": "Shigeru Miyamoto",
-      "editores": ["Nintendo"],
-      "clasificacion": "E",
-      "genero": "Plataformas",
-      "modo_juego": "Un jugador",
-      "licencia": "Comercial",
-      "imagen": "https://cdn.example.com/images/arcade_game_2.jpg",
-      "descripcion": "Donkey Kong introdujo a Mario (entonces Jumpman) en un juego donde debía rescatar a su amada de un gorila gigante. Su jugabilidad simple y niveles progresivamente más desafiantes lo convirtieron en leyenda. En Donkey Kong, controlas a Jumpman (que luego sería Mario), quien debe rescatar a una dama atrapada en la cima de una estructura mientras esquiva barriles y otros obstáculos lanzados por Donkey Kong, un gorila gigante. Se juega subiendo plataformas y saltando sobre obstáculos. Fue uno de los primeros juegos en contar una historia simple y presentar un héroe, marcando el inicio de la era de los juegos de plataformas."
-    },
-    {
-      "nombre": "Space Invaders",
-      "fecha_lanzamiento": "1978-06-16",
-      "creador": "Tomohiro Nishikado",
-      "editores": ["Taito"],
-      "clasificacion": "E",
-      "genero": "Shooter",
-      "modo_juego": "Un jugador",
-      "licencia": "Comercial",
-      "imagen": "https://cdn.example.com/images/arcade_game_3.jpg",
-      "descripcion": "Uno de los primeros juegos de disparos, donde los jugadores defienden la Tierra contra hordas de alienígenas. Fue tan popular que causó escasez de monedas en Japón. Space Invaders es un shooter en el que el jugador controla una nave en la parte inferior de la pantalla que debe destruir filas de invasores alienígenas que descienden lentamente. Se mueve lateralmente y dispara hacia arriba. Fue creado para ofrecer acción intensa y sencilla, convirtiéndose en uno de los pioneros en popularizar el género shooter y en establecer el concepto de puntuación alta."    },
-    {
-      "nombre": "Galaga",
-      "fecha_lanzamiento": "1981-09-01",
-      "creador": "Shigeru Yokoyama",
-      "editores": ["Namco"],
-      "clasificacion": "E",
-      "genero": "Shooter",
-      "modo_juego": "Un jugador",
-      "licencia": "Comercial",
-      "imagen": "https://cdn.example.com/images/arcade_game_4.jpg",
-      "descripcion": "Galaga es una evolución de Space Invaders, ofreciendo formaciones enemigas más complejas, fases bonus y posibilidad de rescatar tu nave capturada. Galaga es un juego de disparos espaciales donde controlas una nave que debe eliminar oleadas de enemigos insectoides que atacan en formaciones. Se mueve horizontalmente y dispara hacia arriba. Introdujo mecánicas como capturar naves para ganar poder de fuego extra. Fue creado para ofrecer una experiencia de acción más rápida y desafiante que sus predecesores."
-    },
-    {
-      "nombre": "Street Fighter II",
-      "fecha_lanzamiento": "1991-02-06",
-      "creador": "Akira Nishitani",
-      "editores": ["Capcom"],
-      "clasificacion": "T",
-      "genero": "Pelea",
-      "modo_juego": "Multijugador",
-      "licencia": "Comercial",
-      "imagen": "https://cdn.example.com/images/arcade_game_5.jpg",
-      "descripcion": "El título que redefinió los juegos de pelea. Con personajes icónicos y mecánicas profundas, Street Fighter II estableció las bases del género competitivo en salones recreativos. Street Fighter II es un juego de lucha uno contra uno en el que cada jugador controla a un luchador con movimientos especiales únicos. El objetivo es derrotar al oponente usando combinaciones de golpes, patadas y movimientos especiales. Fue creado para revolucionar el género de lucha, introduciendo personajes variados, combos y competencia directa entre jugadores.
+    "juegos_por_consola": [
+        {
+            "nombre_consola": "Amber Pegasus",
+            "fabricante": "Amber Electronics",
+            "año_creacion": 1984,
+            "pais_origen": "Japón",
+            "juegos": [
+                {
+                    "nombre": "Sky Riders",
+                    "fecha_lanzamiento": "1985-03-21",
+                    "creador": "Hideo Nakamura",
+                    "editores": [ "Amber Studios" ],
+                    "clasificacion": "E",
+                    "genero": "Plataformas",
+                    "modo_juego": "Un jugador",
+                    "licencia": "Propietaria",
+                    "imagen": "https://cdn.example.com/images/amber_pegasus_game_1.jpg",
+                    "descripcion": "Sky Riders fue uno de los primeros juegos de plataformas de la Amber Pegasus. El jugador controla a un piloto que debe sortear obstáculos y enemigos en un mundo aéreo dividido en múltiples niveles. Aclamado por su estilo artístico pixelado y su música sintetizada, Sky Riders marcó un hito en la narrativa visual de la era de los 80. Sky Riders es un juego de carreras futuristas en el que los jugadores pilotean naves voladoras a gran velocidad por circuitos suspendidos en el cielo. El objetivo es llegar a la meta antes que los oponentes, esquivando obstáculos y usando potenciadores estratégicos.  Cada nave tiene habilidades especiales y puede mejorarse a medida que se avanza en el juego. Fue creado para ofrecer una experiencia dinámica y desafiante en un entorno visualmente impactante, combinando velocidad, acción y maniobras aéreas en un mundo de islas flotantes."
+                },
+                {
+                    "nombre": "Pegasus Quest",
+                    "fecha_lanzamiento": "1986-09-15",
+                    "creador": "Mika Tanaka",
+                    "editores": [ "Amber Studios" ],
+                    "clasificacion": "T",
+                    "genero": "Aventura",
+                    "modo_juego": "Un jugador",
+                    "licencia": "Propietaria",
+                    "imagen": "https://cdn.example.com/images/amber_pegasus_game_2.jpg",
+                    "descripcion": "Pegasus Quest llevó a los jugadores a una odisea épica a través de tierras misteriosas. Con un sistema de inventario avanzado para su tiempo y una historia compleja contada mediante diálogos y objetos ocultos, este título posicionó a la consola como una plataforma seria para aventuras profundas. Pegasus Quest es un juego de aventura y fantasía donde el jugador controla a un joven héroe acompañado por un majestuoso pegaso alado. Juntos recorren reinos mágicos, enfrentan criaturas míticas y resuelven acertijos para restaurar el equilibrio de un mundo antiguo amenazado por una fuerza oscura. El juego combina exploración aérea, combates ligeros y desafíos de lógica. El pegaso no solo sirve como medio de transporte, sino también como aliado en combate y clave para superar obstáculos. A medida que se avanza, se desbloquean nuevas habilidades y zonas del mapa."
+                },
+                {
+                    "nombre": "Cyber Drift",
+                    "fecha_lanzamiento": "1985-11-10",
+                    "creador": "Kenji Sato",
+                    "editores": [ "Amber Corp" ],
+                    "clasificacion": "E",
+                    "genero": "Carreras",
+                    "modo_juego": "Multijugador",
+                    "licencia": "Libre",
+                    "imagen": "https://cdn.example.com/images/amber_pegasus_game_3.jpg",
+                    "descripcion": "Cyber Drift era un juego futurista de carreras con autos voladores y pistas antigravedad. Con un diseño visual audaz y música electrónica pulsante, fue un pionero en los títulos de conducción del futuro. Cyber Drift es un juego de carreras futuristas ambientado en una ciudad cibernética llena de luces de neón y pistas llenas de curvas peligrosas. Los jugadores controlan vehículos de alta tecnología que pueden deslizarse a gran velocidad mientras realizan maniobras precisas para ganar ventaja sobre sus rivales. El juego se centra en el dominio del “drift” o derrape controlado, combinando velocidad, reflejos y estrategia para tomar las curvas sin perder impulso. Además, cuenta con modos de juego para un solo jugador y multijugador, con opciones para personalizar y mejorar los vehículos."
+                },
+                {
+                    "nombre": "Meteor Storm",
+                    "fecha_lanzamiento": "1986-02-01",
+                    "creador": "Rina Aoyama",
+                    "editores": [ "Amber Studios" ],
+                    "clasificacion": "E",
+                    "genero": "Shooter",
+                    "modo_juego": "Un jugador",
+                    "licencia": "Propietaria",
+                    "imagen": "https://cdn.example.com/images/amber_pegasus_game_4.jpg",
+                    "descripcion": "En Meteor Storm, los jugadores defendían la Tierra de una lluvia constante de meteoritos y naves hostiles. Su mecánica simple pero desafiante fue el gancho que lo convirtió en un clásico de puntuación alta. Meteor Storm es un juego de acción y supervivencia espacial donde el jugador controla una nave que debe navegar a través de una intensa lluvia de meteoritos. El objetivo es esquivar los fragmentos espaciales, destruir asteroides peligrosos y sobrevivir el mayor tiempo posible mientras acumula puntos y mejoras para la nave. El juego combina reflejos rápidos con estrategia para administrar recursos y elegir el mejor momento para atacar o evadir. A medida que avanzas, los niveles se vuelven más desafiantes y aparecen nuevos tipos de meteoritos y enemigos espaciales."
+                },
+                {
+                    "nombre": "Temple Trials",
+                    "fecha_lanzamiento": "1987-04-20",
+                    "creador": "Daichi Ito",
+                    "editores": [ "Amber" ],
+                    "clasificacion": "T",
+                    "genero": "Puzzle/Aventura",
+                    "modo_juego": "Un jugador",
+                    "licencia": "Propietaria",
+                    "imagen": "https://cdn.example.com/images/amber_pegasus_game_5.jpg",
+                    "descripcion": "Juego de exploración y resolución de acertijos dentro de antiguos templos. Aclamado por su atmósfera misteriosa y su música envolvente, Temple Trials fue una experiencia envolvente. Temple Trials es un juego de aventura y puzzle en el que el jugador explora antiguos templos llenos de trampas, enigmas y secretos escondidos. El objetivo es avanzar a través de diferentes cámaras resolviendo acertijos, evitando peligros y recolectando tesoros para descubrir la historia oculta de cada templo. El juego combina exploración, lógica y agilidad, desafiando al jugador a pensar rápido y reaccionar con precisión. Cada nivel presenta nuevos retos y mecánicas que ponen a prueba la habilidad y la creatividad."
+                },
+                {
+                    "nombre": "Code Zero",
+                    "fecha_lanzamiento": "1988-07-07",
+                    "creador": "Tetsuya Morimoto",
+                    "editores": [ "Amber Studios" ],
+                    "clasificacion": "M",
+                    "genero": "Acción/Estrategia",
+                    "modo_juego": "Un jugador",
+                    "licencia": "Propietaria",
+                    "imagen": "https://cdn.example.com/images/amber_pegasus_game_6.jpg",
+                    "descripcion": "Un juego de espionaje táctico con mecánicas de sigilo y hacking. Fue innovador por su narrativa fragmentada y múltiples finales dependiendo de las decisiones del jugador. Code Zero es un juego de acción y sigilo en un mundo futurista donde el jugador asume el papel de un hacker experto que debe infiltrarse en sistemas altamente protegidos para detener una amenaza global. La misión es evitar ser detectado mientras desactiva dispositivos, roba información y supera defensas tecnológicas. El juego combina estrategia, puzzles y movimientos tácticos, donde cada decisión puede cambiar el rumbo de la misión. Los niveles aumentan en dificultad, exigiendo rapidez mental y precisión para sortear obstáculos digitales y enemigos."
+                },
+                {
+                    "nombre": "Orbital Force",
+                    "fecha_lanzamiento": "1985-08-13",
+                    "creador": "Mai Fujimoto",
+                    "editores": [ "Amber" ],
+                    "clasificacion": "E",
+                    "genero": "Shooter",
+                    "modo_juego": "Un jugador",
+                    "licencia": "Libre",
+                    "imagen": "https://cdn.example.com/images/amber_pegasus_game_7.jpg",
+                    "descripcion": "Orbital Force combinaba disparos espaciales con misiones tácticas. Fue uno de los primeros shooters con fases no lineales, y su diseño influyó en futuros títulos espaciales. Orbital Force es un juego de estrategia y acción espacial en el que el jugador controla una flota de naves encargadas de proteger colonias y recursos en órbitas alrededor de diferentes planetas. El objetivo es defender las bases contra oleadas de enemigos, gestionar recursos y planificar ataques tácticos para expandir el dominio en el espacio. El juego combina combate en tiempo real con elementos estratégicos, donde el posicionamiento y la coordinación de las naves son clave para sobrevivir y avanzar. A medida que progresas, puedes mejorar tu flota y desbloquear tecnologías avanzadas.Orbital Force es un juego de estrategia y acción espacial en el que el jugador controla una flota de naves encargadas de proteger colonias y recursos en órbitas alrededor de diferentes planetas. El objetivo es defender las bases contra oleadas de enemigos, gestionar recursos y planificar ataques tácticos para expandir el dominio en el espacio. El juego combina combate en tiempo real con elementos estratégicos, donde el posicionamiento y la coordinación de las naves son clave para sobrevivir y avanzar. A medida que progresas, puedes mejorar tu flota y desbloquear tecnologías avanzadas."
+                },
+                {
+                    "nombre": "Dungeon Depths",
+                    "fecha_lanzamiento": "1987-10-12",
+                    "creador": "Rei Matsuda",
+                    "editores": [ "Amber Studios" ],
+                    "clasificacion": "T",
+                    "genero": "RPG",
+                    "modo_juego": "Un jugador",
+                    "licencia": "Propietaria",
+                    "imagen": "https://cdn.example.com/images/amber_pegasus_game_8.jpg",
+                    "descripcion": "Uno de los primeros RPGs tácticos con perspectiva isométrica en consola. Innovó con su sistema de clases personalizables y narración basada en decisiones del jugador. Dungeon Depths es un juego de aventura y exploración donde el jugador se adentra en mazmorras misteriosas y llenas de peligros para buscar tesoros, enfrentarse a monstruos y descubrir secretos ocultos. Cada nivel es generado de forma única, con trampas, enemigos y desafíos que ponen a prueba la habilidad y la estrategia del jugador. El juego combina combates tácticos, recolección de objetos y resolución de puzzles en un ambiente oscuro y atmosférico. A medida que se avanza, el héroe puede mejorar sus habilidades y equipamiento para enfrentar retos más difíciles."
+                },
+                {
+                    "nombre_consola": "Arcade",
+                    "fabricante": "Diversos",
+                    "año_creacion": 1971,
+                    "pais_origen": "Estados Unidos",
+                    "juegos": [
+                        {
+                            "nombre": "Wind Spirits",
+                            "fecha_lanzamiento": "1986-06-01",
+                            "creador": "Haruki Nomura",
+                            "editores": [ "Amber" ],
+                            "clasificacion": "E",
+                            "genero": "Simulación",
+                            "modo_juego": "Un jugador",
+                            "licencia": "Libre",
+                            "imagen": "https://cdn.example.com/images/amber_pegasus_game_9.jpg",
+                            "descripcion": "Simulador de vuelo ambientado en un mundo donde el viento es la única forma de transporte. Fue elogiado por su originalidad y estilo artístico relajante. Wind Spirits es un juego de aventura y exploración en un mundo fantástico donde el jugador controla a un joven elegido que puede comunicarse y controlar los espíritus del viento. La misión es recorrer paisajes naturales, resolver acertijos ambientales y restaurar el equilibrio entre los elementos. El juego combina mecánicas de plataforma y puzzles utilizando los poderes del viento para superar obstáculos, volar y manipular el entorno. A medida que avanzas, desbloqueas nuevas habilidades que permiten explorar áreas más amplias y enfrentar desafíos mayores."
+                        },
+                        {
+                            "nombre": "Neo Arena",
+                            "fecha_lanzamiento": "1988-12-24",
+                            "creador": "Tomo Arakawa",
+                            "editores": [ "Amber" ],
+                            "clasificacion": "T",
+                            "genero": "Pelea",
+                            "modo_juego": "Multijugador",
+                            "licencia": "Propietaria",
+                            "imagen": "https://cdn.example.com/images/amber_pegasus_game_10.jpg",
+                            "descripcion": "Juego de combate competitivo con personajes futuristas y arenas móviles. Inspiró torneos comunitarios y mods caseros por su sistema de físicas dinámicas. Neo Arena es un juego de acción y combate estilo hack n slash en 2D ambientado en un mundo ciberpunk. Los jugadores asumen el rol de un guerrero que debe enfrentarse a hordas de enemigos demoníacos tecnológicos conocidos como Oni. El objetivo es sobrevivir el mayor tiempo posible derrotando a los Oni y acumulando puntos para lograr la puntuación más alta. El juego se caracteriza por su ritmo rápido, controles sencillos y un estilo visual inspirado en el cyberpunk. A medida que avanzas los enemigos se vuelven más desafiantes, poniendo a prueba tus reflejos y habilidades de combate."
+                        },
+                        {
+                            "nombre": "Pac-Man",
+                            "fecha_lanzamiento": "1980-05-22",
+                            "creador": "Toru Iwatani",
+                            "editores": [ "Namco" ],
+                            "clasificacion": "E",
+                            "genero": "Arcade",
+                            "modo_juego": "Un jugador, Multijugador alternado",
+                            "licencia": "Comercial",
+                            "imagen": "https://cdn.example.com/images/arcade_game_1.jpg",
+                            "descripcion": "Pac-Man revolucionó los videojuegos arcade con su concepto simple pero adictivo. El jugador guía a Pac-Man a través de un laberinto, comiendo puntos y evitando fantasmas. Su mecánica atemporal, personajes memorables y diseño lo convirtieron en un fenómeno cultural global. Pac-Man es un juego de laberinto en el que controlas a Pac-Man, una criatura amarilla que debe comer todos los puntos en el mapa mientras evita a los fantasmas enemigos. El jugador utiliza un joystick para mover a Pac-Man en cuatro direcciones intentando limpiar el laberinto sin ser atrapado. Fue creado para ofrecer una experiencia sencilla, divertida y accesible, revolucionando el género arcade con su diseño único y personajes memorables."
+                        },
+                        {
+                            "nombre": "Donkey Kong",
+                            "fecha_lanzamiento": "1981-07-09",
+                            "creador": "Shigeru Miyamoto",
+                            "editores": [ "Nintendo" ],
+                            "clasificacion": "E",
+                            "genero": "Plataformas",
+                            "modo_juego": "Un jugador",
+                            "licencia": "Comercial",
+                            "imagen": "https://cdn.example.com/images/arcade_game_2.jpg",
+                            "descripcion": "Donkey Kong introdujo a Mario (entonces Jumpman) en un juego donde debía rescatar a su amada de un gorila gigante. Su jugabilidad simple y niveles progresivamente más desafiantes lo convirtieron en leyenda. En Donkey Kong, controlas a Jumpman (que luego sería Mario), quien debe rescatar a una dama atrapada en la cima de una estructura mientras esquiva barriles y otros obstáculos lanzados por Donkey Kong, un gorila gigante. Se juega subiendo plataformas y saltando sobre obstáculos. Fue uno de los primeros juegos en contar una historia simple y presentar un héroe, marcando el inicio de la era de los juegos de plataformas."
+                        },
+                        {
+                            "nombre": "Space Invaders",
+                            "fecha_lanzamiento": "1978-06-16",
+                            "creador": "Tomohiro Nishikado",
+                            "editores": [ "Taito" ],
+                            "clasificacion": "E",
+                            "genero": "Shooter",
+                            "modo_juego": "Un jugador",
+                            "licencia": "Comercial",
+                            "imagen": "https://cdn.example.com/images/arcade_game_3.jpg",
+                            "descripcion": "Uno de los primeros juegos de disparos, donde los jugadores defienden la Tierra contra hordas de alienígenas. Fue tan popular que causó escasez de monedas en Japón. Space Invaders es un shooter en el que el jugador controla una nave en la parte inferior de la pantalla que debe destruir filas de invasores alienígenas que descienden lentamente. Se mueve lateralmente y dispara hacia arriba. Fue creado para ofrecer acción intensa y sencilla, convirtiéndose en uno de los pioneros en popularizar el género shooter y en establecer el concepto de puntuación alta."
+                        },
+                        {
+                            "nombre": "Galaga",
+                            "fecha_lanzamiento": "1981-09-01",
+                            "creador": "Shigeru Yokoyama",
+                            "editores": [ "Namco" ],
+                            "clasificacion": "E",
+                            "genero": "Shooter",
+                            "modo_juego": "Un jugador",
+                            "licencia": "Comercial",
+                            "imagen": "https://cdn.example.com/images/arcade_game_4.jpg",
+                            "descripcion": "Galaga es una evolución de Space Invaders, ofreciendo formaciones enemigas más complejas, fases bonus y posibilidad de rescatar tu nave capturada. Galaga es un juego de disparos espaciales donde controlas una nave que debe eliminar oleadas de enemigos insectoides que atacan en formaciones. Se mueve horizontalmente y dispara hacia arriba. Introdujo mecánicas como capturar naves para ganar poder de fuego extra. Fue creado para ofrecer una experiencia de acción más rápida y desafiante que sus predecesores."
+                        },
+                        {
+                            "nombre": "Street Fighter II",
+                            "fecha_lanzamiento": "1991-02-06",
+                            "creador": "Akira Nishitani",
+                            "editores": [ "Capcom" ],
+                            "clasificacion": "T",
+                            "genero": "Pelea",
+                            "modo_juego": "Multijugador",
+                            "licencia": "Comercial",
+                            "imagen": "https://cdn.example.com/images/arcade_game_5.jpg",
+                            "descripcion": "El título que redefinió los juegos de pelea. Con personajes icónicos y mecánicas profundas, Street Fighter II estableció las bases del género competitivo en salones recreativos. Street Fighter II es un juego de lucha uno contra uno en el que cada jugador controla a un luchador con movimientos especiales únicos. El objetivo es derrotar al oponente usando combinaciones de golpes, patadas y movimientos especiales. Fue creado para revolucionar el género de lucha, introduciendo personajes variados, combos y competencia directa entre jugadores."
+                        },
+                        {
+                            "nombre": "Mortal Kombat",
+                            "fecha_lanzamiento": "1992-10-08",
+                            "creador": "Ed Boon y John Tobias",
+                            "editores": [ "Midway" ],
+                            "clasificacion": "M",
+                            "genero": "Pelea",
+                            "modo_juego": "Multijugador",
+                            "licencia": "Comercial",
+                            "imagen": "https://cdn.example.com/images/arcade_game_6.jpg",
+                            "descripcion": "Con gráficos digitalizados, violencia explícita y fatalities, Mortal Kombat causó controversia y ayudó a establecer el sistema de clasificación ESRB. Mortal Kombat es otro juego de lucha uno contra uno, conocido por su violencia gráfica y fatalities (movimientos finales sangrientos). Los jugadores eligen personajes con habilidades únicas y luchan en combates brutales. Fue creado para ofrecer una alternativa más madura y violenta en el género de peleas, lo que generó gran impacto cultural y controversia."
+                        },
+                        {
+                            "nombre": "Defender",
+                            "fecha_lanzamiento": "1981-02-01",
+                            "creador": "Eugene Jarvis",
+                            "editores": [ "Williams Electronics" ],
+                            "clasificacion": "E",
+                            "genero": "Shooter",
+                            "modo_juego": "Un jugador",
+                            "licencia": "Comercial",
+                            "imagen": "https://cdn.example.com/images/arcade_game_7.jpg",
+                            "descripcion": "Uno de los shooters horizontales más difíciles, donde debías proteger humanos en tierra de los invasores. Rápido, frenético e influyente. En Defender, controlas una nave espacial que debe proteger a colonos en un planeta de oleadas de alienígenas. El juego combina disparos rápidos y rescate de humanos mientras sobrevives a ataques. Fue creado para brindar una experiencia intensa y desafiante de disparos horizontales con mecánicas innovadoras de rescate y defensa."
+                        },
+                        {
+                            "nombre": "Frogger",
+                            "fecha_lanzamiento": "1981-06-05",
+                            "creador": "Konami",
+                            "editores": [ "Sega" ],
+                            "clasificacion": "E",
+                            "genero": "Puzzle",
+                            "modo_juego": "Un jugador",
+                            "licencia": "Comercial",
+                            "imagen": "https://cdn.example.com/images/arcade_game_8.jpg",
+                            "descripcion": "En Frogger debes ayudar a una rana a cruzar la carretera y el río. Es famoso por su jugabilidad accesible y adictiva. Frogger es un juego de habilidad donde controlas una rana que debe cruzar calles llenas de tráfico y ríos con troncos flotantes para llegar a su hogar. El jugador debe calcular tiempos y movimientos para evitar ser atropellado o caer al agua. Fue creado para ofrecer una experiencia sencilla, pero desafiante, centrada en la coordinación y la paciencia."
+                        },
+                        {
+                            "nombre": "Tetris (Arcade)",
+                            "fecha_lanzamiento": "1989-03-01",
+                            "creador": "Alexey Pajitnov",
+                            "editores": [ "Atari Games" ],
+                            "clasificacion": "E",
+                            "genero": "Puzzle",
+                            "modo_juego": "Un jugador",
+                            "licencia": "Comercial",
+                            "imagen": "https://cdn.example.com/images/arcade_game_9.jpg",
+                            "descripcion": "La versión arcade del clásico Tetris mantuvo la esencia del rompecabezas soviético, ganando popularidad fuera del ámbito de las consolas. Tetris es un juego de puzzle clásico donde el jugador debe encajar piezas de diferentes formas llamadas tetrominós que caen desde la parte superior de la pantalla. El objetivo es formar líneas completas sin huecos para que desaparezcan, ganando puntos y evitando que las piezas se acumulen hasta llegar al tope, lo que termina el juego. Se juega moviendo y rotando las piezas mientras caen, tratando de optimizar el espacio y mantener el tablero despejado. La velocidad de caída aumenta con el tiempo, incrementando la dificultad."
+                        },
+                        {
+                            "nombre": "NBA Jam",
+                            "fecha_lanzamiento": "1993-04-01",
+                            "creador": "Mark Turmell",
+                            "editores": [ "Midway" ],
+                            "clasificacion": "E",
+                            "genero": "Deportes",
+                            "modo_juego": "Multijugador",
+                            "licencia": "Comercial",
+                            "imagen": "https://cdn.example.com/images/arcade_game_10.jpg",
+                            "descripcion": "Juego de baloncesto exagerado con volcadas imposibles y frases como “He's on fire!”. NBA Jam marcó una generación con su estilo arcade. NBA Jam es un juego de arcade de baloncesto conocido por su estilo exagerado y dinámico, donde los jugadores controlan equipos de dos contra dos en partidos rápidos y llenos de acción. El juego destaca por sus movimientos espectaculares, como volcadas increíbles y jugadas imposibles, además de contar con comentarios en vivo que aumentan la emoción. Se juega utilizando controles simples para pasar, lanzar y hacer volcadas, con reglas relajadas y power-ups que hacen las partidas impredecibles y divertidas. Es ideal para competir con amigos en partidas rápidas y llenas de energía."
+                        }
+                    ]
+                },
+                {
+                    "nombre_consola": "NES",
+                    "fabricante": "Nintendo",
+                    "año_creacion": 1983,
+                    "pais_origen": "Japón",
+                    "juegos": [
+                        {
+                            "nombre": "Super Mario Bros.",
+                            "fecha_lanzamiento": "1985-09-13",
+                            "creador": "Shigeru Miyamoto",
+                            "editores": [ "Nintendo" ],
+                            "clasificacion": "E",
+                            "genero": "Plataformas",
+                            "modo_juego": "Un jugador, Multijugador alternado",
+                            "licencia": "Propietaria",
+                            "imagen": "https://cdn.example.com/images/nes_game_1.jpg",
+                            "descripcion": "Super Mario Bros. definió el género de plataformas. Controlas a Mario en su misión para rescatar a la princesa Peach. Con niveles creativos, enemigos únicos y power-ups, fue el mayor éxito de Nintendo. Super Mario Bros. es un juego de plataformas donde controlas a Mario, un fontanero que debe rescatar a la Princesa Peach del malvado Bowser. Saltas, esquivas enemigos y atraviesas niveles variados."
+                        },
+                        {
+                            "nombre": "The Legend of Zelda",
+                            "fecha_lanzamiento": "1986-02-21",
+                            "creador": "Shigeru Miyamoto",
+                            "editores": [ "Nintendo" ],
+                            "clasificacion": "E",
+                            "genero": "Aventura",
+                            "modo_juego": "Un jugador",
+                            "licencia": "Propietaria",
+                            "imagen": "https://cdn.example.com/images/nes_game_2.jpg",
+                            "descripcion": "Una de las primeras aventuras con exploración libre, puzles y un mundo abierto. The Legend of Zelda revolucionó el diseño de juegos y se convirtió en una saga legendaria. En The Legend of Zelda, controlas a Link, un joven héroe que debe rescatar a la princesa Zelda y reunir los fragmentos de la Trifuerza para derrotar al malvado Ganon. Es un juego de aventura con exploración en un mundo abierto, puzzles, combate y recolección de objetos. El jugador navega por mazmorras y resuelve acertijos para progresar. Fue pionero en ofrecer libertad de exploración y una narrativa más profunda en videojuegos, creando un género híbrido entre aventura y acción."
+                        },
+                        {
+                            "nombre": "Metroid",
+                            "fecha_lanzamiento": "1986-08-06",
+                            "creador": "Makoto Kano",
+                            "editores": [ "Nintendo" ],
+                            "clasificacion": "E",
+                            "genero": "Aventura",
+                            "modo_juego": "Un jugador",
+                            "licencia": "Propietaria",
+                            "imagen": "https://cdn.example.com/images/nes_game_3.jpg",
+                            "descripcion": "Metroid introdujo el concepto de backtracking y exploración con habilidades. Su atmósfera oscura y protagonista femenina lo hicieron un clásico innovador. Metroid combina acción, aventura y exploración en un mundo de ciencia ficción donde controlas a Samus Aran, una cazarrecompensas enviada a eliminar una amenaza alienígena. Destaca por su atmósfera oscura, diseño no lineal y la progresiva obtención de nuevas armas y habilidades que permiten acceder a nuevas áreas. Fue uno de los primeros juegos en usar elementos de metroidvania, influyendo enormemente en futuros juegos de aventura y plataformas."
+                        },
+                        {
+                            "nombre": "Castlevania",
+                            "fecha_lanzamiento": "1986-09-26",
+                            "creador": "Hitoshi Akamatsu",
+                            "editores": [ "Konami" ],
+                            "clasificacion": "T",
+                            "genero": "Plataformas",
+                            "modo_juego": "Un jugador",
+                            "licencia": "Propietaria",
+                            "imagen": "https://cdn.example.com/images/nes_game_4.jpg",
+                            "descripcion": "Un juego gótico de acción en el que Simon Belmont lucha contra Drácula. Con mecánicas precisas y diseño lineal, inspiró la serie Metroidvania. En Castlevania, juegas como Simon Belmont, un cazador de vampiros que debe derrotar al Conde Drácula. El juego es un platformer desafiante con enemigos temáticos de horror gótico y una banda sonora memorable. Se caracteriza por su dificultad, diseño de niveles y la atmósfera oscura y tenebrosa. Fue creado para ofrecer una experiencia intensa y estilizada, siendo uno de los títulos que popularizó el género de acción y plataformas con temática de terror."
+                        },
+                        {
+                            "nombre": "Mega Man 2",
+                            "fecha_lanzamiento": "1988-12-24",
+                            "creador": "Akira Kitamura",
+                            "editores": [ "Capcom" ],
+                            "clasificacion": "E",
+                            "genero": "Acción/Plataformas",
+                            "modo_juego": "Un jugador",
+                            "licencia": "Propietaria",
+                            "imagen": "https://cdn.example.com/images/nes_game_5.jpg",
+                            "descripcion": "Uno de los mejores de la saga Mega Man. Destaca por su música, jefes creativos y el sistema de selección de niveles. Mega Man 2 es un juego de acción y plataformas donde controlas a Mega Man, un robot con la capacidad de adquirir las armas de los jefes enemigos derrotados. Tiene ocho niveles distintos con jefes únicos, y el jugador debe elegir el orden para enfrentarlos estratégicamente. Mejoró al original con mejores gráficos, música y jugabilidad más pulida. Se convirtió en un ícono de los juegos de acción por su diseño inteligente y desafío equilibrado."
+                        },
+                        {
+                            "nombre": "Punch-Out!!",
+                            "fecha_lanzamiento": "1987-10-18",
+                            "creador": "Genyo Takeda",
+                            "editores": [ "Nintendo" ],
+                            "clasificacion": "E",
+                            "genero": "Deportes/Pelea",
+                            "modo_juego": "Un jugador",
+                            "licencia": "Propietaria",
+                            "imagen": "https://cdn.example.com/images/nes_game_6.jpg",
+                            "descripcion": "Controlas a Little Mac mientras asciende en el mundo del boxeo. Cada oponente tiene su propio patrón y estilo de lucha. Punch-Out!! es un juego de boxeo donde controlas a Little Mac, un boxeador novato que debe enfrentar a una serie de oponentes con estilos únicos y patrones de ataque específicos. El juego requiere observar y reaccionar rápidamente para esquivar y contraatacar. Es conocido por su estilo caricaturesco y humorístico. Fue creado para combinar habilidad, reflejos y estrategia en un deporte muy accesible."
+                        },
+                        {
+                            "nombre": "Duck Hunt",
+                            "fecha_lanzamiento": "1984-04-21",
+                            "creador": "Nintendo R&D1",
+                            "editores": [ "Nintendo" ],
+                            "clasificacion": "E",
+                            "genero": "Shooter",
+                            "modo_juego": "Un jugador",
+                            "licencia": "Propietaria",
+                            "imagen": "https://cdn.example.com/images/nes_game_7.jpg",
+                            "descripcion": "Usando la pistola Zapper, disparas a patos que aparecen en pantalla. Uno de los primeros juegos con control por luz. Duck Hunt es un juego de disparos donde usas la pistola de luz (NES Zapper) para cazar patos que vuelan en pantalla. La precisión y la rapidez son esenciales para obtener puntos y avanzar. Además, el perro que aparece riéndose cuando fallas es uno de los personajes más reconocibles. Fue diseñado para demostrar la innovación tecnológica en el control por luz y ofrecer una experiencia divertida y familiar para todas las edades."
+                        },
+                        {
+                            "nombre": "Excitebike",
+                            "fecha_lanzamiento": "1984-11-30",
+                            "creador": "Shigeru Miyamoto",
+                            "editores": [ "Nintendo" ],
+                            "clasificacion": "E",
+                            "genero": "Carreras",
+                            "modo_juego": "Un jugador",
+                            "licencia": "Propietaria",
+                            "imagen": "https://cdn.example.com/images/nes_game_8.jpg",
+                            "descripcion": "Juego de motocross con editor de pistas. Famoso por su física de saltos y música icónica. Excitebike es un juego de carreras de motocross en el que compites en pistas llenas de obstáculos y rampas. El jugador debe controlar la velocidad, saltos y aterrizajes para evitar caídas y lograr buenos tiempos. También incluye un editor de pistas para crear y guardar diseños personalizados, algo innovador para su época. Fue creado para ofrecer una experiencia simple, pero adictiva y competitiva."
+                        },
+                        {
+                            "nombre": "Kirby's Adventure",
+                            "fecha_lanzamiento": "1993-03-23",
+                            "creador": "Masahiro Sakurai",
+                            "editores": [ "Nintendo" ],
+                            "clasificacion": "E",
+                            "genero": "Plataformas",
+                            "modo_juego": "Un jugador",
+                            "licencia": "Propietaria",
+                            "imagen": "https://cdn.example.com/images/nes_game_9.jpg",
+                            "descripcion": "Kirby's Adventure introdujo la habilidad de copiar poderes. Es colorido, encantador y tiene niveles bien diseñados para la NES. En Kirby's Adventure, controlas a Kirby, un personaje adorable que puede inhalar a sus enemigos y copiar sus habilidades especiales, como disparar fuego o usar espada. El juego combina plataformas con puzzles y niveles creativos llenos de secretos y jefes desafiantes. Fue creado para atraer a jugadores de todas las edades con su jugabilidad accesible y estilo visual colorido."
+                        },
+                        {
+                            "nombre": "Final Fantasy",
+                            "fecha_lanzamiento": "1987-12-18",
+                            "creador": "Hironobu Sakaguchi",
+                            "editores": [ "Square" ],
+                            "clasificacion": "T",
+                            "genero": "RPG",
+                            "modo_juego": "Un jugador",
+                            "licencia": "Propietaria",
+                            "imagen": "https://cdn.example.com/images/nes_game_10.jpg",
+                            "descripcion": "El inicio de una saga legendaria. Un RPG de fantasía con clases, batallas por turnos y mundo abierto que rescató a Square de la bancarrota. Final Fantasy es un juego de rol donde diriges a un grupo de cuatro guerreros de la luz en una misión para salvar su mundo del caos y la oscuridad. Combina exploración de un vasto mundo, combates por turnos, desarrollo de personajes y una historia épica. Fue creado para revitalizar el género RPG tras varios fracasos comerciales, dando inicio a una franquicia que se convertiría en una de las más importantes y reconocidas de la historia de los videojuegos."
+                        }
+                    ]
+                },
+                {
+                    "nombre_consola": "Sega Genesis",
+                    "fabricante": "Sega",
+                    "año_creacion": 1988,
+                    "pais_origen": "Japón",
+                    "juegos": [
+                        {
+                            "nombre": "Sonic the Hedgehog",
+                            "fecha_lanzamiento": "1991-06-23",
+                            "creador": "Yuji Naka",
+                            "editores": [ "Sega" ],
+                            "clasificacion": "E",
+                            "genero": "Plataformas",
+                            "modo_juego": "Un jugador",
+                            "licencia": "Propietaria",
+                            "imagen": "https://cdn.example.com/images/genesis_game_1.jpg",
+                            "descripcion": "Sonic se convirtió en la mascota de Sega por su velocidad, actitud y diseño colorido. Su jugabilidad rápida contrastaba con la de Mario, y fue el buque insignia de Genesis. onic the Hedgehog es un juego de plataformas de alta velocidad donde controlas a Sonic, un erizo azul con la habilidad de correr a gran velocidad, mientras intenta detener al malvado Dr. Robotnik. Recorres niveles con loopings, rampas y enemigos, recolectando anillos y power-ups. Fue creado en 1991 como la respuesta de SEGA al éxito de Mario, y para posicionar a Sonic como su nueva mascota: un personaje joven, rebelde y rápido que representara la actitud de la era de los 90."
+                        },
+                        {
+                            "nombre": "Streets of Rage 2",
+                            "fecha_lanzamiento": "1992-12-20",
+                            "creador": "Noriyoshi Ohba",
+                            "editores": [ "Sega" ],
+                            "clasificacion": "T",
+                            "genero": "Beat 'em up",
+                            "modo_juego": "Multijugador",
+                            "licencia": "Propietaria",
+                            "imagen": "https://cdn.example.com/images/genesis_game_2.jpg",
+                            "descripcion": "Considerado uno de los mejores juegos del género. Presenta excelentes gráficos, música icónica y acción cooperativa. Es un juego de lucha estilo beat 'em up donde eliges entre varios personajes para limpiar las calles de enemigos usando combos, golpes y movimientos especiales. Se juega avanzando por niveles urbanos, enfrentando bandas criminales. Fue creado como secuela para mejorar todos los aspectos del original, destacando por su excelente música, jugabilidad fluida y modo cooperativo, convirtiéndose en uno de los mejores juegos del género."
+                        },
+                        {
+                            "nombre": "Gunstar Heroes",
+                            "fecha_lanzamiento": "1993-09-10",
+                            "creador": "Treasure",
+                            "editores": [ "Sega" ],
+                            "clasificacion": "T",
+                            "genero": "Run and Gun",
+                            "modo_juego": "Multijugador",
+                            "licencia": "Propietaria",
+                            "imagen": "https://cdn.example.com/images/genesis_game_3.jpg",
+                            "descripcion": "Gunstar Heroes es un juego frenético con armas combinables, niveles variados y jefes enormes. Se convirtió en un clásico de culto. Gunstar Heroes es un juego de acción y disparos en 2D con jugabilidad frenética, donde dos héroes deben detener a un imperio malvado. El jugador puede combinar diferentes tipos de armas para crear ataques únicos y enfrentarse a jefes creativos. Fue creado por Treasure como su primer título, destacando por su innovación, gráficos vibrantes y jugabilidad cooperativa explosiva."
+                        },
+                        {
+                            "nombre": "Altered Beast",
+                            "fecha_lanzamiento": "1988-08-16",
+                            "creador": "Makoto Uchida",
+                            "editores": [ "Sega" ],
+                            "clasificacion": "T",
+                            "genero": "Beat 'em up",
+                            "modo_juego": "Multijugador",
+                            "licencia": "Propietaria",
+                            "imagen": "https://cdn.example.com/images/genesis_game_4.jpg",
+                            "descripcion": "Famoso por la frase 'Rise from your grave!', este juego permite transformarse en bestias mitológicas mientras luchas contra hordas de enemigos. En Altered Beast, eres un guerrero resucitado por Zeus que lucha contra monstruos para rescatar a Atenea. Al recolectar esferas de poder, te transformas en bestias como hombre lobo, dragón o tigre, con habilidades especiales. Fue creado como juego de lanzamiento para la SEGA Genesis, para mostrar su potencia gráfica y sonido en comparación a los arcades."
+                        },
+                        {
+                            "nombre": "Shinobi III: Return of the Ninja Master",
+                            "fecha_lanzamiento": "1993-07-22",
+                            "creador": "Noriyoshi Ohba",
+                            "editores": [ "Sega" ],
+                            "clasificacion": "T",
+                            "genero": "Acción",
+                            "modo_juego": "Un jugador",
+                            "licencia": "Propietaria",
+                            "imagen": "https://cdn.example.com/images/genesis_game_5.jpg",
+                            "descripcion": "Un juego ágil y fluido con niveles variados y mecánicas ninja. Shinobi III elevó la franquicia a su punto más alto en Genesis. Controlas a Joe Musashi, un maestro ninja que regresa para enfrentar nuevamente a la organización criminal Neo Zeed. El juego se desarrolla a través de escenarios variados como bosques, laboratorios y bases futuristas, donde combates con tu katana, shurikens y técnicas ninja especiales. La jugabilidad combina velocidad, agilidad y estrategia: puedes correr, trepar paredes, montar a caballo y hasta surfear mientras enfrentas enemigos y jefes desafiantes. Fue creado como una evolución técnica y jugable de los títulos anteriores de la saga Shinobi, con gráficos mejorados, música intensa y controles precisos, representando lo mejor del género de acción en los 90."
+                        },
+                        {
+                            "nombre": "Phantasy Star IV",
+                            "fecha_lanzamiento": "1993-12-17",
+                            "creador": "Rieko Kodama",
+                            "editores": [ "Sega" ],
+                            "clasificacion": "T",
+                            "genero": "RPG",
+                            "modo_juego": "Un jugador",
+                            "licencia": "Propietaria",
+                            "imagen": "https://cdn.example.com/images/genesis_game_6.jpg",
+                            "descripcion": "Uno de los mejores RPGs de 16 bits, con una historia rica, sistema de combate por turnos y estilo de arte estilo manga. Cierre épico para la saga en Genesis. Es la culminación de la saga Phantasy Star, ambientada en el sistema solar Algol, donde sigues la historia del joven cazador Chaz Ashley y su mentora Alys Brangwin mientras enfrentan una amenaza oscura que pone en peligro a todo el sistema. El juego combina exploración de ciudades y mazmorras, batallas por turnos, y una narrativa profunda con viñetas estilo manga para contar su historia. Puedes reclutar un equipo variado de personajes con habilidades únicas, mejorar armas y técnicas, y usar macros para planear estrategias de combate."
+                        },
 
-    },
-    {
-      "nombre": "Mortal Kombat",
-      "fecha_lanzamiento": "1992-10-08",
-      "creador": "Ed Boon y John Tobias",
-      "editores": ["Midway"],
-      "clasificacion": "M",
-      "genero": "Pelea",
-      "modo_juego": "Multijugador",
-      "licencia": "Comercial",
-      "imagen": "https://cdn.example.com/images/arcade_game_6.jpg",
-      "descripcion": "Con gráficos digitalizados, violencia explícita y fatalities, Mortal Kombat causó controversia y ayudó a establecer el sistema de clasificación ESRB. Mortal Kombat es otro juego de lucha uno contra uno, conocido por su violencia gráfica y fatalities (movimientos finales sangrientos). Los jugadores eligen personajes con habilidades únicas y luchan en combates brutales. Fue creado para ofrecer una alternativa más madura y violenta en el género de peleas, lo que generó gran impacto cultural y controversia."
-    },
-    {
-      "nombre": "Defender",
-      "fecha_lanzamiento": "1981-02-01",
-      "creador": "Eugene Jarvis",
-      "editores": ["Williams Electronics"],
-      "clasificacion": "E",
-      "genero": "Shooter",
-      "modo_juego": "Un jugador",
-      "licencia": "Comercial",
-      "imagen": "https://cdn.example.com/images/arcade_game_7.jpg",
-      "descripcion": "Uno de los shooters horizontales más difíciles, donde debías proteger humanos en tierra de los invasores. Rápido, frenético e influyente. En Defender, controlas una nave espacial que debe proteger a colonos en un planeta de oleadas de alienígenas. El juego combina disparos rápidos y rescate de humanos mientras sobrevives a ataques. Fue creado para brindar una experiencia intensa y desafiante de disparos horizontales con mecánicas innovadoras de rescate y defensa."
-    },
-    {
-      "nombre": "Frogger",
-      "fecha_lanzamiento": "1981-06-05",
-      "creador": "Konami",
-      "editores": ["Sega"],
-      "clasificacion": "E",
-      "genero": "Puzzle",
-      "modo_juego": "Un jugador",
-      "licencia": "Comercial",
-      "imagen": "https://cdn.example.com/images/arcade_game_8.jpg",
-      "descripcion": "En Frogger debes ayudar a una rana a cruzar la carretera y el río. Es famoso por su jugabilidad accesible y adictiva. Frogger es un juego de habilidad donde controlas una rana que debe cruzar calles llenas de tráfico y ríos con troncos flotantes para llegar a su hogar. El jugador debe calcular tiempos y movimientos para evitar ser atropellado o caer al agua. Fue creado para ofrecer una experiencia sencilla, pero desafiante, centrada en la coordinación y la paciencia."
-    },
-    {
-      "nombre": "Tetris (Arcade)",
-      "fecha_lanzamiento": "1989-03-01",
-      "creador": "Alexey Pajitnov",
-      "editores": ["Atari Games"],
-      "clasificacion": "E",
-      "genero": "Puzzle",
-      "modo_juego": "Un jugador",
-      "licencia": "Comercial",
-      "imagen": "https://cdn.example.com/images/arcade_game_9.jpg",
-      "descripcion": "La versión arcade del clásico Tetris mantuvo la esencia del rompecabezas soviético, ganando popularidad fuera del ámbito de las consolas."Tetris es un juego de puzzle clásico donde el jugador debe encajar piezas de diferentes formas, llamadas tetrominós, que caen desde la parte superior de la pantalla. El objetivo es formar líneas completas sin huecos para que desaparezcan, ganando puntos y evitando que las piezas se acumulen hasta llegar al tope, lo que termina el juego. Se juega moviendo y rotando las piezas mientras caen, tratando de optimizar el espacio y mantener el tablero despejado. La velocidad de caída aumenta con el tiempo, incrementando la dificultad."
-    },
-    {
-      "nombre": "NBA Jam",
-      "fecha_lanzamiento": "1993-04-01",
-      "creador": "Mark Turmell",
-      "editores": ["Midway"],
-      "clasificacion": "E",
-      "genero": "Deportes",
-      "modo_juego": "Multijugador",
-      "licencia": "Comercial",
-      "imagen": "https://cdn.example.com/images/arcade_game_10.jpg",
-      "descripcion": "Juego de baloncesto exagerado con volcadas imposibles y frases como “He's on fire!”. NBA Jam marcó una generación con su estilo arcade.NBA Jam es un juego de arcade de baloncesto conocido por su estilo exagerado y dinámico, donde los jugadores controlan equipos de dos contra dos en partidos rápidos y llenos de acción. El juego destaca por sus movimientos espectaculares, como volcadas increíbles y jugadas imposibles, además de contar con comentarios en vivo que aumentan la emoción. Se juega utilizando controles simples para pasar, lanzar y hacer volcadas, con reglas relajadas y power-ups que hacen las partidas impredecibles y divertidas. Es ideal para competir con amigos en partidas rápidas y llenas de energía."
-    }
-  ]
-},
-"nombre_consola":  "NES",
-  "fabricante": "Nintendo",
-  "año_creacion": 1983,
-  "pais_origen": "Japón",
-  "juegos": [
-    {
-      "nombre": "Super Mario Bros.",
-      "fecha_lanzamiento": "1985-09-13",
-      "creador": "Shigeru Miyamoto",
-      "editores": ["Nintendo"],
-      "clasificacion": "E",
-      "genero": "Plataformas",
-      "modo_juego": "Un jugador, Multijugador alternado",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/nes_game_1.jpg",
-      "descripcion": "Super Mario Bros. definió el género de plataformas. Controlas a Mario en su misión para rescatar a la princesa Peach. Con niveles creativos, enemigos únicos y power-ups, fue el mayor éxito de Nintendo. Super Mario Bros. es un juego de plataformas donde controlas a Mario, un fontanero que debe rescatar a la Princesa Peach del malvado Bowser. Saltas, esquivas enemigos y atraviesas niveles variados."
-    },
-    {
-      "nombre": "The Legend of Zelda",
-      "fecha_lanzamiento": "1986-02-21",
-      "creador": "Shigeru Miyamoto",
-      "editores": ["Nintendo"],
-      "clasificacion": "E",
-      "genero": "Aventura",
-      "modo_juego": "Un jugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/nes_game_2.jpg",
-      "descripcion": "Una de las primeras aventuras con exploración libre, puzles y un mundo abierto. The Legend of Zelda revolucionó el diseño de juegos y se convirtió en una saga legendaria. En The Legend of Zelda, controlas a Link, un joven héroe que debe rescatar a la princesa Zelda y reunir los fragmentos de la Trifuerza para derrotar al malvado Ganon. Es un juego de aventura con exploración en un mundo abierto, puzzles, combate y recolección de objetos. El jugador navega por mazmorras y resuelve acertijos para progresar. Fue pionero en ofrecer libertad de exploración y una narrativa más profunda en videojuegos, creando un género híbrido entre aventura y acción."
-    },
-    {
-      "nombre": "Metroid",
-      "fecha_lanzamiento": "1986-08-06",
-      "creador": "Makoto Kano",
-      "editores": ["Nintendo"],
-      "clasificacion": "E",
-      "genero": "Aventura",
-      "modo_juego": "Un jugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/nes_game_3.jpg",
-      "descripcion": "Metroid introdujo el concepto de backtracking y exploración con habilidades. Su atmósfera oscura y protagonista femenina lo hicieron un clásico innovador. Metroid combina acción, aventura y exploración en un mundo de ciencia ficción donde controlas a Samus Aran, una cazarrecompensas enviada a eliminar una amenaza alienígena. Destaca por su atmósfera oscura, diseño no lineal y la progresiva obtención de nuevas armas y habilidades que permiten acceder a nuevas áreas. Fue uno de los primeros juegos en usar elementos de "metroidvania", influyendo enormemente en futuros juegos de aventura y plataformas."
-    },
-    {
-      "nombre": "Castlevania",
-      "fecha_lanzamiento": "1986-09-26",
-      "creador": "Hitoshi Akamatsu",
-      "editores": ["Konami"],
-      "clasificacion": "T",
-      "genero": "Plataformas",
-      "modo_juego": "Un jugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/nes_game_4.jpg",
-      "descripcion": "Un juego gótico de acción en el que Simon Belmont lucha contra Drácula. Con mecánicas precisas y diseño lineal, inspiró la serie Metroidvania. En Castlevania, juegas como Simon Belmont, un cazador de vampiros que debe derrotar al Conde Drácula. El juego es un platformer desafiante con enemigos temáticos de horror gótico y una banda sonora memorable. Se caracteriza por su dificultad, diseño de niveles y la atmósfera oscura y tenebrosa. Fue creado para ofrecer una experiencia intensa y estilizada, siendo uno de los títulos que popularizó el género de acción y plataformas con temática de terror."
-    },
-    {
-      "nombre": "Mega Man 2",
-      "fecha_lanzamiento": "1988-12-24",
-      "creador": "Akira Kitamura",
-      "editores": ["Capcom"],
-      "clasificacion": "E",
-      "genero": "Acción/Plataformas",
-      "modo_juego": "Un jugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/nes_game_5.jpg",
-      "descripcion": "Uno de los mejores de la saga Mega Man. Destaca por su música, jefes creativos y el sistema de selección de niveles. Mega Man 2 es un juego de acción y plataformas donde controlas a Mega Man, un robot con la capacidad de adquirir las armas de los jefes enemigos derrotados. Tiene ocho niveles distintos con jefes únicos, y el jugador debe elegir el orden para enfrentarlos estratégicamente. Mejoró al original con mejores gráficos, música y jugabilidad más pulida. Se convirtió en un ícono de los juegos de acción por su diseño inteligente y desafío equilibrado."
-    },
-    {
-      "nombre": "Punch-Out!!",
-      "fecha_lanzamiento": "1987-10-18",
-      "creador": "Genyo Takeda",
-      "editores": ["Nintendo"],
-      "clasificacion": "E",
-      "genero": "Deportes/Pelea",
-      "modo_juego": "Un jugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/nes_game_6.jpg",
-      "descripcion": "Controlas a Little Mac mientras asciende en el mundo del boxeo. Cada oponente tiene su propio patrón y estilo de lucha. Punch-Out!! es un juego de boxeo donde controlas a Little Mac, un boxeador novato que debe enfrentar a una serie de oponentes con estilos únicos y patrones de ataque específicos. El juego requiere observar y reaccionar rápidamente para esquivar y contraatacar. Es conocido por su estilo caricaturesco y humorístico. Fue creado para combinar habilidad, reflejos y estrategia en un deporte muy accesible."
-    },
-    {
-      "nombre": "Duck Hunt",
-      "fecha_lanzamiento": "1984-04-21",
-      "creador": "Nintendo R&D1",
-      "editores": ["Nintendo"],
-      "clasificacion": "E",
-      "genero": "Shooter",
-      "modo_juego": "Un jugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/nes_game_7.jpg",
-      "descripcion": "Usando la pistola Zapper, disparas a patos que aparecen en pantalla. Uno de los primeros juegos con control por luz. Duck Hunt es un juego de disparos donde usas la pistola de luz (NES Zapper) para cazar patos que vuelan en pantalla. La precisión y la rapidez son esenciales para obtener puntos y avanzar. Además, el perro que aparece riéndose cuando fallas es uno de los personajes más reconocibles. Fue diseñado para demostrar la innovación tecnológica en el control por luz y ofrecer una experiencia divertida y familiar para todas las edades."
-    },
-    {
-      "nombre": "Excitebike",
-      "fecha_lanzamiento": "1984-11-30",
-      "creador": "Shigeru Miyamoto",
-      "editores": ["Nintendo"],
-      "clasificacion": "E",
-      "genero": "Carreras",
-      "modo_juego": "Un jugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/nes_game_8.jpg",
-      "descripcion": "Juego de motocross con editor de pistas. Famoso por su física de saltos y música icónica. Excitebike es un juego de carreras de motocross en el que compites en pistas llenas de obstáculos y rampas. El jugador debe controlar la velocidad, saltos y aterrizajes para evitar caídas y lograr buenos tiempos. También incluye un editor de pistas para crear y guardar diseños personalizados, algo innovador para su época. Fue creado para ofrecer una experiencia simple, pero adictiva y competitiva."
-    },
-    {
-      "nombre": "Kirby's Adventure",
-      "fecha_lanzamiento": "1993-03-23",
-      "creador": "Masahiro Sakurai",
-      "editores": ["Nintendo"],
-      "clasificacion": "E",
-      "genero": "Plataformas",
-      "modo_juego": "Un jugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/nes_game_9.jpg",
-      "descripcion": "Kirby's Adventure introdujo la habilidad de copiar poderes. Es colorido, encantador y tiene niveles bien diseñados para la NES. En Kirby's Adventure, controlas a Kirby, un personaje adorable que puede inhalar a sus enemigos y copiar sus habilidades especiales, como disparar fuego o usar espada. El juego combina plataformas con puzzles y niveles creativos llenos de secretos y jefes desafiantes. Fue creado para atraer a jugadores de todas las edades con su jugabilidad accesible y estilo visual colorido."
-    },
-    {
-      "nombre": "Final Fantasy",
-      "fecha_lanzamiento": "1987-12-18",
-      "creador": "Hironobu Sakaguchi",
-      "editores": ["Square"],
-      "clasificacion": "T",
-      "genero": "RPG",
-      "modo_juego": "Un jugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/nes_game_10.jpg",
-      "descripcion": "El inicio de una saga legendaria. Un RPG de fantasía con clases, batallas por turnos y mundo abierto que rescató a Square de la bancarrota. Final Fantasy es un juego de rol donde diriges a un grupo de cuatro guerreros de la luz en una misión para salvar su mundo del caos y la oscuridad. Combina exploración de un vasto mundo, combates por turnos, desarrollo de personajes y una historia épica. Fue creado para revitalizar el género RPG tras varios fracasos comerciales, dando inicio a una franquicia que se convertiría en una de las más importantes y reconocidas de la historia de los videojuegos."
-    }
-  ]
-},
-"nombre_consola":"Sega Genesis",
-  "fabricante": "Sega",
-  "año_creacion": 1988,
-  "pais_origen": "Japón",
-  "juegos": [
-    {
-      "nombre": "Sonic the Hedgehog",
-      "fecha_lanzamiento": "1991-06-23",
-      "creador": "Yuji Naka",
-      "editores": ["Sega"],
-      "clasificacion": "E",
-      "genero": "Plataformas",
-      "modo_juego": "Un jugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/genesis_game_1.jpg",
-      "descripcion": "Sonic se convirtió en la mascota de Sega por su velocidad, actitud y diseño colorido. Su jugabilidad rápida contrastaba con la de Mario, y fue el buque insignia de Genesis. onic the Hedgehog es un juego de plataformas de alta velocidad donde controlas a Sonic, un erizo azul con la habilidad de correr a gran velocidad, mientras intenta detener al malvado Dr. Robotnik. Recorres niveles con loopings, rampas y enemigos, recolectando anillos y power-ups. Fue creado en 1991 como la respuesta de SEGA al éxito de Mario, y para posicionar a Sonic como su nueva mascota: un personaje joven, rebelde y rápido que representara la actitud de la era de los 90."
-    },
-    {
-      "nombre": "Streets of Rage 2",
-      "fecha_lanzamiento": "1992-12-20",
-      "creador": "Noriyoshi Ohba",
-      "editores": ["Sega"],
-      "clasificacion": "T",
-      "genero": "Beat 'em up",
-      "modo_juego": "Multijugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/genesis_game_2.jpg",
-      "descripcion": "Considerado uno de los mejores juegos del género. Presenta excelentes gráficos, música icónica y acción cooperativa. Es un juego de lucha estilo beat 'em up donde eliges entre varios personajes para limpiar las calles de enemigos usando combos, golpes y movimientos especiales. Se juega avanzando por niveles urbanos, enfrentando bandas criminales. Fue creado como secuela para mejorar todos los aspectos del original, destacando por su excelente música, jugabilidad fluida y modo cooperativo, convirtiéndose en uno de los mejores juegos del género."
-    },
-    {
-      "nombre": "Gunstar Heroes",
-      "fecha_lanzamiento": "1993-09-10",
-      "creador": "Treasure",
-      "editores": ["Sega"],
-      "clasificacion": "T",
-      "genero": "Run and Gun",
-      "modo_juego": "Multijugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/genesis_game_3.jpg",
-      "descripcion": "Gunstar Heroes es un juego frenético con armas combinables, niveles variados y jefes enormes. Se convirtió en un clásico de culto. Gunstar Heroes es un juego de acción y disparos en 2D con jugabilidad frenética, donde dos héroes deben detener a un imperio malvado. El jugador puede combinar diferentes tipos de armas para crear ataques únicos y enfrentarse a jefes creativos. Fue creado por Treasure como su primer título, destacando por su innovación, gráficos vibrantes y jugabilidad cooperativa explosiva."
-    },
-    {
-      "nombre": "Altered Beast",
-      "fecha_lanzamiento": "1988-08-16",
-      "creador": "Makoto Uchida",
-      "editores": ["Sega"],
-      "clasificacion": "T",
-      "genero": "Beat 'em up",
-      "modo_juego": "Multijugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/genesis_game_4.jpg",
-      "descripcion": "Famoso por la frase 'Rise from your grave!', este juego permite transformarse en bestias mitológicas mientras luchas contra hordas de enemigos. En Altered Beast, eres un guerrero resucitado por Zeus que lucha contra monstruos para rescatar a Atenea. Al recolectar esferas de poder, te transformas en bestias como hombre lobo, dragón o tigre, con habilidades especiales. Fue creado como juego de lanzamiento para la SEGA Genesis, para mostrar su potencia gráfica y sonido en comparación a los arcades."
-    },
-    {
-      "nombre": "Shinobi III: Return of the Ninja Master",
-      "fecha_lanzamiento": "1993-07-22",
-      "creador": "Noriyoshi Ohba",
-      "editores": ["Sega"],
-      "clasificacion": "T",
-      "genero": "Acción",
-      "modo_juego": "Un jugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/genesis_game_5.jpg",
-      "descripcion": "Un juego ágil y fluido con niveles variados y mecánicas ninja. Shinobi III elevó la franquicia a su punto más alto en Genesis. Controlas a Joe Musashi, un maestro ninja que regresa para enfrentar nuevamente a la organización criminal Neo Zeed. El juego se desarrolla a través de escenarios variados como bosques, laboratorios y bases futuristas, donde combates con tu katana, shurikens y técnicas ninja especiales. La jugabilidad combina velocidad, agilidad y estrategia: puedes correr, trepar paredes, montar a caballo y hasta surfear mientras enfrentas enemigos y jefes desafiantes. Fue creado como una evolución técnica y jugable de los títulos anteriores de la saga Shinobi, con gráficos mejorados, música intensa y controles precisos, representando lo mejor del género de acción en los 90."
-    },
- {
-      "nombre": "Phantasy Star IV",
-      "fecha_lanzamiento": "1993-12-17",
-      "creador": "Rieko Kodama",
-      "editores": ["Sega"],
-      "clasificacion": "T",
-      "genero": "RPG",
-      "modo_juego": "Un jugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/genesis_game_6.jpg",
-      "descripcion": "Uno de los mejores RPGs de 16 bits, con una historia rica, sistema de combate por turnos y estilo de arte estilo manga. Cierre épico para la saga en Genesis. Es la culminación de la saga Phantasy Star, ambientada en el sistema solar Algol, donde sigues la historia del joven cazador Chaz Ashley y su mentora Alys Brangwin mientras enfrentan una amenaza oscura que pone en peligro a todo el sistema. El juego combina exploración de ciudades y mazmorras, batallas por turnos, y una narrativa profunda con viñetas estilo manga para contar su historia. Puedes reclutar un equipo variado de personajes con habilidades únicas, mejorar armas y técnicas, y usar macros para planear estrategias de combate."
-    },
- 
-    {
-      "nombre": "Ecco the Dolphin",
-      "fecha_lanzamiento": "1992-07-31",
-      "creador": "Ed Annunziata",
-      "editores": ["Sega"],
-      "clasificacion": "E",
-      "genero": "Aventura",
-      "modo_juego": "Un jugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/genesis_game_7.jpg",
-      "descripcion": "Un título único en el que controlas a un delfín en un mundo submarino lleno de misterio, acertijos y una narrativa sorprendentemente profunda. Ecco the Dolphin es un juego de aventura y exploración donde controlas a un delfín en busca de su manada perdida, enfrentándose a misterios del océano y criaturas alienígenas. Usa ecolocalización, velocidad y saltos para resolver puzzles submarinos. Fue creado como una experiencia única, contemplativa y educativa, mostrando el poder del Genesis en entornos acuáticos y físicas inusuales."
-    },
-    {
-      "nombre": "Toejam & Earl",
-      "fecha_lanzamiento": "1991-10-15",
-      "creador": "Greg Johnson",
-      "editores": ["Sega"],
-      "clasificacion": "E",
-      "genero": "Aventura",
-      "modo_juego": "Multijugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/genesis_game_8.jpg",
-      "descripcion": "Extravagante juego cooperativo con humor alienígena, exploración de mundos aleatorios y estética hip hop de los 90. Es un juego de exploración con humor y estilo funky donde controlas a dos extraterrestres que han chocado en la Tierra y deben encontrar las piezas de su nave. Se juega en mapas generados aleatoriamente, con ítems extraños, enemigos humanos y mucha sátira. Fue creado como una propuesta original que mezclaba roguelike, comedia y cultura urbana, destacando por su estilo único y modo cooperativo."
-    },
-    {
-      "nombre": "Mortal Kombat II",
-      "fecha_lanzamiento": "1994-09-09",
-      "creador": "Midway",
-      "editores": ["Acclaim"],
-      "clasificacion": "M",
-      "genero": "Pelea",
-      "modo_juego": "Multijugador",
-      "licencia": "Comercial",
-      "imagen": "https://cdn.example.com/images/genesis_game_9.jpg",
-      "descripcion": "Una de las mejores versiones caseras de este violento juego de lucha. Más personajes, más fatalities, más brutalidad. Mortal Kombat II es un juego de lucha uno contra uno, donde eliges entre varios luchadores con técnicas propias y realizas combates sangrientos en escenarios fantásticos. Es conocido por sus Fatalities y violencia gráfica. Fue creado como secuela del primer Mortal Kombat, aumentando el elenco, velocidad y calidad gráfica, convirtiéndose en un ícono de los juegos de pelea y protagonista de debates sobre violencia en videojuegos."
-    },
-    {
-      "nombre": "Road Rash II",
-      "fecha_lanzamiento": "1992-09-28",
-      "creador": "Dan Geisler",
-      "editores": ["Electronic Arts"],
-      "clasificacion": "T",
-      "genero": "Carreras",
-      "modo_juego": "Multijugador",
-      "licencia": "Comercial",
-      "imagen": "https://cdn.example.com/images/genesis_game_10.jpg",
-      "descripcion": "Motocicletas, velocidad y violencia. Golpea a tus oponentes mientras compites en brutales carreras callejeras. Juego de carreras de motocicletas donde puedes golpear a tus oponentes con puñetazos, cadenas o patadas mientras compites en distintas rutas. Mezcla velocidad, violencia y rock & roll. Fue creado como una evolución del primer Road Rash, mejorando el control, gráficos y música, y capturando el espíritu rebelde de la época con una fórmula única de carreras + combate".
-    }
-  ]
-},
-"nombre_consola": "PlayStation 1",
-  "fabricante": "Sony",
-  "año_creacion": 1994,
-  "pais_origen": "Japón",
-  "juegos": [
-    {
-      "nombre": "Final Fantasy VII",
-      "fecha_lanzamiento": "1997-01-31",
-      "creador": "Hironobu Sakaguchi",
-      "editores": ["Square Enix"],
-      "clasificacion": "T",
-      "genero": "RPG",
-      "modo_juego": "Un jugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/ps1_game_1.jpg",
-      "descripcion": "Una obra maestra del género RPG. Con una historia profunda, personajes memorables y cinemáticas revolucionarias, FFVII cambió la percepción de los videojuegos en occidente. La historia sigue a Cloud Strife, un exsoldado convertido en mercenario, que se une a un grupo eco-revolucionario llamado AVALANCHE para detener a la megacorporación Shinra, que está agotando la energía vital del planeta. Sin embargo, pronto se enfrentan a una amenaza aún mayor: Sephiroth, un antiguo héroe con un plan apocalíptico. El juego se juega mediante exploración, combates por turnos, uso del sistema de materia para personalizar habilidades, y una narrativa cargada de giros argumentales y momentos emotivos. Fue creado por Square para expandir el alcance global de la saga, aprovechando la potencia de la nueva generación de consolas. Su éxito masivo ayudó a popularizar los JRPG fuera de Japón y consolidó a Final Fantasy como una de las franquicias más importantes de la industria."
-    },
-    {
-      "nombre": "Metal Gear Solid",
-      "fecha_lanzamiento": "1998-09-03",
-      "creador": "Hideo Kojima",
-      "editores": ["Konami"],
-      "clasificacion": "M",
-      "genero": "Sigilo",
-      "modo_juego": "Un jugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/ps1_game_2.jpg",
-      "descripcion": "Un hito narrativo en videojuegos. Controla a Solid Snake en una misión de infiltración que mezcla acción, sigilo y cinemáticas cinematográficas.  En el juego, controlas a Solid Snake, un soldado de élite que debe infiltrarse en una instalación nuclear en Alaska llamada Shadow Moses para detener una amenaza terrorista y destruir el arma bípeda conocida como Metal Gear REX. A diferencia de muchos juegos de acción de la época, Metal Gear Solid se enfoca en la infiltración y el sigilo, premiando al jugador por evitar enfrentamientos directos. Cuenta con cámaras de vigilancia, guardias con patrones de patrullaje, y herramientas como el radar, disfraces y dispositivos electrónicos para avanzar sin ser detectado."
-    },
-    {
-      "nombre": "Resident Evil 2",
-      "fecha_lanzamiento": "1998-01-21",
-      "creador": "Shinji Mikami",
-      "editores": ["Capcom"],
-      "clasificacion": "M",
-      "genero": "Survival Horror",
-      "modo_juego": "Un jugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/ps1_game_3.jpg",
-      "descripcion": "Uno de los survival horror más icónicos. Leon y Claire deben sobrevivir a una ciudad infestada de zombis. Su atmósfera tensa y puzzles lo convirtieron en leyenda. La historia transcurre en Raccoon City, una ciudad infestada por zombis y criaturas mutantes tras un brote del virus T, creado por la corporación Umbrella. Los protagonistas son Leon S. Kennedy, un policía novato, y Claire Redfield, una joven en busca de su hermano, quienes deben sobrevivir mientras descubren el origen del desastre. El juego se caracteriza por su atmósfera tensa, recursos limitados (como munición y curas), y una narrativa que se desarrolla desde dos perspectivas diferentes, lo que incentivaba múltiples partidas para conocer toda la historia. Mezcla exploración, resolución de acertijos y enfrentamientos con enemigos grotescos."
-    },
-{
-      "nombre": "Crash Bandicoot",
-      "fecha_lanzamiento": "1996-09-09",
-      "creador": "Andy Gavin, Jason Rubin",
-      "editores": ["Sony Computer Entertainment"],
-      "clasificacion": "E",
-      "genero": "Plataformas",
-      "modo_juego": "Un jugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/ps1_game_4.jpg",
-      "descripcion": "Crash se volvió la mascota de Sony con este juego de plataformas vibrante, desafiante y lleno de personalidad. El inicio de una trilogía icónica. El jugador controla a Crash, un bandicut (animal marsupial) mutado accidentalmente por el malvado Dr. Neo Cortex, quien ahora intenta detener al científico para salvar a su novia Tawna y frustrar sus planes de dominación. El juego se desarrolla a través de niveles lineales con desplazamiento hacia adelante, lateral o hacia atrás, combinando saltos precisos, obstáculos peligrosos y enemigos variados. Crash puede girar para atacar, saltar sobre enemigos y recolectar frutas wumpa, vidas y máscaras protectoras."
-    },
-    {
-      "nombre": "Gran Turismo",
-      "fecha_lanzamiento": "1997-12-23",
-      "creador": "Kazunori Yamauchi",
-      "editores": ["Sony Computer Entertainment"],
-      "clasificacion": "E",
-      "genero": "Simulación de carreras",
-      "modo_juego": "Un jugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/ps1_game_5.jpg",
-      "descripcion": "El simulador de carreras más realista de su época. Con decenas de autos y pistas, elevó el estándar gráfico y físico en consolas. El juego permite a los jugadores participar en competiciones y desafíos, obtener licencias de conducción, y comprar o modificar vehículos reales de marcas reconocidas como Honda, Toyota, Nissan y más. Su modo Gran Turismo combina progresión y estrategia, mientras que el modo Arcade permite carreras más rápidas y directas. Se creó con el objetivo de representar fielmente la física y el comportamiento de los autos, gracias a años de desarrollo por parte de Kazunori Yamauchi y su equipo. "
-    },
-    {
-      "nombre": "Tekken 3",
-      "fecha_lanzamiento": "1998-03-20",
-      "creador": "Katsuhiro Harada",
-      "editores": ["Namco"],
-      "clasificacion": "T",
-      "genero": "Pelea",
-      "modo_juego": "Multijugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/ps1_game_6.jpg",
-      "descripcion": "Uno de los juegos de pelea más populares de todos los tiempos. Tekken 3 ofrecía jugabilidad fluida, nuevos personajes y profundidad técnica. El juego presenta una nueva generación de luchadores, con protagonistas como Jin Kazama, Hwoarang y Ling Xiaoyu, junto a veteranos como Paul Phoenix y Heihachi Mishima. Cada personaje tiene un estilo de combate único, con combinaciones de golpes, lanzamientos y movimientos especiales. Una de sus grandes innovaciones fue el uso más dinámico del eje z (movimiento lateral), mejorando la estrategia en los combates."
-    },
-    {
-      "nombre": "Castlevania: Symphony of the Night",
-      "fecha_lanzamiento": "1997-03-20",
-      "creador": "Koji Igarashi",
-      "editores": ["Konami"],
-      "clasificacion": "T",
-      "genero": "Metroidvania",
-      "modo_juego": "Un jugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/ps1_game_7.jpg",
-      "descripcion": "Revolucionó la franquicia Castlevania con exploración no lineal, mejoras de personaje y una banda sonora majestuosa. Es considerado uno de los mejores juegos 2D jamás hechos.  A diferencia de los títulos anteriores de la saga, este juego introdujo un enfoque no lineal, con elementos de RPG y un vasto castillo por explorar, marcando el nacimiento del estilo conocido como Metroidvania. En el juego controlas a Alucard, el hijo de Drácula, quien entra al castillo para detener el resurgimiento del mal tras la desaparición de Richter Belmont. A medida que avanzas, obtienes nuevas habilidades, armas y hechizos que te permiten acceder a zonas previamente inaccesibles. Fue creado para dar un giro a la fórmula tradicional de Castlevania, apostando por una experiencia más profunda y libre, con énfasis en la atmósfera gótica, el arte detallado, la música memorable y una jugabilidad refinada. Aunque en su lanzamiento fue discretamente recibido, con el tiempo se convirtió en uno de los juegos más influyentes y valorados del género."
-    },
-    {
-      "nombre": "Spyro the Dragon",
-      "fecha_lanzamiento": "1998-09-10",
-      "creador": "Insomniac Games",
-      "editores": ["Sony Computer Entertainment"],
-      "clasificacion": "E",
-      "genero": "Plataformas 3D",
-      "modo_juego": "Un jugador",
-      "licencia": "Propietaria",
-      "imagen": "https://cdn.example.com/images/ps1_game_8.jpg",
-      "descripcion": "Colorido y accesible, Spyro ofrecía un mundo abierto en 3D ideal para jugadores más jóvenes, con controles precisos y humor encantador. En este juego controlas a Spyro, un pequeño dragón púrpura con una gran personalidad, que debe rescatar a sus compañeros dragones y recuperar el mundo de la amenaza del malvado Gnasty Gnorc. El juego combina exploración en mundos abiertos, recolección de gemas y combate sencillo usando el aliento de fuego, embestidas y saltos ágiles. Cada nivel ofrece diferentes retos, enemigos y secretos por descubrir, fomentando la exploración y el uso de habilidades especiales de Spyro."
-    },
-    {
-      "nombre": "Tomb Raider",
-      "fecha_lanzamiento": "1996-10-25",
-      "creador": "Toby Gard",
-      "editores": ["Eidos Interactive"],
-      "clasificacion": "T",
-      "genero": "Aventura",
-      "modo_juego": "Un jugador",
-      "licencia": "Comercial",
-      "imagen": "https://cdn.example.com/images/ps1_game_9.jpg",
-      "descripcion": "Lara Croft se convirtió en un ícono con este título pionero de aventura en 3D. Plataformas, exploración, combate y arqueología en una combinación revolucionaria.  Fue desarrollado por Core Design y presenta a Lara Croft, una arqueóloga y exploradora, como protagonista. El juego combina exploración de tumbas antiguas, resolución de puzzles, y combates contra enemigos y trampas mortales. Lara debe atravesar escenarios llenos de desafíos para encontrar tesoros y secretos ocultos, usando su agilidad, armas y habilidades para sobrevivir."
-    },
-    {
-      "nombre": "Tony Hawk's Pro Skater 2",
-      "fecha_lanzamiento": "2000-09-20",
-      "creador": "Neversoft",
-      "editores": ["Activision"],
-      "clasificacion": "T",
-      "genero": "Deportes",
-      "modo_juego": "Multijugador",
-      "licencia": "Comercial",
-      "imagen": "https://cdn.example.com/images/ps1_game_10.jpg",
-      "descripcion": "Uno de los juegos de skate más influyentes. Controles fluidos, trucos locos y una banda sonora memorable lo convirtieron en un fenómeno cultural.  Es la segunda entrega de la exitosa saga de skateboarding protagonizada por el legendario skater Tony Hawk y otros profesionales del deporte. El juego permite a los jugadores realizar trucos espectaculares como ollies, flips, grabs y grinds en una variedad de escenarios urbanos y parques de skate. Una de sus mayores innovaciones fue la introducción del manual, una técnica que permitió encadenar combos más largos y complejos. También incluye un modo carrera con objetivos por nivel, un sistema de mejora de habilidades y un editor de parques."
-     }
-  ] 
-}
-  ],
-  "juegos_de_mesa":[
-    {
-      nombre": "Monopoly",
-      "creador": "Charles Darrow",
-      "año_lanzamiento": 1935,
-      "fecha_lanzamiento": "1935-11-05",
-      "genero": "Económico",
-      "estilo_juego": "Económico / Competitivo",
-      "descripcion": "Juego de bienes raíces donde los jugadores compran, venden y arriendan propiedades. El objetivo es hacer quebrar a los demás jugadores acumulando monopolios y cobrando rentas elevadas. Incluye tarjetas de suerte, impuestos, hipotecas y mejoras como casas y hoteles."
-    },
-    {
-      "nombre": "Catan",
-      "creador": "Klaus Teuber",
-      "año_lanzamiento": 1995,
-      "fecha_lanzamiento": "1995-04-01",
-      "genero": "Estrategia",
-      "estilo_juego": "Gestión de recursos / Colonización",
-      "descripcion": "Los jugadores colonizan una isla, recolectan recursos (madera, ladrillo, lana, trigo y mineral) y construyen carreteras, pueblos y ciudades. El comercio entre jugadores es clave. Gana quien llegue a 10 puntos de victoria construyendo y negociando de forma efectiva."
-    },
-    {
-      "nombre": "Risk",
-      "creador": "Albert Lamorisse",
-      "año_lanzamiento": 1957,
-      "fecha_lanzamiento": "1957-08-15",
-      "genero": "Estrategia militar",
-      "estilo_juego": "Estrategia militar / Control de área",
-      "descripcion": "Juego de conquista global. Cada jugador controla un ejército y lucha por dominar territorios en un mapa mundial. Las batallas se resuelven con dados. Gana el jugador que conquiste todos los territorios o cumpla su misión secreta."
-    },
-    {
-      "nombre": "Clue (Cluedo)",
-      "creador": "Anthony E. Pratt",
-      "año_lanzamiento": 1949,
-      "fecha_lanzamiento": "1949-06-01",
-      "genero": "Misterio",
-      "estilo_juego": "Deducción / Misterio",
-      "descripcion": "Juego de asesinato en una mansión. Los jugadores deben descubrir quién cometió el crimen, con qué arma y en qué habitación. A través de la deducción lógica y las pistas ocultas, los jugadores eliminan posibilidades hasta resolver el caso."
-    },
-    {
-      "nombre": "Scrabble",
-      "creador": "Alfred Butts",
-      "año_lanzamiento": 1938,
-      "fecha_lanzamiento": "1938-07-01",
-      "genero": "Educativo / Palabras",
-      "estilo_juego": "Palabras / Competencia lingüística",
-      "descripcion": "Juego de formación de palabras. Los jugadores usan fichas con letras para formar palabras en un tablero. Cada letra tiene un valor, y hay casillas con bonificaciones. Gana quien acumule más puntos al final de la partida."
-    },
-    {
-      "nombre": "Uno",
-      "creador": "Merle Robbins",
-      "año_lanzamiento": 1971,
-      "fecha_lanzamiento": "1971-07-01",
-      "genero": "Familiar / Cartas",
-      "estilo_juego": "Cartas / Eliminación",
-      "descripcion": "Juego de cartas rápido donde los jugadores deben deshacerse de todas sus cartas combinando colores o números. Incluye cartas de acción como 'roba 2', 'salta', 'cambio de sentido' y 'comodines'. Grita 'UNO' al quedarte con una carta o recibirás penalización."
-    },
-    {
-      "nombre": "Jenga",
-      "creador": "Leslie Scott",
-      "año_lanzamiento": 1983,
-      "fecha_lanzamiento": "1983-04-15",
-      "genero": "Habilidad / Fiesta",
-      "estilo_juego": "Destreza / Física",
-      "descripcion": "Juego de habilidad en el que los jugadores retiran bloques de una torre de madera y los colocan en la parte superior sin que esta se derrumbe. Pierde quien haga caer la torre. Se juega por turnos y exige pulso y estrategia."
-    },
-    {
-      "nombre": "Trivial Pursuit",
-      "creador": "Scott Abbott y Chris Haney",
-      "año_lanzamiento": 1981,
-      "fecha_lanzamiento": "1981-12-10",
-      "genero": "Trivia / Conocimiento",
-      "estilo_juego": "Trivia / Conocimiento general",
-      "descripcion": "Juego de preguntas y respuestas. Los jugadores deben recorrer un tablero respondiendo preguntas de diferentes categorías para ganar cuñas. Gana quien complete su ficha con las seis cuñas de colores y responda correctamente la pregunta final."
-    },
-    {
-      "nombre": "Pictionary",
-      "creador": "Robert Angel",
-      "año_lanzamiento": 1985,
-      "fecha_lanzamiento": "1985-06-01",
-      "genero": "Fiesta / Dibujo",
-      "estilo_juego": "Dibujo / Juego de fiesta",
-      "descripcion": "Los jugadores deben dibujar una palabra o frase sin hablar, mientras su equipo intenta adivinarla antes de que se acabe el tiempo. Las categorías incluyen objetos, acciones y lugares. Gana el equipo que adivine más palabras."
-    },
-    {
-      "nombre": "Ajedrez",
-      "creador": "Origen histórico (India, siglo VI)",
-      "año_lanzamiento": 1475,
-      "fecha_lanzamiento": "1475-01-01",
-      "genero": "Clásico / Estrategia",
-      "estilo_juego": "Estrategia abstracta",
-      "descripcion": "Juego de estrategia para dos jugadores. Cada uno controla 16 piezas con movimientos únicos. El objetivo es dar jaque mate al rey rival. Considerado un clásico universal de lógica, táctica y pensamiento anticipado."
-    }
-  ],
-  "juegosVR": [
-    {
-      "nombre": "The Walking Dead: Saints & Sinners",
-      "año": 2020,
-      "tipo": "Juego completo",
-      "creador": "Skydance Interactive",
-      "género": "Survival Horror, Acción",
-      "descripcion": "En este juego de supervivencia en primera persona, te sumergís en una Nueva Orleans infestada de zombis. Con una física realista y un sistema de combate cuerpo a cuerpo preciso, podés usar armas improvisadas, cuchillos, armas de fuego y más. Es ideal para caminadoras como Virtuix Omni o Kat Walk C2, ya que permite una exploración libre y natural del entorno postapocalíptico, aumentando la inmersión al caminar y esquivar físicamente los ataques enemigos."
-    },
-    {
-      "nombre": "Pavlov VR",
-      "año": 2017,
-      "tipo": "Multijugador competitivo",
-      "creador": "Vankrupt Games",
-      "género": "FPS, Acción",
-      "descripcion": "Pavlov VR es un shooter multijugador en línea que ofrece partidas rápidas y realistas. Simula enfrentamientos entre soldados con armamento realista y una variedad de mapas inspirados en conflictos modernos y clásicos. Su soporte para caminadoras VR permite que los jugadores se muevan libremente por el campo de batalla con sus propios pasos, ideal para una experiencia de combate completamente física y envolvente."
-    },
-    {
-      "nombre": "Onward",
-      "año": 2016,
-      "tipo": "Multijugador táctico",
-      "creador": "Downpour Interactive",
-      "género": "FPS, Simulación militar",
-      "descripcion": "Onward es un shooter militar táctico que pone el foco en la cooperación en equipo, el realismo y la comunicación por voz. Compatible con caminadoras VR, el jugador puede moverse de forma física a través de los mapas, tomando coberturas, flanqueando enemigos y viviendo una experiencia de guerra táctica lo más realista posible. Es ideal para sesiones cooperativas o competitivas con inmersión total."
-    },
-    {
-      "nombre": "Blade & Sorcery",
-      "año": 2018,
-      "tipo": "Sandbox de combate",
-      "creador": "WarpFrog",
-      "género": "Acción, Simulación",
-      "descripcion": "Blade & Sorcery es una simulación de combate medieval basada en física realista. Los movimientos del cuerpo completo, el sistema de colisiones por huesos y el soporte para mods hacen que cada golpe, bloqueo y esquive se sienta auténtico. Con caminadoras VR, podés caminar, esquivar y luchar con total libertad física, haciendo que cada enfrentamiento cuerpo a cuerpo sea aún más visceral e inmersivo."
-    },
-    {
-      "nombre": "Skyrim VR",
-      "año": 2018,
-      "tipo": "RPG de mundo abierto",
-      "creador": "Bethesda Game Studios",
-      "género": "RPG, Fantasía, Aventura",
-      "descripcion": "Skyrim VR es la versión en realidad virtual del clásico RPG The Elder Scrolls V: Skyrim. Ofrece el mundo abierto completo con soporte para mods de cuerpo completo y caminadoras. Podés explorar ciudades, mazmorras y montañas caminando realmente con dispositivos como Kat Walk C2 o Virtuix Omni, luchando con espadas, arcos o hechizos con tus propios movimientos."
-    },
-    {
-      "nombre": "Boneworks / Bonelab",
-      "año": 2019,
-      "tipo": "Aventura de física avanzada",
-      "creador": "Stress Level Zero",
-      "género": "Acción, Aventura, Simulación Física",
-      "descripcion": "Boneworks y su secuela Bonelab están diseñados con un motor de física que rastrea el cuerpo completo. Cada parte del cuerpo tiene peso e interacción realista con el entorno. Son ideales para caminadoras VR, ya que podés caminar, trepar, escalar, empujar y explorar entornos complejos con total libertad física. Estos juegos ofrecen una experiencia intensa y desafiante con interacción 1:1 con el entorno."
-    },
-    {
-      "nombre": "Zero Caliber VR",
-      "año": 2020,
-      "tipo": "Shooter cooperativo",
-      "creador": "XREAL Games",
-      "género": "FPS, Acción militar",
-      "descripcion": "Zero Caliber VR es un shooter en primera persona ambientado en un conflicto moderno. Permite personalizar armas, trabajar en equipo y avanzar en una campaña narrativa. Compatible con caminadoras VR, permite que los jugadores se muevan libremente y adopten tácticas reales de combate usando su cuerpo, generando una experiencia similar a Call of Duty en VR con mucha inmersión."
-    }
-  ]
+                        {
+                            "nombre": "Ecco the Dolphin",
+                            "fecha_lanzamiento": "1992-07-31",
+                            "creador": "Ed Annunziata",
+                            "editores": [ "Sega" ],
+                            "clasificacion": "E",
+                            "genero": "Aventura",
+                            "modo_juego": "Un jugador",
+                            "licencia": "Propietaria",
+                            "imagen": "https://cdn.example.com/images/genesis_game_7.jpg",
+                            "descripcion": "Un título único en el que controlas a un delfín en un mundo submarino lleno de misterio, acertijos y una narrativa sorprendentemente profunda. Ecco the Dolphin es un juego de aventura y exploración donde controlas a un delfín en busca de su manada perdida, enfrentándose a misterios del océano y criaturas alienígenas. Usa ecolocalización, velocidad y saltos para resolver puzzles submarinos. Fue creado como una experiencia única, contemplativa y educativa, mostrando el poder del Genesis en entornos acuáticos y físicas inusuales."
+                        },
+                        {
+                            "nombre": "Toejam & Earl",
+                            "fecha_lanzamiento": "1991-10-15",
+                            "creador": "Greg Johnson",
+                            "editores": [ "Sega" ],
+                            "clasificacion": "E",
+                            "genero": "Aventura",
+                            "modo_juego": "Multijugador",
+                            "licencia": "Propietaria",
+                            "imagen": "https://cdn.example.com/images/genesis_game_8.jpg",
+                            "descripcion": "Extravagante juego cooperativo con humor alienígena, exploración de mundos aleatorios y estética hip hop de los 90. Es un juego de exploración con humor y estilo funky donde controlas a dos extraterrestres que han chocado en la Tierra y deben encontrar las piezas de su nave. Se juega en mapas generados aleatoriamente, con ítems extraños, enemigos humanos y mucha sátira. Fue creado como una propuesta original que mezclaba roguelike, comedia y cultura urbana, destacando por su estilo único y modo cooperativo."
+                        },
+                        {
+                            "nombre": "Mortal Kombat II",
+                            "fecha_lanzamiento": "1994-09-09",
+                            "creador": "Midway",
+                            "editores": [ "Acclaim" ],
+                            "clasificacion": "M",
+                            "genero": "Pelea",
+                            "modo_juego": "Multijugador",
+                            "licencia": "Comercial",
+                            "imagen": "https://cdn.example.com/images/genesis_game_9.jpg",
+                            "descripcion": "Una de las mejores versiones caseras de este violento juego de lucha. Más personajes, más fatalities, más brutalidad. Mortal Kombat II es un juego de lucha uno contra uno, donde eliges entre varios luchadores con técnicas propias y realizas combates sangrientos en escenarios fantásticos. Es conocido por sus Fatalities y violencia gráfica. Fue creado como secuela del primer Mortal Kombat, aumentando el elenco, velocidad y calidad gráfica, convirtiéndose en un ícono de los juegos de pelea y protagonista de debates sobre violencia en videojuegos."
+                        },
+                        {
+                            "nombre": "Road Rash II",
+                            "fecha_lanzamiento": "1992-09-28",
+                            "creador": "Dan Geisler",
+                            "editores": [ "Electronic Arts" ],
+                            "clasificacion": "T",
+                            "genero": "Carreras",
+                            "modo_juego": "Multijugador",
+                            "licencia": "Comercial",
+                            "imagen": "https://cdn.example.com/images/genesis_game_10.jpg",
+                            "descripcion": "Motocicletas, velocidad y violencia. Golpea a tus oponentes mientras compites en brutales carreras callejeras. Juego de carreras de motocicletas donde puedes golpear a tus oponentes con puñetazos, cadenas o patadas mientras compites en distintas rutas. Mezcla velocidad, violencia y rock & roll. Fue creado como una evolución del primer Road Rash, mejorando el control, gráficos y música, y capturando el espíritu rebelde de la época con una fórmula única de carreras + combate"
+                        }
+                    ]
+                },
+                {
+                    "nombre_consola": "PlayStation 1",
+                    "fabricante": "Sony",
+                    "año_creacion": 1994,
+                    "pais_origen": "Japón",
+                    "juegos": [
+                        {
+                            "nombre": "Final Fantasy VII",
+                            "fecha_lanzamiento": "1997-01-31",
+                            "creador": "Hironobu Sakaguchi",
+                            "editores": [ "Square Enix" ],
+                            "clasificacion": "T",
+                            "genero": "RPG",
+                            "modo_juego": "Un jugador",
+                            "licencia": "Propietaria",
+                            "imagen": "https://cdn.example.com/images/ps1_game_1.jpg",
+                            "descripcion": "Una obra maestra del género RPG. Con una historia profunda, personajes memorables y cinemáticas revolucionarias, FFVII cambió la percepción de los videojuegos en occidente. La historia sigue a Cloud Strife, un exsoldado convertido en mercenario, que se une a un grupo eco-revolucionario llamado AVALANCHE para detener a la megacorporación Shinra, que está agotando la energía vital del planeta. Sin embargo, pronto se enfrentan a una amenaza aún mayor: Sephiroth, un antiguo héroe con un plan apocalíptico. El juego se juega mediante exploración, combates por turnos, uso del sistema de materia para personalizar habilidades, y una narrativa cargada de giros argumentales y momentos emotivos. Fue creado por Square para expandir el alcance global de la saga, aprovechando la potencia de la nueva generación de consolas. Su éxito masivo ayudó a popularizar los JRPG fuera de Japón y consolidó a Final Fantasy como una de las franquicias más importantes de la industria."
+                        },
+                        {
+                            "nombre": "Metal Gear Solid",
+                            "fecha_lanzamiento": "1998-09-03",
+                            "creador": "Hideo Kojima",
+                            "editores": [ "Konami" ],
+                            "clasificacion": "M",
+                            "genero": "Sigilo",
+                            "modo_juego": "Un jugador",
+                            "licencia": "Propietaria",
+                            "imagen": "https://cdn.example.com/images/ps1_game_2.jpg",
+                            "descripcion": "Un hito narrativo en videojuegos. Controla a Solid Snake en una misión de infiltración que mezcla acción, sigilo y cinemáticas cinematográficas.  En el juego, controlas a Solid Snake, un soldado de élite que debe infiltrarse en una instalación nuclear en Alaska llamada Shadow Moses para detener una amenaza terrorista y destruir el arma bípeda conocida como Metal Gear REX. A diferencia de muchos juegos de acción de la época, Metal Gear Solid se enfoca en la infiltración y el sigilo, premiando al jugador por evitar enfrentamientos directos. Cuenta con cámaras de vigilancia, guardias con patrones de patrullaje, y herramientas como el radar, disfraces y dispositivos electrónicos para avanzar sin ser detectado."
+                        },
+                        {
+                            "nombre": "Resident Evil 2",
+                            "fecha_lanzamiento": "1998-01-21",
+                            "creador": "Shinji Mikami",
+                            "editores": [ "Capcom" ],
+                            "clasificacion": "M",
+                            "genero": "Survival Horror",
+                            "modo_juego": "Un jugador",
+                            "licencia": "Propietaria",
+                            "imagen": "https://cdn.example.com/images/ps1_game_3.jpg",
+                            "descripcion": "Uno de los survival horror más icónicos. Leon y Claire deben sobrevivir a una ciudad infestada de zombis. Su atmósfera tensa y puzzles lo convirtieron en leyenda. La historia transcurre en Raccoon City, una ciudad infestada por zombis y criaturas mutantes tras un brote del virus T, creado por la corporación Umbrella. Los protagonistas son Leon S. Kennedy, un policía novato, y Claire Redfield, una joven en busca de su hermano, quienes deben sobrevivir mientras descubren el origen del desastre. El juego se caracteriza por su atmósfera tensa, recursos limitados (como munición y curas), y una narrativa que se desarrolla desde dos perspectivas diferentes, lo que incentivaba múltiples partidas para conocer toda la historia. Mezcla exploración, resolución de acertijos y enfrentamientos con enemigos grotescos."
+                        },
+                        {
+                            "nombre": "Crash Bandicoot",
+                            "fecha_lanzamiento": "1996-09-09",
+                            "creador": "Andy Gavin, Jason Rubin",
+                            "editores": [ "Sony Computer Entertainment" ],
+                            "clasificacion": "E",
+                            "genero": "Plataformas",
+                            "modo_juego": "Un jugador",
+                            "licencia": "Propietaria",
+                            "imagen": "https://cdn.example.com/images/ps1_game_4.jpg",
+                            "descripcion": "Crash se volvió la mascota de Sony con este juego de plataformas vibrante, desafiante y lleno de personalidad. El inicio de una trilogía icónica. El jugador controla a Crash, un bandicut (animal marsupial) mutado accidentalmente por el malvado Dr. Neo Cortex, quien ahora intenta detener al científico para salvar a su novia Tawna y frustrar sus planes de dominación. El juego se desarrolla a través de niveles lineales con desplazamiento hacia adelante, lateral o hacia atrás, combinando saltos precisos, obstáculos peligrosos y enemigos variados. Crash puede girar para atacar, saltar sobre enemigos y recolectar frutas wumpa, vidas y máscaras protectoras."
+                        },
+                        {
+                            "nombre": "Gran Turismo",
+                            "fecha_lanzamiento": "1997-12-23",
+                            "creador": "Kazunori Yamauchi",
+                            "editores": [ "Sony Computer Entertainment" ],
+                            "clasificacion": "E",
+                            "genero": "Simulación de carreras",
+                            "modo_juego": "Un jugador",
+                            "licencia": "Propietaria",
+                            "imagen": "https://cdn.example.com/images/ps1_game_5.jpg",
+                            "descripcion": "El simulador de carreras más realista de su época. Con decenas de autos y pistas, elevó el estándar gráfico y físico en consolas. El juego permite a los jugadores participar en competiciones y desafíos, obtener licencias de conducción, y comprar o modificar vehículos reales de marcas reconocidas como Honda, Toyota, Nissan y más. Su modo Gran Turismo combina progresión y estrategia, mientras que el modo Arcade permite carreras más rápidas y directas. Se creó con el objetivo de representar fielmente la física y el comportamiento de los autos, gracias a años de desarrollo por parte de Kazunori Yamauchi y su equipo. "
+                        },
+                        {
+                            "nombre": "Tekken 3",
+                            "fecha_lanzamiento": "1998-03-20",
+                            "creador": "Katsuhiro Harada",
+                            "editores": [ "Namco" ],
+                            "clasificacion": "T",
+                            "genero": "Pelea",
+                            "modo_juego": "Multijugador",
+                            "licencia": "Propietaria",
+                            "imagen": "https://cdn.example.com/images/ps1_game_6.jpg",
+                            "descripcion": "Uno de los juegos de pelea más populares de todos los tiempos. Tekken 3 ofrecía jugabilidad fluida, nuevos personajes y profundidad técnica. El juego presenta una nueva generación de luchadores, con protagonistas como Jin Kazama, Hwoarang y Ling Xiaoyu, junto a veteranos como Paul Phoenix y Heihachi Mishima. Cada personaje tiene un estilo de combate único, con combinaciones de golpes, lanzamientos y movimientos especiales. Una de sus grandes innovaciones fue el uso más dinámico del eje z (movimiento lateral), mejorando la estrategia en los combates."
+                        },
+                        {
+                            "nombre": "Castlevania: Symphony of the Night",
+                            "fecha_lanzamiento": "1997-03-20",
+                            "creador": "Koji Igarashi",
+                            "editores": [ "Konami" ],
+                            "clasificacion": "T",
+                            "genero": "Metroidvania",
+                            "modo_juego": "Un jugador",
+                            "licencia": "Propietaria",
+                            "imagen": "https://cdn.example.com/images/ps1_game_7.jpg",
+                            "descripcion": "Revolucionó la franquicia Castlevania con exploración no lineal, mejoras de personaje y una banda sonora majestuosa. Es considerado uno de los mejores juegos 2D jamás hechos.  A diferencia de los títulos anteriores de la saga, este juego introdujo un enfoque no lineal, con elementos de RPG y un vasto castillo por explorar, marcando el nacimiento del estilo conocido como Metroidvania. En el juego controlas a Alucard, el hijo de Drácula, quien entra al castillo para detener el resurgimiento del mal tras la desaparición de Richter Belmont. A medida que avanzas, obtienes nuevas habilidades, armas y hechizos que te permiten acceder a zonas previamente inaccesibles. Fue creado para dar un giro a la fórmula tradicional de Castlevania, apostando por una experiencia más profunda y libre, con énfasis en la atmósfera gótica, el arte detallado, la música memorable y una jugabilidad refinada. Aunque en su lanzamiento fue discretamente recibido, con el tiempo se convirtió en uno de los juegos más influyentes y valorados del género."
+                        },
+                        {
+                            "nombre": "Spyro the Dragon",
+                            "fecha_lanzamiento": "1998-09-10",
+                            "creador": "Insomniac Games",
+                            "editores": [ "Sony Computer Entertainment" ],
+                            "clasificacion": "E",
+                            "genero": "Plataformas 3D",
+                            "modo_juego": "Un jugador",
+                            "licencia": "Propietaria",
+                            "imagen": "https://cdn.example.com/images/ps1_game_8.jpg",
+                            "descripcion": "Colorido y accesible, Spyro ofrecía un mundo abierto en 3D ideal para jugadores más jóvenes, con controles precisos y humor encantador. En este juego controlas a Spyro, un pequeño dragón púrpura con una gran personalidad, que debe rescatar a sus compañeros dragones y recuperar el mundo de la amenaza del malvado Gnasty Gnorc. El juego combina exploración en mundos abiertos, recolección de gemas y combate sencillo usando el aliento de fuego, embestidas y saltos ágiles. Cada nivel ofrece diferentes retos, enemigos y secretos por descubrir, fomentando la exploración y el uso de habilidades especiales de Spyro."
+                        },
+                        {
+                            "nombre": "Tomb Raider",
+                            "fecha_lanzamiento": "1996-10-25",
+                            "creador": "Toby Gard",
+                            "editores": [ "Eidos Interactive" ],
+                            "clasificacion": "T",
+                            "genero": "Aventura",
+                            "modo_juego": "Un jugador",
+                            "licencia": "Comercial",
+                            "imagen": "https://cdn.example.com/images/ps1_game_9.jpg",
+                            "descripcion": "Lara Croft se convirtió en un ícono con este título pionero de aventura en 3D. Plataformas, exploración, combate y arqueología en una combinación revolucionaria.  Fue desarrollado por Core Design y presenta a Lara Croft, una arqueóloga y exploradora, como protagonista. El juego combina exploración de tumbas antiguas, resolución de puzzles, y combates contra enemigos y trampas mortales. Lara debe atravesar escenarios llenos de desafíos para encontrar tesoros y secretos ocultos, usando su agilidad, armas y habilidades para sobrevivir."
+                        },
+                        {
+                            "nombre": "Tony Hawk's Pro Skater 2",
+                            "fecha_lanzamiento": "2000-09-20",
+                            "creador": "Neversoft",
+                            "editores": [ "Activision" ],
+                            "clasificacion": "T",
+                            "genero": "Deportes",
+                            "modo_juego": "Multijugador",
+                            "licencia": "Comercial",
+                            "imagen": "https://cdn.example.com/images/ps1_game_10.jpg",
+                            "descripcion": "Uno de los juegos de skate más influyentes. Controles fluidos, trucos locos y una banda sonora memorable lo convirtieron en un fenómeno cultural.  Es la segunda entrega de la exitosa saga de skateboarding protagonizada por el legendario skater Tony Hawk y otros profesionales del deporte. El juego permite a los jugadores realizar trucos espectaculares como ollies, flips, grabs y grinds en una variedad de escenarios urbanos y parques de skate. Una de sus mayores innovaciones fue la introducción del manual, una técnica que permitió encadenar combos más largos y complejos. También incluye un modo carrera con objetivos por nivel, un sistema de mejora de habilidades y un editor de parques."
+                        }
+                    ]
+                }
+
+            ],
+            "juegos_de_mesa": [
+                {
+                    "nombre": "Monopoly",
+                    "creador": "Charles Darrow",
+                    "año_lanzamiento": 1935,
+                    "fecha_lanzamiento": "1935-11-05",
+                    "genero": "Económico",
+                    "estilo_juego": "Económico / Competitivo",
+                    "descripcion": "Juego de bienes raíces donde los jugadores compran, venden y arriendan propiedades. El objetivo es hacer quebrar a los demás jugadores acumulando monopolios y cobrando rentas elevadas. Incluye tarjetas de suerte, impuestos, hipotecas y mejoras como casas y hoteles."
+                },
+                {
+                    "nombre": "Catan",
+                    "creador": "Klaus Teuber",
+                    "año_lanzamiento": 1995,
+                    "fecha_lanzamiento": "1995-04-01",
+                    "genero": "Estrategia",
+                    "estilo_juego": "Gestión de recursos / Colonización",
+                    "descripcion": "Los jugadores colonizan una isla, recolectan recursos (madera, ladrillo, lana, trigo y mineral) y construyen carreteras, pueblos y ciudades. El comercio entre jugadores es clave. Gana quien llegue a 10 puntos de victoria construyendo y negociando de forma efectiva."
+                },
+                {
+                    "nombre": "Risk",
+                    "creador": "Albert Lamorisse",
+                    "año_lanzamiento": 1957,
+                    "fecha_lanzamiento": "1957-08-15",
+                    "genero": "Estrategia militar",
+                    "estilo_juego": "Estrategia militar / Control de área",
+                    "descripcion": "Juego de conquista global. Cada jugador controla un ejército y lucha por dominar territorios en un mapa mundial. Las batallas se resuelven con dados. Gana el jugador que conquiste todos los territorios o cumpla su misión secreta."
+                },
+                {
+                    "nombre": "Clue (Cluedo)",
+                    "creador": "Anthony E. Pratt",
+                    "año_lanzamiento": 1949,
+                    "fecha_lanzamiento": "1949-06-01",
+                    "genero": "Misterio",
+                    "estilo_juego": "Deducción / Misterio",
+                    "descripcion": "Juego de asesinato en una mansión. Los jugadores deben descubrir quién cometió el crimen, con qué arma y en qué habitación. A través de la deducción lógica y las pistas ocultas, los jugadores eliminan posibilidades hasta resolver el caso."
+                },
+                {
+                    "nombre": "Scrabble",
+                    "creador": "Alfred Butts",
+                    "año_lanzamiento": 1938,
+                    "fecha_lanzamiento": "1938-07-01",
+                    "genero": "Educativo / Palabras",
+                    "estilo_juego": "Palabras / Competencia lingüística",
+                    "descripcion": "Juego de formación de palabras. Los jugadores usan fichas con letras para formar palabras en un tablero. Cada letra tiene un valor, y hay casillas con bonificaciones. Gana quien acumule más puntos al final de la partida."
+                },
+                {
+                    "nombre": "Uno",
+                    "creador": "Merle Robbins",
+                    "año_lanzamiento": 1971,
+                    "fecha_lanzamiento": "1971-07-01",
+                    "genero": "Familiar / Cartas",
+                    "estilo_juego": "Cartas / Eliminación",
+                    "descripcion": "Juego de cartas rápido donde los jugadores deben deshacerse de todas sus cartas combinando colores o números. Incluye cartas de acción como 'roba 2', 'salta', 'cambio de sentido' y 'comodines'. Grita 'UNO' al quedarte con una carta o recibirás penalización."
+                },
+                {
+                    "nombre": "Jenga",
+                    "creador": "Leslie Scott",
+                    "año_lanzamiento": 1983,
+                    "fecha_lanzamiento": "1983-04-15",
+                    "genero": "Habilidad / Fiesta",
+                    "estilo_juego": "Destreza / Física",
+                    "descripcion": "Juego de habilidad en el que los jugadores retiran bloques de una torre de madera y los colocan en la parte superior sin que esta se derrumbe. Pierde quien haga caer la torre. Se juega por turnos y exige pulso y estrategia."
+                },
+                {
+                    "nombre": "Trivial Pursuit",
+                    "creador": "Scott Abbott y Chris Haney",
+                    "año_lanzamiento": 1981,
+                    "fecha_lanzamiento": "1981-12-10",
+                    "genero": "Trivia / Conocimiento",
+                    "estilo_juego": "Trivia / Conocimiento general",
+                    "descripcion": "Juego de preguntas y respuestas. Los jugadores deben recorrer un tablero respondiendo preguntas de diferentes categorías para ganar cuñas. Gana quien complete su ficha con las seis cuñas de colores y responda correctamente la pregunta final."
+                },
+                {
+                    "nombre": "Pictionary",
+                    "creador": "Robert Angel",
+                    "año_lanzamiento": 1985,
+                    "fecha_lanzamiento": "1985-06-01",
+                    "genero": "Fiesta / Dibujo",
+                    "estilo_juego": "Dibujo / Juego de fiesta",
+                    "descripcion": "Los jugadores deben dibujar una palabra o frase sin hablar, mientras su equipo intenta adivinarla antes de que se acabe el tiempo. Las categorías incluyen objetos, acciones y lugares. Gana el equipo que adivine más palabras."
+                },
+                {
+                    "nombre": "Ajedrez",
+                    "creador": "Origen histórico (India, siglo VI)",
+                    "año_lanzamiento": 1475,
+                    "fecha_lanzamiento": "1475-01-01",
+                    "genero": "Clásico / Estrategia",
+                    "estilo_juego": "Estrategia abstracta",
+                    "descripcion": "Juego de estrategia para dos jugadores. Cada uno controla 16 piezas con movimientos únicos. El objetivo es dar jaque mate al rey rival. Considerado un clásico universal de lógica, táctica y pensamiento anticipado."
+                }
+            ],
+            "juegosVR": [
+                {
+                    "nombre": "The Walking Dead: Saints & Sinners",
+                    "año": 2020,
+                    "tipo": "Juego completo",
+                    "creador": "Skydance Interactive",
+                    "género": "Survival Horror, Acción",
+                    "descripcion": "En este juego de supervivencia en primera persona, te sumergís en una Nueva Orleans infestada de zombis. Con una física realista y un sistema de combate cuerpo a cuerpo preciso, podés usar armas improvisadas, cuchillos, armas de fuego y más. Es ideal para caminadoras como Virtuix Omni o Kat Walk C2, ya que permite una exploración libre y natural del entorno postapocalíptico, aumentando la inmersión al caminar y esquivar físicamente los ataques enemigos."
+                },
+                {
+                    "nombre": "Pavlov VR",
+                    "año": 2017,
+                    "tipo": "Multijugador competitivo",
+                    "creador": "Vankrupt Games",
+                    "género": "FPS, Acción",
+                    "descripcion": "Pavlov VR es un shooter multijugador en línea que ofrece partidas rápidas y realistas. Simula enfrentamientos entre soldados con armamento realista y una variedad de mapas inspirados en conflictos modernos y clásicos. Su soporte para caminadoras VR permite que los jugadores se muevan libremente por el campo de batalla con sus propios pasos, ideal para una experiencia de combate completamente física y envolvente."
+                },
+                {
+                    "nombre": "Onward",
+                    "año": 2016,
+                    "tipo": "Multijugador táctico",
+                    "creador": "Downpour Interactive",
+                    "género": "FPS, Simulación militar",
+                    "descripcion": "Onward es un shooter militar táctico que pone el foco en la cooperación en equipo, el realismo y la comunicación por voz. Compatible con caminadoras VR, el jugador puede moverse de forma física a través de los mapas, tomando coberturas, flanqueando enemigos y viviendo una experiencia de guerra táctica lo más realista posible. Es ideal para sesiones cooperativas o competitivas con inmersión total."
+                },
+                {
+                    "nombre": "Blade & Sorcery",
+                    "año": 2018,
+                    "tipo": "Sandbox de combate",
+                    "creador": "WarpFrog",
+                    "género": "Acción, Simulación",
+                    "descripcion": "Blade & Sorcery es una simulación de combate medieval basada en física realista. Los movimientos del cuerpo completo, el sistema de colisiones por huesos y el soporte para mods hacen que cada golpe, bloqueo y esquive se sienta auténtico. Con caminadoras VR, podés caminar, esquivar y luchar con total libertad física, haciendo que cada enfrentamiento cuerpo a cuerpo sea aún más visceral e inmersivo."
+                },
+                {
+                    "nombre": "Skyrim VR",
+                    "año": 2018,
+                    "tipo": "RPG de mundo abierto",
+                    "creador": "Bethesda Game Studios",
+                    "género": "RPG, Fantasía, Aventura",
+                    "descripcion": "Skyrim VR es la versión en realidad virtual del clásico RPG The Elder Scrolls V: Skyrim. Ofrece el mundo abierto completo con soporte para mods de cuerpo completo y caminadoras. Podés explorar ciudades, mazmorras y montañas caminando realmente con dispositivos como Kat Walk C2 o Virtuix Omni, luchando con espadas, arcos o hechizos con tus propios movimientos."
+                },
+                {
+                    "nombre": "Boneworks / Bonelab",
+                    "año": 2019,
+                    "tipo": "Aventura de física avanzada",
+                    "creador": "Stress Level Zero",
+                    "género": "Acción, Aventura, Simulación Física",
+                    "descripcion": "Boneworks y su secuela Bonelab están diseñados con un motor de física que rastrea el cuerpo completo. Cada parte del cuerpo tiene peso e interacción realista con el entorno. Son ideales para caminadoras VR, ya que podés caminar, trepar, escalar, empujar y explorar entornos complejos con total libertad física. Estos juegos ofrecen una experiencia intensa y desafiante con interacción 1:1 con el entorno."
+                },
+                {
+                    "nombre": "Zero Caliber VR",
+                    "año": 2020,
+                    "tipo": "Shooter cooperativo",
+                    "creador": "XREAL Games",
+                    "género": "FPS, Acción militar",
+                    "descripcion": "Zero Caliber VR es un shooter en primera persona ambientado en un conflicto moderno. Permite personalizar armas, trabajar en equipo y avanzar en una campaña narrativa. Compatible con caminadoras VR, permite que los jugadores se muevan libremente y adopten tácticas reales de combate usando su cuerpo, generando una experiencia similar a Call of Duty en VR con mucha inmersión."
+                }
+            ]
+        }
+    ]
 }
  
