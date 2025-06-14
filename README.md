@@ -45,3 +45,5 @@ SABADO 14 / JUNIO: videollamada , inicio de los primeros codigos, definicion de 
 
 https://app.diagrams.net/  para hacer el uml
 
+
+api https://run.mocky.io/v3/9b58d6ab-5447-449d-9f75-601dd6334f34
