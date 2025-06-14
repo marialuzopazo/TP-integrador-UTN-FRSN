@@ -11,16 +11,15 @@
 * Candela
 * Maria luz
 ----------------------------------------
-Nuestro proyecto es un "Gestor de Colección de Videojuegos Retro", una aplicación de consola en C# que te permite:
-* 😊 login registro del usuario
-  
-* 📂 Organizar tu colección personal de juegos clásicos (como Super Mario Bros o Zelda), guardando sus datos (nombre, plataforma, año).
+# El Gestor de Juegos 
+es una aplicación de consola desarrollada en C# que permite a los usuarios organizar su colección personal de juegos (de mesa, consola y realidad virtual) y crear un museo virtual con sus títulos favoritos.
 
-* 🌐 Buscar automáticamente información de juegos usando una API real (IGDB), evitando ingresar datos manualmente.
-
-* 🎮 Explorar la colección en un "Museo Retro" interactivo, con visualización estilo arcade.
-
-* 💾 Guardar todo localmente en un archivo JSON (para que no se pierda al cerrar el programa).
+# Objetivos de la aplicación: 
+Gestionar una colección personalizada de juegos con opciones para agregar, eliminar, modificar y visualizar detalles.
+Crear un museo interactivo donde el usuario exhiba sus juegos favoritos con una presentación visual atractiva en consola.
+ Implementar persistencia de datos mediante serialización en JSON para guardar y cargar la información del usuario.
+ Consumir una API (en nuestro caso, simulada y personalizada) para obtener información adicional sobre los juegos.
+ Aplicar conceptos de POO: herencia, encapsulamiento, interfaces, enumeraciones y relaciones de agregación/composición.
 
 --------------------------------------
 ## DIARIO DE AVANCES DEL EQUIPO: 📰
@@ -40,8 +39,9 @@ en consecuencia, se buscaron los datos necesarios para el tp + se realizaron los
 
 MARTES 10 / JUNIO : revision del UML por el docente, tareas: mejorar el UML: colección unir con usuario - definir la relación de museo - modificar el nombre juego en lista de colección ( debe ser videojuego ) - chequear videojuego retro / proxima revisión VIERNES 13/06
 
+VIERNES 13 / JUNIO: docente revisó UML - observaciones: interfaz / clases que cumplan la herencia como por ejemplo clase juego y sub clase juego de mesa / de realidad virtual / de consola
+
+SABADO 14 / JUNIO: videollamada , inicio de los primeros codigos, definicion de una interfaz valida util para el gestor + armado de documento en pdf de presentación del gestor + UML finalizado 
 
 https://app.diagrams.net/  para hacer el uml
 
-borrador para tratar en videollamada del sabado la composicion y nueva estructura del gestor de juegos ! 
-![borradorpararearmarel gestor](https://github.com/user-attachments/assets/34bb0a03-1a04-42b5-91c1-a3005f77bf1f)
