@@ -9,10 +9,10 @@ namespace TP_GRUPAL
 
       public class Usuario : IAccionesUsuario
       {
-        public string Nombre { get; set; }
-        public string Correo { get; set; }
-        public string Contrasena { get; set; }
-        public List<Juego> Coleccion { get; set; }
+        private string Nombre { get; set; }
+        private string Correo { get; set; }
+        private string Contrasena { get; set; }
+        private List<Juego> Coleccion { get; set; }
 
         public Usuario(string nombre, string correo, string contrasena)
         {
