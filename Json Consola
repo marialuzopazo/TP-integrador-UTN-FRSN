@@ -1,29 +1,8 @@
 {
-  "openapi": "3.1.0",
-  "info": {
-    "title": "Retro Consoles and Games API",
-    "version": "1.0.0",
-    "description": "API que proporciona detalles sobre consolas retro y sus juegos más icónicos"
-  },
-  "servers": [
+  "juegos_por_consola": [
     {
-      "url": "https://api.retrogames.example.com"
-    }
-  ],
-  "paths": {
-    "/consoles": {
-      "get": {
-        "summary": "Lista todas las consolas retro",
-        "operationId": "getConsoles",
-        "responses": {
-          "200": {
-            "description": "Lista de consolas",
-            "content": {
-              "application/json": {
-                "example": [
-                  {
-  "nombre": "Amber Pegasus",
-  "fabricante": "Amber Electronics",
+      "nombre_consola":"Amber Pegasus",
+      "fabricante": "Amber Electronics",
   "año_creacion": 1984,
   "pais_origen": "Japón",
   "juegos": [
@@ -199,14 +178,10 @@
                 "como "Oni". El objetivo es sobrevivir el mayor tiempo posible, derrotando a los Oni y acumulando puntos para lograr la puntuación más alta."
                 "El juego se caracteriza por su ritmo rápido, controles sencillos y un estilo visual inspirado en el cyberpunk. A medida que avanzas, los enemigos se vuelven más desafiantes, poniendo a prueba"
                 "tus reflejos y habilidades de combate."
-    }
-  ]
-}
-
-                    ]
-                  },
-                 {
-  "nombre": "Arcade",
+       }
+      ]
+    },
+"nombre_consola":"Arcade",
   "fabricante": "Diversos",
   "año_creacion": 1971,
   "pais_origen": "Estados Unidos",
@@ -363,11 +338,7 @@
     }
   ]
 },
-
-        ]
-      },
-    {
-  "nombre": "NES",
+"nombre_consola":  "NES",
   "fabricante": "Nintendo",
   "año_creacion": 1983,
   "pais_origen": "Japón",
@@ -523,11 +494,7 @@
     }
   ]
 },
-
-                    ]
-                  },
-                 {
-  "nombre": "Sega Genesis",
+"nombre_consola":"Sega Genesis",
   "fabricante": "Sega",
   "año_creacion": 1988,
   "pais_origen": "Japón",
@@ -678,11 +645,7 @@
     }
   ]
 },
-
-                    ]
-                  },
-                  {
-  "nombre": "PlayStation 1",
+"nombre_consola": "PlayStation 1",
   "fabricante": "Sony",
   "año_creacion": 1994,
   "pais_origen": "Japón",
@@ -833,34 +796,13 @@
       "descripcion": "Uno de los juegos de skate más influyentes. Controles fluidos, trucos locos y una banda sonora memorable lo convirtieron en un fenómeno cultural.  Es la segunda entrega de la exitosa saga de skateboarding protagonizada por el legendario skater Tony Hawk y otros profesionales del deporte."
                "El juego permite a los jugadores realizar trucos espectaculares como ollies, flips, grabs y grinds en una variedad de escenarios urbanos y parques de skate. Una de sus mayores innovaciones fue la introducción del manual, una técnica que permitió encadenar combos más largos y complejos. También "
                 "incluye un modo carrera con objetivos por nivel, un sistema de mejora de habilidades y un editor de parques."
-                      }
-                    ]
-                  }
-                ]
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-},
-"/boardgames": {
-      "get": {
-        "summary": "Lista todos los juegos de mesa",
-        "operationId": "getBoardGames",
-        "responses": {
-          "200": {
-            "description": "Lista de juegos de mesa",
-            "content": {
-              "application/json": {
-                "example": [
-{
-  "tipo": "juegos_de_mesa",
-  "origen": "Internacional",
-  "juegos": [
+     }
+  ] 
+}
+  ],
+  "juegos_de_mesa":[
     {
-      "nombre": "Monopoly",
+      nombre": "Monopoly",
       "creador": "Charles Darrow",
       "año_lanzamiento": 1935,
       "fecha_lanzamiento": "1935-11-05",
@@ -948,15 +890,65 @@
       "genero": "Clásico / Estrategia",
       "estilo_juego": "Estrategia abstracta",
       "descripcion": "Juego de estrategia para dos jugadores. Cada uno controla 16 piezas con movimientos únicos. El objetivo es dar jaque mate al rey rival. Considerado un clásico universal de lógica, táctica y pensamiento anticipado."
-                }
-              ]
-             }
-            }
-          }
-        }
-      }
     }
-  }
-},
-
-
+  ],
+  "juegosVR": [
+    {
+      "nombre": "The Walking Dead: Saints & Sinners",
+      "año": 2020,
+      "tipo": "Juego completo",
+      "creador": "Skydance Interactive",
+      "género": "Survival Horror, Acción",
+      "descripcion": "En este juego de supervivencia en primera persona, te sumergís en una Nueva Orleans infestada de zombis. Con una física realista y un sistema de combate cuerpo a cuerpo preciso, podés usar armas improvisadas, cuchillos, armas de fuego y más. Es ideal para caminadoras como Virtuix Omni o Kat Walk C2, ya que permite una exploración libre y natural del entorno postapocalíptico, aumentando la inmersión al caminar y esquivar físicamente los ataques enemigos."
+    },
+    {
+      "nombre": "Pavlov VR",
+      "año": 2017,
+      "tipo": "Multijugador competitivo",
+      "creador": "Vankrupt Games",
+      "género": "FPS, Acción",
+      "descripcion": "Pavlov VR es un shooter multijugador en línea que ofrece partidas rápidas y realistas. Simula enfrentamientos entre soldados con armamento realista y una variedad de mapas inspirados en conflictos modernos y clásicos. Su soporte para caminadoras VR permite que los jugadores se muevan libremente por el campo de batalla con sus propios pasos, ideal para una experiencia de combate completamente física y envolvente."
+    },
+    {
+      "nombre": "Onward",
+      "año": 2016,
+      "tipo": "Multijugador táctico",
+      "creador": "Downpour Interactive",
+      "género": "FPS, Simulación militar",
+      "descripcion": "Onward es un shooter militar táctico que pone el foco en la cooperación en equipo, el realismo y la comunicación por voz. Compatible con caminadoras VR, el jugador puede moverse de forma física a través de los mapas, tomando coberturas, flanqueando enemigos y viviendo una experiencia de guerra táctica lo más realista posible. Es ideal para sesiones cooperativas o competitivas con inmersión total."
+    },
+    {
+      "nombre": "Blade & Sorcery",
+      "año": 2018,
+      "tipo": "Sandbox de combate",
+      "creador": "WarpFrog",
+      "género": "Acción, Simulación",
+      "descripcion": "Blade & Sorcery es una simulación de combate medieval basada en física realista. Los movimientos del cuerpo completo, el sistema de colisiones por huesos y el soporte para mods hacen que cada golpe, bloqueo y esquive se sienta auténtico. Con caminadoras VR, podés caminar, esquivar y luchar con total libertad física, haciendo que cada enfrentamiento cuerpo a cuerpo sea aún más visceral e inmersivo."
+    },
+    {
+      "nombre": "Skyrim VR",
+      "año": 2018,
+      "tipo": "RPG de mundo abierto",
+      "creador": "Bethesda Game Studios",
+      "género": "RPG, Fantasía, Aventura",
+      "descripcion": "Skyrim VR es la versión en realidad virtual del clásico RPG The Elder Scrolls V: Skyrim. Ofrece el mundo abierto completo con soporte para mods de cuerpo completo y caminadoras. Podés explorar ciudades, mazmorras y montañas caminando realmente con dispositivos como Kat Walk C2 o Virtuix Omni, luchando con espadas, arcos o hechizos con tus propios movimientos."
+    },
+    {
+      "nombre": "Boneworks / Bonelab",
+      "año": 2019,
+      "tipo": "Aventura de física avanzada",
+      "creador": "Stress Level Zero",
+      "género": "Acción, Aventura, Simulación Física",
+      "descripcion": "Boneworks y su secuela Bonelab están diseñados con un motor de física que rastrea el cuerpo completo. Cada parte del cuerpo tiene peso e interacción realista con el entorno. Son ideales para caminadoras VR, ya que podés caminar, trepar, escalar, empujar y explorar entornos complejos con total libertad física. Estos juegos ofrecen una experiencia intensa y desafiante con interacción 1:1 con el entorno."
+    },
+    {
+      "nombre": "Zero Caliber VR",
+      "año": 2020,
+      "tipo": "Shooter cooperativo",
+      "creador": "XREAL Games",
+      "género": "FPS, Acción militar",
+      "descripcion": "Zero Caliber VR es un shooter en primera persona ambientado en un conflicto moderno. Permite personalizar armas, trabajar en equipo y avanzar en una campaña narrativa. Compatible con caminadoras VR, permite que los jugadores se muevan libremente y adopten tácticas reales de combate usando su cuerpo, generando una experiencia similar a Call of Duty en VR con mucha inmersión."
+    }
+  ]
+}
+ 
