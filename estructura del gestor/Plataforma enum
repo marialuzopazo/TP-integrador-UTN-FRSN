@@ -1,8 +1,0 @@
-internal enum Plataforma
-{
-    NES,
-    ARCADE,
-    SEGA,
-    AMANDA_PEGASUS,
-    PLAYSTATION
-}
