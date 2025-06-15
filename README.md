@@ -12,11 +12,12 @@
 * Maria luz
 ----------------------------------------
 # El Gestor de Juegos 
-es una aplicación de consola desarrollada en C# que permite a los usuarios organizar su colección personal de juegos (de mesa, consola y realidad virtual) y crear un museo virtual con sus títulos favoritos.
+es una aplicación de consola desarrollada en C# que permite a los usuarios organizar su colección personal de juegos (de mesa, consola y realidad virtual) una sala de juego y un historial que pueda guardar no solo los estados de los juegos si no un comentario sobre el mismo 
 
 # Objetivos de la aplicación: 
 Gestionar una colección personalizada de juegos con opciones para agregar, eliminar, modificar y visualizar detalles.
-Crear un museo interactivo donde el usuario exhiba sus juegos favoritos con una presentación visual atractiva en consola.
+gestionar una sala de juego en donde se pueda modificar los estados de los juegos ( ejemplo: juego finalizado ) 
+revisar el historial de juegos en donde no solo se podra ver los estados de los juegos si no que tambièn se pueda realizar un comentario sobre la experiencia con el mismo
  Implementar persistencia de datos mediante serialización en JSON para guardar y cargar la información del usuario.
  Consumir una API (en nuestro caso, simulada y personalizada) para obtener información adicional sobre los juegos.
  Aplicar conceptos de POO: herencia, encapsulamiento, interfaces, enumeraciones y relaciones de agregación/composición.
@@ -43,7 +44,10 @@ VIERNES 13 / JUNIO: docente revisó UML - observaciones: interfaz / clases que c
 
 SABADO 14 / JUNIO: videollamada , inicio de los primeros codigos, definicion de una interfaz valida util para el gestor + armado de documento en pdf de presentación del gestor + UML finalizado 
 
-https://app.diagrams.net/  para hacer el uml
+DOMINGO 15 / JUNIO: videollamada para prueba de cada parte del codigo y el menu por consola, limpieza del repositorio, definimos armar un archivo pdf con la presentación del trabajo para la entrega y pactamos nueva reunion en meet el LUNES 16 / JUNIO para definir detalles y entrega del TP 
 
+sitio web utilizado para realizar el UML:
+https://app.diagrams.net/  
 
+link de la Api simulada: 
 api https://run.mocky.io/v3/9b58d6ab-5447-449d-9f75-601dd6334f34
