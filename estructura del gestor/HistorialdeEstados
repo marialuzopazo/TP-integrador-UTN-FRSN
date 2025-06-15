@@ -1,1 +1,69 @@
-dsadasdsa
+public class HistorialDeEstados
+{
+    // Atributos privados
+    private readonly string _nombreJuego;
+    private readonly List<DateTime> _fechasCambios;
+    private readonly List<EstadoJuego> _estados;
+    private readonly List<string> _comentarios;
+
+    // Constructor
+    public HistorialDeEstados(string nombreJuego)
+    {
+        if (string.IsNullOrEmpty(nombreJuego))
+            throw new ArgumentException("El nombre del juego es requerido");
+        
+        _nombreJuego = nombreJuego;
+        _fechasCambios = new List<DateTime>();
+        _estados = new List<EstadoJuego>();
+        _comentarios = new List<string>();
+    }
+
+    // Propiedad pública para el nombre del juego
+    public string NombreJuego => _nombreJuego;
+
+    // Método para registrar un cambio de estado
+    public void RegistrarCambio(EstadoJuego nuevoEstado, string comentario = "")
+    {
+        _fechasCambios.Add(DateTime.Now);
+        _estados.Add(nuevoEstado);
+        _comentarios.Add(comentario ?? "");
+    }
+
+    // Obtener el estado actual
+    public EstadoJuego ObtenerEstadoActual()
+    {
+        return _estados.Count == 0 ? EstadoJuego.NoIniciado : _estados[^1];
+    }
+
+    // Obtener días en el estado actual
+    public int ObtenerDiasEnEstadoActual()
+    {
+        if (_fechasCambios.Count == 0) return 0;
+        return (DateTime.Now - _fechasCambios[^1]).Days;
+    }
+
+    // Obtener historial formateado
+    public string ObtenerHistorialFormateado()
+    {
+        if (_estados.Count == 0)
+            return $"No hay registros de estado para {_nombreJuego}";
+        
+        var resultado = $"Historial de {_nombreJuego}:\n";
+        resultado += "------------------------------\n";
+        
+        for (int i = 0; i < _estados.Count; i++)
+        {
+            resultado += $"{_fechasCambios[i]:dd/MM/yy HH:mm} - {_estados[i]}";
+            
+            if (!string.IsNullOrEmpty(_comentarios[i]))
+                resultado += $": {_comentarios[i]}";
+            
+            resultado += "\n";
+        }
+        
+        resultado += "------------------------------\n";
+        resultado += $"Estado actual: {ObtenerEstadoActual()} (desde hace {ObtenerDiasEnEstadoActual()} días)";
+        
+        return resultado;
+    }
+}
