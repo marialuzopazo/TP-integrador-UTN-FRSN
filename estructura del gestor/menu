@@ -33,7 +33,7 @@ class Program
         juegosDisponibles.Add(new JuegoPorConsola("Super Mario", 1985, "Nintendo"));
     }
 
-    static void MostrarBienvenida()
+    static void MostrarBienvenida() 
     {
         Console.Clear();
         Console.WriteLine("====================================");
@@ -48,7 +48,7 @@ class Program
         Console.WriteLine("1. Iniciar sesión");
         Console.WriteLine("2. Registrar nuevo usuario");
         Console.WriteLine("3. Salir");
-        Console.Write("Seleccione una opción: ");
+        Console.WriteLinw("Seleccione una opción: ");
 
         switch (Console.ReadLine())
         {
