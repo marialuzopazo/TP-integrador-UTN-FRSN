@@ -1,0 +1,410 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Text.Json;
+using System.IO;
+using System.Net.Http;
+using static Misjuegos.Class1;
+
+namespace Misjuegos
+{
+    internal class Program
+    {
+        private static Usuario usuarioActual;
+        private static List<Usuario> usuarios = new List<Usuario>();
+        private static List<Juego> juegosDisponibles = new List<Juego>();
+
+        static async Task Main(string[] args)
+        {
+            HttpClient client = new HttpClient();
+            string url = $"https://run.mocky.io/v3/9b58d6ab-5447-449d-9f75-601dd6334f34";
+            string jsonconfig1 = await client.GetStringAsync(url);
+            Rootobject root = JsonSerializer.Deserialize<Rootobject>(jsonconfig1);
+
+            foreach (var consola in root.juegos_por_consola)
+            {
+                if (consola.juegos != null)
+                {
+                    foreach (var juego in consola.juegos)
+                    {
+                        if (juego.juegos != null)
+                        {
+                            foreach (var subJuego in juego.juegos)
+                            {
+                                Plataforma plataformaParseada;
+                                if (!Enum.TryParse(subJuego.plataforma, true, out plataformaParseada))
+                                {
+                                    Console.WriteLine($"Plataforma desconocida: {subJuego.plataforma}");
+                                    continue;
+                                }
+
+                                var juegoConsola = new JuegoporConsola(
+                                    subJuego.nombre,
+                                    ParseYear(subJuego.fecha_lanzamiento),
+                                    subJuego.creador,
+                                    subJuego.genero,
+                                    EstadoJuego.NoIniciado,
+                                    plataformaParseada
+                                );
+                                juegosDisponibles.Add(juegoConsola);
+                            }
+                        }
+                    }
+                }
+
+                if (consola.juegos_de_mesa != null)
+                {
+                    foreach (var mesa in consola.juegos_de_mesa)
+                    {
+                        var juegoMesa = new JuegodeMesa(
+                            mesa.nombre,
+                            mesa.año_lanzamiento,
+                            mesa.creador,
+                            mesa.genero,
+                            EstadoJuego.NoIniciado,
+                            2,
+                            30
+                        );
+                        juegosDisponibles.Add(juegoMesa);
+                    }
+                }
+
+                if (consola.juegosVR != null)
+                {
+                    foreach (var vr in consola.juegosVR)
+                    {
+                        var juegoVR = new JuegoderealidadVirtual(
+                            vr.nombre,
+                            vr.año,
+                            vr.creador,
+                            vr.género,
+                            EstadoJuego.NoIniciado,
+                            "Genérico VR",
+                            true
+                        );
+                        juegosDisponibles.Add(juegoVR);
+                    }
+                }
+            }
+
+            InicializarDatos();
+            MostrarBienvenida();
+
+            while (true)
+            {
+                if (usuarioActual == null)
+                {
+                    MostrarMenuInicio();
+                }
+                else
+                {
+                    MostrarMenuPrincipal();
+                }
+            }
+        }
+
+        // Método ParseYear añadido para solucionar el error
+        static int ParseYear(string fecha)
+        {
+            if (DateTime.TryParse(fecha, out var fechaDate))
+                return fechaDate.Year;
+
+            return 2000; // Valor por defecto si no se puede parsear
+        }
+
+        static void InicializarDatos()
+        {
+            usuarios.Add(new Usuario("admin", "admin@juegos.com", "admin123"));
+
+            juegosDisponibles.Add(new JuegodeMesa(
+                "Ajedrez", 2020, "Desconocido", "Estrategia",
+                EstadoJuego.NoIniciado, 2, 30
+            ));
+
+            juegosDisponibles.Add(new JuegoderealidadVirtual(
+                "Beat Saber", 2022, "Beat Games", "Musical",
+                EstadoJuego.NoIniciado, "Oculus Quest", true
+            ));
+        }
+
+        static void MostrarBienvenida()
+        {
+            Console.Clear();
+            Console.WriteLine("====================================");
+            Console.WriteLine("      GESTOR DE JUEGOS v1.0");
+            Console.WriteLine("====================================");
+            Console.WriteLine();
+        }
+
+        static void MostrarMenuInicio()
+        {
+            Console.WriteLine("\nMenú de Inicio:");
+            Console.WriteLine("1. Iniciar sesión");
+            Console.WriteLine("2. Registrar nuevo usuario");
+            Console.WriteLine("3. Salir");
+            Console.Write("Seleccione una opción: ");
+
+            switch (Console.ReadLine())
+            {
+                case "1":
+                    IniciarSesion();
+                    break;
+                case "2":
+                    RegistrarUsuario();
+                    break;
+                case "3":
+                    Environment.Exit(0);
+                    break;
+                default:
+                    Console.WriteLine("Opción no válida. Intente nuevamente.");
+                    break;
+            }
+        }
+
+        static void IniciarSesion()
+        {
+            Console.Write("\nNombre de usuario: ");
+            string nombre = Console.ReadLine();
+            Console.Write("Contraseña: ");
+            string contrasena = Console.ReadLine();
+
+            usuarioActual = usuarios.Find(u => u.Nombre == nombre && u.VerificarContrasena(contrasena));
+
+            if (usuarioActual != null)
+            {
+                Console.WriteLine($"\n¡Bienvenido {usuarioActual.Nombre}!");
+            }
+            else
+            {
+                Console.WriteLine("\nUsuario o contraseña incorrectos.");
+            }
+        }
+
+        static void RegistrarUsuario()
+        {
+            Console.Write("\nNuevo nombre de usuario: ");
+            string nombre = Console.ReadLine();
+            Console.Write("Correo: ");
+            string correo = Console.ReadLine();
+            Console.Write("Nueva contraseña: ");
+            string contrasena = Console.ReadLine();
+
+            if (usuarios.Exists(u => u.Nombre == nombre))
+            {
+                Console.WriteLine("\nEl usuario ya existe.");
+                return;
+            }
+
+            usuarios.Add(new Usuario(nombre, correo, contrasena));
+            Console.WriteLine("\nUsuario registrado con éxito.");
+        }
+
+        static void MostrarMenuPrincipal()
+        {
+            Console.Clear();
+            Console.WriteLine($"\nBienvenido, {usuarioActual.Nombre}!");
+            Console.WriteLine("Menú Principal:");
+            Console.WriteLine("1. Mi Colección");
+            Console.WriteLine("2. Gestionar Historial de Juegos");
+            Console.WriteLine("3. Cerrar sesión");
+            Console.Write("Seleccione una opción: ");
+
+            switch (Console.ReadLine())
+            {
+                case "1":
+                    MenuColeccion();
+                    break;
+                case "2":
+                    MenuHistorial();
+                    break;
+                case "3":
+                    usuarioActual = null;
+                    MostrarBienvenida();
+                    break;
+                default:
+                    Console.WriteLine("Opción no válida. Intente nuevamente.");
+                    break;
+            }
+        }
+
+        static void MenuColeccion()
+        {
+            while (true)
+            {
+                Console.Clear();
+                Console.WriteLine("\nMI COLECCIÓN");
+                Console.WriteLine("1. Ver mis juegos");
+                Console.WriteLine("2. Agregar juego a mi colección");
+                Console.WriteLine("3. Eliminar juego de mi colección");
+                Console.WriteLine("4. Volver al menú principal");
+                Console.Write("Seleccione una opción: ");
+
+                switch (Console.ReadLine())
+                {
+                    case "1":
+                        usuarioActual.MostrarColeccion();
+                        break;
+                    case "2":
+                        AgregarJuegoAColeccion();
+                        break;
+                    case "3":
+                        EliminarJuegoDeColeccion();
+                        break;
+                    case "4":
+                        return;
+                    default:
+                        Console.WriteLine("Opción no válida.");
+                        break;
+                }
+                Console.WriteLine("\nPresione cualquier tecla para continuar...");
+                Console.ReadKey();
+            }
+        }
+
+        static void AgregarJuegoAColeccion()
+        {
+            Console.WriteLine("\nJuegos disponibles:");
+            for (int i = 0; i < juegosDisponibles.Count; i++)
+            {
+                Console.WriteLine($"{i + 1}. {juegosDisponibles[i].Nombre}");
+            }
+
+            Console.Write("\nSeleccione un juego para agregar: ");
+            if (int.TryParse(Console.ReadLine(), out int seleccion) && seleccion > 0 && seleccion <= juegosDisponibles.Count)
+            {
+                usuarioActual.AgregarJuego(juegosDisponibles[seleccion - 1]);
+                Console.WriteLine("Juego agregado a tu colección.");
+            }
+            else
+            {
+                Console.WriteLine("Selección no válida.");
+            }
+        }
+
+        static void EliminarJuegoDeColeccion()
+        {
+            if (usuarioActual.Coleccion.Count == 0)
+            {
+                Console.WriteLine("No tienes juegos en tu colección.");
+                return;
+            }
+
+            Console.WriteLine("\nTus juegos:");
+            usuarioActual.MostrarColeccion();
+
+            Console.Write("\nSeleccione un juego para eliminar (número): ");
+            if (int.TryParse(Console.ReadLine(), out int seleccion) && seleccion > 0 && seleccion <= usuarioActual.Coleccion.Count)
+            {
+                usuarioActual.EliminarJuego(seleccion - 1);
+                Console.WriteLine("Juego eliminado de tu colección.");
+            }
+            else
+            {
+                Console.WriteLine("Selección no válida.");
+            }
+        }
+
+        static void MenuHistorial()
+        {
+            while (true)
+            {
+                Console.Clear();
+                Console.WriteLine("\nGESTIÓN DE HISTORIAL");
+                Console.WriteLine("1. Ver historial de un juego");
+                Console.WriteLine("2. Cambiar estado de un juego");
+                Console.WriteLine("3. Ver estados de todos los juegos");
+                Console.WriteLine("4. Volver al menú principal");
+                Console.Write("Seleccione una opción: ");
+
+                switch (Console.ReadLine())
+                {
+                    case "1":
+                        VerHistorialJuego();
+                        break;
+                    case "2":
+                        CambiarEstadoJuego();
+                        break;
+                    case "3":
+                        usuarioActual.MostrarEstadosJuegos();
+                        break;
+                    case "4":
+                        return;
+                    default:
+                        Console.WriteLine("Opción no válida.");
+                        break;
+                }
+                Console.WriteLine("\nPresione cualquier tecla para continuar...");
+                Console.ReadKey();
+            }
+        }
+
+        static void VerHistorialJuego()
+        {
+            if (usuarioActual.Coleccion.Count == 0)
+            {
+                Console.WriteLine("No tienes juegos en tu colección.");
+                return;
+            }
+
+            Console.WriteLine("\nTus juegos:");
+            usuarioActual.MostrarColeccion();
+
+            Console.Write("\nSeleccione un juego para ver su historial (número): ");
+            if (int.TryParse(Console.ReadLine(), out int seleccion) && seleccion > 0 && seleccion <= usuarioActual.Coleccion.Count)
+            {
+                Juego juegoSeleccionado = usuarioActual.Coleccion[seleccion - 1];
+                var historial = usuarioActual.ObtenerHistorialJuego(juegoSeleccionado.Nombre);
+                Console.WriteLine(historial?.ObtenerHistorialCompleto() ?? "No hay historial disponible para este juego.");
+            }
+            else
+            {
+                Console.WriteLine("Selección no válida.");
+            }
+        }
+
+        static void CambiarEstadoJuego()
+        {
+            if (usuarioActual.Coleccion.Count == 0)
+            {
+                Console.WriteLine("No tienes juegos en tu colección.");
+                return;
+            }
+
+            Console.WriteLine("\nTus juegos:");
+            usuarioActual.MostrarColeccion();
+
+            Console.Write("\nSeleccione un juego para cambiar su estado (número): ");
+            if (int.TryParse(Console.ReadLine(), out int seleccion) && seleccion > 0 && seleccion <= usuarioActual.Coleccion.Count)
+            {
+                Juego juegoSeleccionado = usuarioActual.Coleccion[seleccion - 1];
+
+                Console.WriteLine("\nEstados disponibles:");
+                foreach (EstadoJuego estado in Enum.GetValues(typeof(EstadoJuego)))
+                {
+                    Console.WriteLine($"{(int)estado}. {estado}");
+                }
+
+                Console.Write("Seleccione el nuevo estado (número): ");
+                if (int.TryParse(Console.ReadLine(), out int estadoSeleccionado) && Enum.IsDefined(typeof(EstadoJuego), estadoSeleccionado))
+                {
+                    string comentario = "";
+                    Console.Write("Ingrese un comentario (opcional): ");
+                    comentario = Console.ReadLine();
+
+                    usuarioActual.CambiarEstadoJuego(juegoSeleccionado.Nombre, (EstadoJuego)estadoSeleccionado, comentario);
+                    Console.WriteLine($"Estado del juego '{juegoSeleccionado.Nombre}' cambiado a {(EstadoJuego)estadoSeleccionado}");
+                }
+                else
+                {
+                    Console.WriteLine("Estado no válido.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Selección no válida.");
+            }
+        }
+    }
+}
