@@ -1,5 +1,14 @@
-     public abstract class Juego
-    { private  string nombre;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Misjuegos
+{
+     internal abstract class Juego
+    {
+      private  string nombre;
       private int año;
       private string creador;
       private string genero;
@@ -60,5 +69,3 @@
 
     }
 }
-
-
