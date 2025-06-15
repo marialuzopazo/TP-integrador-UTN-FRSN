@@ -1,69 +1,86 @@
-public class HistorialDeEstados
+public class HistorialDeEstados : IChequeoEstado
 {
-    // Atributos privados
     private readonly string _nombreJuego;
-    private readonly List<DateTime> _fechasCambios;
-    private readonly List<EstadoJuego> _estados;
-    private readonly List<string> _comentarios;
+    private readonly List<Dictionary<string, object>> _cambios;
 
-    // Constructor
     public HistorialDeEstados(string nombreJuego)
     {
-        if (string.IsNullOrEmpty(nombreJuego))
-            throw new ArgumentException("El nombre del juego es requerido");
-        
         _nombreJuego = nombreJuego;
-        _fechasCambios = new List<DateTime>();
-        _estados = new List<EstadoJuego>();
-        _comentarios = new List<string>();
+        _cambios = new List<Dictionary<string, object>>();
     }
 
-    // Propiedad pública para el nombre del juego
-    public string NombreJuego => _nombreJuego;
-
-    // Método para registrar un cambio de estado
-    public void RegistrarCambio(EstadoJuego nuevoEstado, string comentario = "")
+    // Implementación de IChequeoEstado
+    public void Iniciar(string comentario = "")
     {
-        _fechasCambios.Add(DateTime.Now);
-        _estados.Add(nuevoEstado);
-        _comentarios.Add(comentario ?? "");
+        RegistrarCambio(EstadoJuego.Jugando, comentario);
     }
 
-    // Obtener el estado actual
+    public void Pausar(string comentario = "")
+    {
+        if (ObtenerEstadoActual() != EstadoJuego.Jugando)
+            throw new InvalidOperationException("Solo se puede pausar un juego en estado Jugando");
+        
+        RegistrarCambio(EstadoJuego.Pausado, comentario);
+    }
+
+    public void Finalizar(string comentario = "")
+    {
+        RegistrarCambio(EstadoJuego.Finalizado, comentario);
+    }
+
     public EstadoJuego ObtenerEstadoActual()
     {
-        return _estados.Count == 0 ? EstadoJuego.NoIniciado : _estados[^1];
+        if (!_cambios.Any())
+            return EstadoJuego.NoIniciado;
+            
+        return (EstadoJuego)_cambios.Last()["estado"];
     }
 
-    // Obtener días en el estado actual
+    public bool EstaFinalizado()
+    {
+        return ObtenerEstadoActual() == EstadoJuego.Finalizado;
+    }
+
+    // Métodos específicos del historial
+    private void RegistrarCambio(EstadoJuego estado, string comentario)
+    {
+        var registro = new Dictionary<string, object>
+        {
+            { "fecha", DateTime.Now },
+            { "estado", estado },
+            { "comentario", comentario }
+        };
+        
+        _cambios.Add(registro);
+    }
+
     public int ObtenerDiasEnEstadoActual()
     {
-        if (_fechasCambios.Count == 0) return 0;
-        return (DateTime.Now - _fechasCambios[^1]).Days;
+        if (!_cambios.Any())
+            return 0;
+            
+        var ultimoCambio = (DateTime)_cambios.Last()["fecha"];
+        return (DateTime.Now - ultimoCambio).Days;
     }
 
-    // Obtener historial formateado
-    public string ObtenerHistorialFormateado()
+    public string ObtenerHistorialCompleto()
     {
-        if (_estados.Count == 0)
-            return $"No hay registros de estado para {_nombreJuego}";
+        var reporte = $"Historial de estados para {_nombreJuego}:\n";
+        reporte += "----------------------------------------\n";
         
-        var resultado = $"Historial de {_nombreJuego}:\n";
-        resultado += "------------------------------\n";
-        
-        for (int i = 0; i < _estados.Count; i++)
+        foreach (var cambio in _cambios)
         {
-            resultado += $"{_fechasCambios[i]:dd/MM/yy HH:mm} - {_estados[i]}";
-            
-            if (!string.IsNullOrEmpty(_comentarios[i]))
-                resultado += $": {_comentarios[i]}";
-            
-            resultado += "\n";
+            reporte += $"[{(DateTime)cambio["fecha"]:dd/MM/yyyy HH:mm}]\n";
+            reporte += $"Estado: {cambio["estado"]}\n";
+            reporte += $"Comentario: {cambio["comentario"]}\n";
+            reporte += "----------------------------------------\n";
         }
         
-        resultado += "------------------------------\n";
-        resultado += $"Estado actual: {ObtenerEstadoActual()} (desde hace {ObtenerDiasEnEstadoActual()} días)";
+        if (_cambios.Any())
+        {
+            reporte += $"Estado actual: {ObtenerEstadoActual()} (desde hace {ObtenerDiasEnEstadoActual()} días)\n";
+        }
         
-        return resultado;
+        return reporte;
     }
 }
