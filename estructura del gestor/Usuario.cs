@@ -1,67 +1,56 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace TP_GRUPAL
-{
+ public class Usuario
+ {
+     public string Nombre { get; set; }
+     public string Correo { get; set; }
+     public string Contraseña { get; set; }
+     public List<Juego> Coleccion { get; set; }
+     public SalaJuegos Sala { get; set; }
 
-      public class Usuario : IAccionesUsuario
-      {
-        private string Nombre { get; set; }
-        private string Correo { get; set; }
-        private string Contrasena { get; set; }
-        private List<Juego> Coleccion { get; set; }
+     public Usuario(string nombre, string correo, string contraseña)
+     {
+         Nombre = nombre;
+         Correo = correo;
+         Contraseña = contraseña;
+         Coleccion = new List<Juego>();
+         Sala = new SalaJuegos(this); // Composición 1 a 1
+     }
 
-        public Usuario(string nombre, string correo, string contrasena)
-        {
-            Nombre = nombre;
-            Correo = correo;
-            Contrasena = contrasena;
-            Coleccion = new List<Juego>();
-        }
+     public void Registrarse()
+     {
+         Console.WriteLine("Usuario registrado: " + Nombre);
+     }
 
-        public void Registrarse()
-        {
-            Console.WriteLine("Usuario registrado correctamente.");
-        }
+     public void IniciarSesion()
+     {
+         Console.WriteLine("Sesión iniciada para: " + Correo);
+     }
 
-        public void IniciarSesion()
-        {
-            Console.WriteLine("Inicio de sesión exitoso.");
-        }
+     public void AgregarJuego(Juego juego)
+     {
+         Coleccion.Add(juego);
+     }
 
-        public void AgregarJuego(Juego juego)
-        {
-            Coleccion.Add(juego);
-        }
+     public void EliminarJuego(string nombre)
+     {
+         Coleccion.RemoveAll(j => j.Nombre == nombre);
+     }
 
-        public void EliminarJuego(string nombreJuego)
-        {
-            Coleccion.RemoveAll(j => j.Nombre == nombreJuego);
-        }
+     public void BuscarJuego(string nombre)
+     {
+         foreach (var juego in Coleccion)
+         {
+             if (juego.Nombre == nombre)
+             {
+                 Console.WriteLine("Juego encontrado: " + juego.Nombre);
+                 return;
+             }
+         }
+         Console.WriteLine("Juego no encontrado.");
+     }
 
-        public Juego BuscarJuego(string nombreJuego)
-        {
-            return Coleccion.Find(j => j.Nombre == nombreJuego);
-        }
-
-        public void MostrarDatos()
-        {
-            Console.WriteLine($"Nombre: {Nombre}, Correo: {Correo}");
-        }
-
-        public void GuardarColeccion()
-        {
-            Console.WriteLine("Colección de juegos guardada.");
-        }
-
-        public void Compartir()
-        {
-            Console.WriteLine("Colección compartida con otros usuarios.");
-        }
-      }
-
-}
-
+     public void MostrarDatos()
+     {
+         Console.WriteLine($"Nombre: {Nombre}\nCorreo: {Correo}\nColección: {Coleccion.Count} juegos");
+     }
+ }
