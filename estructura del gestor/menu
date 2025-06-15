@@ -1,0 +1,342 @@
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    private static Usuario usuarioActual;
+    private static List<Usuario> usuarios = new List<Usuario>();
+    private static List<Juego> juegosDisponibles = new List<Juego>();
+
+    static void Main(string[] args)
+    {
+        InicializarDatos();
+        MostrarBienvenida();
+        
+        while (true)
+        {
+            if (usuarioActual == null)
+            {
+                MostrarMenuInicio();
+            }
+            else
+            {
+                MostrarMenuPrincipal();
+            }
+        }
+    }
+
+    static void InicializarDatos()
+    {
+        // Datos de ejemplo
+        usuarios.Add(new Usuario("admin", "admin123"));
+        juegosDisponibles.Add(new JuegoDeMesa("Ajedrez", 2020, "Inventor desconocido"));
+        juegosDisponibles.Add(new JuegoPorConsola("Super Mario", 1985, "Nintendo"));
+    }
+
+    static void MostrarBienvenida()
+    {
+        Console.Clear();
+        Console.WriteLine("====================================");
+        Console.WriteLine("      GESTOR DE JUEGOS v1.0");
+        Console.WriteLine("====================================");
+        Console.WriteLine();
+    }
+
+    static void MostrarMenuInicio()
+    {
+        Console.WriteLine("\nMenú de Inicio:");
+        Console.WriteLine("1. Iniciar sesión");
+        Console.WriteLine("2. Registrar nuevo usuario");
+        Console.WriteLine("3. Salir");
+        Console.Write("Seleccione una opción: ");
+
+        switch (Console.ReadLine())
+        {
+            case "1":
+                IniciarSesion();
+                break;
+            case "2":
+                RegistrarUsuario();
+                break;
+            case "3":
+                Environment.Exit(0);
+                break;
+            default:
+                Console.WriteLine("Opción no válida. Intente nuevamente.");
+                break;
+        }
+    }
+
+    static void MostrarMenuPrincipal()
+    {
+        Console.Clear();
+        Console.WriteLine($"\nBienvenido, {usuarioActual.Nombre}!");
+        Console.WriteLine("Menú Principal:");
+        Console.WriteLine("1. Mi Colección");
+        Console.WriteLine("2. Sala de Juegos");
+        Console.WriteLine("3. Ver Historiales");
+        Console.WriteLine("4. Cerrar sesión");
+        Console.Write("Seleccione una opción: ");
+
+        switch (Console.ReadLine())
+        {
+            case "1":
+                MenuColeccion();
+                break;
+            case "2":
+                MenuSalaJuegos();
+                break;
+            case "3":
+                MenuHistoriales();
+                break;
+            case "4":
+                usuarioActual = null;
+                MostrarBienvenida();
+                break;
+            default:
+                Console.WriteLine("Opción no válida. Intente nuevamente.");
+                break;
+        }
+    }
+
+    static void IniciarSesion()
+    {
+        Console.Write("\nNombre de usuario: ");
+        string nombre = Console.ReadLine();
+        Console.Write("Contraseña: ");
+        string contrasena = Console.ReadLine();
+
+        usuarioActual = usuarios.Find(u => u.Nombre == nombre && u.VerificarContrasena(contrasena));
+
+        if (usuarioActual != null)
+        {
+            Console.WriteLine($"\n¡Bienvenido {usuarioActual.Nombre}!");
+        }
+        else
+        {
+            Console.WriteLine("\nUsuario o contraseña incorrectos.");
+        }
+    }
+
+    static void RegistrarUsuario()
+    {
+        Console.Write("\nNuevo nombre de usuario: ");
+        string nombre = Console.ReadLine();
+        Console.Write("Nueva contraseña: ");
+        string contrasena = Console.ReadLine();
+
+        if (usuarios.Exists(u => u.Nombre == nombre))
+        {
+            Console.WriteLine("\nEl usuario ya existe.");
+            return;
+        }
+
+        usuarios.Add(new Usuario(nombre, contrasena));
+        Console.WriteLine("\nUsuario registrado con éxito.");
+    }
+
+    static void MenuColeccion()
+    {
+        while (true)
+        {
+            Console.Clear();
+            Console.WriteLine("\nMI COLECCIÓN");
+            Console.WriteLine("1. Ver mis juegos");
+            Console.WriteLine("2. Agregar juego a mi colección");
+            Console.WriteLine("3. Eliminar juego de mi colección");
+            Console.WriteLine("4. Volver al menú principal");
+            Console.Write("Seleccione una opción: ");
+
+            switch (Console.ReadLine())
+            {
+                case "1":
+                    usuarioActual.MostrarColeccion();
+                    break;
+                case "2":
+                    AgregarJuegoAColeccion();
+                    break;
+                case "3":
+                    EliminarJuegoDeColeccion();
+                    break;
+                case "4":
+                    return;
+                default:
+                    Console.WriteLine("Opción no válida.");
+                    break;
+            }
+            Console.WriteLine("\nPresione cualquier tecla para continuar...");
+            Console.ReadKey();
+        }
+    }
+
+    static void AgregarJuegoAColeccion()
+    {
+        Console.WriteLine("\nJuegos disponibles:");
+        for (int i = 0; i < juegosDisponibles.Count; i++)
+        {
+            Console.WriteLine($"{i + 1}. {juegosDisponibles[i].Nombre}");
+        }
+
+        Console.Write("\nSeleccione un juego para agregar: ");
+        if (int.TryParse(Console.ReadLine(), out int seleccion) && seleccion > 0 && seleccion <= juegosDisponibles.Count)
+        {
+            usuarioActual.AgregarJuego(juegosDisponibles[seleccion - 1]);
+            Console.WriteLine("Juego agregado a tu colección.");
+        }
+        else
+        {
+            Console.WriteLine("Selección no válida.");
+        }
+    }
+
+    static void EliminarJuegoDeColeccion()
+    {
+        if (usuarioActual.Coleccion.Count == 0)
+        {
+            Console.WriteLine("No tienes juegos en tu colección.");
+            return;
+        }
+
+        Console.WriteLine("\nTus juegos:");
+        usuarioActual.MostrarColeccion();
+
+        Console.Write("\nSeleccione un juego para eliminar: ");
+        if (int.TryParse(Console.ReadLine(), out int seleccion) && seleccion > 0 && seleccion <= usuarioActual.Coleccion.Count)
+        {
+            usuarioActual.EliminarJuego(seleccion - 1);
+            Console.WriteLine("Juego eliminado de tu colección.");
+        }
+        else
+        {
+            Console.WriteLine("Selección no válida.");
+        }
+    }
+
+    static void MenuSalaJuegos()
+    {
+        if (usuarioActual.Coleccion.Count == 0)
+        {
+            Console.WriteLine("\nNo tienes juegos en tu colección para jugar.");
+            Console.WriteLine("Agrega juegos desde el menú Mi Colección.");
+            Console.WriteLine("\nPresione cualquier tecla para continuar...");
+            Console.ReadKey();
+            return;
+        }
+
+        while (true)
+        {
+            Console.Clear();
+            Console.WriteLine("\nSALA DE JUEGOS");
+            Console.WriteLine("Seleccione un juego para jugar:");
+            
+            for (int i = 0; i < usuarioActual.Coleccion.Count; i++)
+            {
+                Console.WriteLine($"{i + 1}. {usuarioActual.Coleccion[i].Nombre}");
+            }
+            
+            Console.WriteLine($"{usuarioActual.Coleccion.Count + 1}. Volver al menú principal");
+            Console.Write("Seleccione una opción: ");
+
+            if (int.TryParse(Console.ReadLine(), out int seleccion))
+            {
+                if (seleccion == usuarioActual.Coleccion.Count + 1)
+                {
+                    return;
+                }
+                else if (seleccion > 0 && seleccion <= usuarioActual.Coleccion.Count)
+                {
+                    var juegoSeleccionado = usuarioActual.Coleccion[seleccion - 1];
+                    MenuJuego(juegoSeleccionado);
+                }
+                else
+                {
+                    Console.WriteLine("Opción no válida.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Opción no válida.");
+            }
+        }
+    }
+
+    static void MenuJuego(Juego juego)
+    {
+        var sala = new SalaJuegos(juego);
+
+        while (true)
+        {
+            Console.Clear();
+            Console.WriteLine($"\nJugando: {juego.Nombre}");
+            Console.WriteLine($"Estado actual: {sala.EstadoActual}");
+            
+            Console.WriteLine("\n1. Iniciar juego");
+            Console.WriteLine("2. Pausar juego");
+            Console.WriteLine("3. Finalizar juego");
+            Console.WriteLine("4. Ver historial de este juego");
+            Console.WriteLine("5. Volver a la sala de juegos");
+            Console.Write("Seleccione una opción: ");
+
+            switch (Console.ReadLine())
+            {
+                case "1":
+                    Console.Write("Ingrese un comentario (opcional): ");
+                    string comentarioIniciar = Console.ReadLine();
+                    sala.Iniciar(comentarioIniciar);
+                    Console.WriteLine("¡Juego iniciado!");
+                    break;
+                case "2":
+                    Console.Write("Ingrese un comentario (opcional): ");
+                    string comentarioPausar = Console.ReadLine();
+                    try
+                    {
+                        sala.Pausar(comentarioPausar);
+                        Console.WriteLine("Juego pausado.");
+                    }
+                    catch (InvalidOperationException ex)
+                    {
+                        Console.WriteLine($"Error: {ex.Message}");
+                    }
+                    break;
+                case "3":
+                    Console.Write("Ingrese un comentario (opcional): ");
+                    string comentarioFinalizar = Console.ReadLine();
+                    sala.Finalizar(comentarioFinalizar);
+                    Console.WriteLine("Juego finalizado.");
+                    break;
+                case "4":
+                    Console.WriteLine("\n" + sala.VerHistorial());
+                    break;
+                case "5":
+                    return;
+                default:
+                    Console.WriteLine("Opción no válida.");
+                    break;
+            }
+            Console.WriteLine("\nPresione cualquier tecla para continuar...");
+            Console.ReadKey();
+        }
+    }
+
+    static void MenuHistoriales()
+    {
+        Console.Clear();
+        Console.WriteLine("\nHISTORIAL DE JUEGOS");
+        
+        if (usuarioActual.Coleccion.Count == 0)
+        {
+            Console.WriteLine("No tienes juegos en tu colección.");
+            return;
+        }
+
+        foreach (var juego in usuarioActual.Coleccion)
+        {
+            Console.WriteLine($"\nHistorial de {juego.Nombre}:");
+            var sala = new SalaJuegos(juego);
+            Console.WriteLine(sala.VerHistorial());
+        }
+        
+        Console.WriteLine("\nPresione cualquier tecla para continuar...");
+        Console.ReadKey();
+    }
+}
