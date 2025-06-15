@@ -1,55 +1,50 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TP_GRUPAL
 {
-
-
     public class Usuario
     {
-        public string Nombre { get; set; }
-        public string Correo { get; set; }
-        public string Contraseña { get; set; }
-        public List<Juego> Coleccion { get; set; }
-        public SalaJuegos Sala { get; set; }
+        private string nombre;
+        private string correo;
+        private string contraseña;
+        private List<Juego> coleccion;
+        private SalaJuegos sala;
 
         public Usuario(string nombre, string correo, string contraseña)
         {
-            Nombre = nombre;
-            Correo = correo;
-            Contraseña = contraseña;
-            Coleccion = new List<Juego>();
-            Sala = new SalaJuegos(this); // Composición 1 a 1
+            this.nombre = nombre;
+            this.correo = correo;
+            this.contraseña = contraseña;
+            coleccion = new List<Juego>();
+            sala = new SalaJuegos(this); // Composición 1 a 1
         }
 
         public void Registrarse()
         {
-            Console.WriteLine("Usuario registrado: " + Nombre);
+            Console.WriteLine("Usuario registrado: " + nombre);
         }
 
         public void IniciarSesion()
         {
-            Console.WriteLine("Sesión iniciada para: " + Correo);
+            Console.WriteLine("Sesión iniciada para: " + correo);
         }
 
         public void AgregarJuego(Juego juego)
         {
-            Coleccion.Add(juego);
+            coleccion.Add(juego);
         }
 
-        public void EliminarJuego(string nombre)
+        public void EliminarJuego(string nombreJuego)
         {
-            Coleccion.RemoveAll(j => j.Nombre == nombre);
+            coleccion.RemoveAll(j => j.Nombre == nombreJuego);
         }
 
-        public void BuscarJuego(string nombre)
+        public void BuscarJuego(string nombreJuego)
         {
-            foreach (var juego in Coleccion)
+            foreach (var juego in coleccion)
             {
-                if (juego.Nombre == nombre)
+                if (juego.Nombre == nombreJuego)
                 {
                     Console.WriteLine("Juego encontrado: " + juego.Nombre);
                     return;
@@ -60,10 +55,12 @@ namespace TP_GRUPAL
 
         public void MostrarDatos()
         {
-            Console.WriteLine($"Nombre: {Nombre}\nCorreo: {Correo}\nColección: {Coleccion.Count} juegos");
+            Console.WriteLine($"Nombre: {nombre}\nCorreo: {correo}\nColección: {coleccion.Count} juegos");
         }
-    }
 
+        
+    }
 }
+
 
 
