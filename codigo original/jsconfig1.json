@@ -1,0 +1,235 @@
+{
+    "juegos_por_consola": [
+        {
+            "nombre": "Final Fantasy VII",
+            "fecha_lanzamiento": "1997-01-31",
+            "creador": "Hironobu Sakaguchi",
+            "genero": "RPG",
+            "descripcion": "Una obra maestra del RPG creada para PlayStation. Cloud Strife, un ex‑soldado, se une al grupo eco‑terrorista AVALANCHE para enfrentar a la megacorporación Shinra y su arma letal, Sephiroth. Con narrativa cinematográfica, personajes inolvidables, un sistema de materia que personaliza habilidades, y una banda sonora épica compuesta por Nobuo Uematsu, el juego redefinió los RPG occidentales y el uso de cinemáticas CGI.",
+            "imagen": "https://cdn.example.com/images/ps1_ff7.jpg"
+        },
+        {
+            "nombre": "Super Mario Bros.",
+            "fecha_lanzamiento": "1985-09-13",
+            "creador": "Shigeru Miyamoto",
+            "genero": "Plataformas",
+            "descripcion": "El clásico que salvó la industria. Controlás a Mario (o Luigi en co‑op) en su aventura por rescatar a la Princesa Peach atravesando ocho mundos llenos de niveles, enemigos y secretos. Con controles precisos, música icónica y power‑ups como Super Hongo y Flor de Fuego, definió el género de plataformas y se convirtió en un fenómeno mundial.",
+            "imagen": "https://cdn.example.com/images/nes_mario.jpg"
+        },
+        {
+            "nombre": "The Legend of Zelda: Ocarina of Time",
+            "fecha_lanzamiento": "1998-11-21",
+            "creador": "Shigeru Miyamoto",
+            "genero": "Aventura",
+            "descripcion": "Una epopeya en 3D que elevó los estándares de aventuras. Como Link, viajás en el tiempo para detener a Ganondorf y salvar a Hyrule. El juego combina exploración, puzzles inteligentes y mazmorras memorables. Introdujo la mira Z‑targeting y una banda sonora emotiva, siendo considerado uno de los mejores videojuegos de todos los tiempos.",
+            "imagen": "https://cdn.example.com/images/n64_zelda.jpg"
+        },
+        {
+            "nombre": "Metal Gear Solid",
+            "fecha_lanzamiento": "1998-10-21",
+            "creador": "Hideo Kojima",
+            "genero": "Acción sigilosa",
+            "descripcion": "Solid Snake debe infiltrarse en Shadow Moses para detener una amenaza nuclear. Repleto de narrativa cinematográfica, diálogos impactantes, giros argumentales y una IA avanzada, revolucionó el género de sigilo. Combinó infiltración táctica, cinemáticas y temáticas profundas sobre guerra nuclear y filosofía.",
+            "imagen": "https://cdn.example.com/images/ps1_mgs.jpg"
+        },
+        {
+            "nombre": "Sonic the Hedgehog",
+            "fecha_lanzamiento": "1991-06-23",
+            "creador": "Yuji Naka",
+            "genero": "Plataformas",
+            "descripcion": "El erizo azul de Sega corrió a gran velocidad para detener las locuras del Dr. Robotnik. Con niveles vibrantes llenos de loops, rutas alternativas y música enérgica, Sonic introdujo un ritmo frenético que contrastó con plataformas más pausadas, y se convirtió en el emblema de una generación.",
+            "imagen": "https://cdn.example.com/images/sega_sonic.jpg"
+        },
+        {
+            "nombre": "Resident Evil 2",
+            "fecha_lanzamiento": "1998-01-21",
+            "creador": "Hideki Kamiya",
+            "genero": "Survival Horror",
+            "descripcion": "Leon S. Kennedy y Claire Redfield enfrentan un brote zombi en Raccoon City. Con cámaras fijas, recursos escasos, puzles retadores y secuencias de tensión, redefinió el survival horror. Ofrece dos campañas entrelazadas con historia, decisiones y atmósfera opresiva.",
+            "imagen": "https://cdn.example.com/images/ps1_re2.jpg"
+        },
+        {
+            "nombre": "Castlevania: Symphony of the Night",
+            "fecha_lanzamiento": "1997-03-20",
+            "creador": "Koji Igarashi",
+            "genero": "Aventura/Acción",
+            "descripcion": "En este metroidvania controlás a Alucard explorando el castillo de Drácula. Con mapas interconectados, upgrades RPG, habilidades desbloqueables y estética gótica, definió un género. Su música catedrática y jugabilidad exploratoria aún influyen en desarrolladores actuales.",
+            "imagen": "https://cdn.example.com/images/ps1_castlevania.jpg"
+        },
+        {
+            "nombre": "Chrono Trigger",
+            "fecha_lanzamiento": "1995-03-11",
+            "creador": "Hironobu Sakaguchi, Akira Toriyama",
+            "genero": "RPG",
+            "descripcion": "Una joya de los RPG de SNES, con viaje en el tiempo, múltiples finales y un equipo de grandes creativos. Combines de comandos que dependen del compañero en batalla, gráficos visuales vibrantes y una historia épica con patadas argumentales y emotivas.",
+            "imagen": "https://cdn.example.com/images/snes_chrono.jpg"
+        },
+        {
+            "nombre": "Street Fighter II",
+            "fecha_lanzamiento": "1991-03-02",
+            "creador": "Akira Nishitani",
+            "genero": "Lucha",
+            "descripcion": "Pionero de los juegos de arcade y lucha competitiva, presentó personajes icónicos como Ryu, Ken y Chun‑Li. Con un sistema de combate profundo, controles precisos y réplicas turbo, Street Fighter II instauró torneos e impulsó los e‑sports.",
+            "imagen": "https://cdn.example.com/images/sf2.jpg"
+        },
+        {
+            "nombre": "Gran Turismo",
+            "fecha_lanzamiento": "1997-12-23",
+            "creador": "Kazunori Yamauchi",
+            "genero": "Simulación de carreras",
+            "descripcion": "El simulador de conducción para PlayStation que ofreció físicas realistas, licencia oficial de autos, circuitos reales y opciones de tuning. Sus modos de juego, progresión y atención al detalle lo convirtieron en el simulador más vendido en consolas.",
+            "imagen": "https://cdn.example.com/images/ps1_gt.jpg"
+        }
+    ],
+    "juegos_de_mesa": [
+        {
+            "nombre": "Monopoly",
+            "creador": "Charles Darrow",
+            "año_lanzamiento": 1935,
+            "fecha_lanzamiento": "1935-11-05",
+            "genero": "Económico",
+            "estilo_juego": "Económico / Competitivo",
+            "descripcion": "Juego de bienes raíces donde los jugadores compran, venden y arriendan propiedades. El objetivo es hacer quebrar a los demás jugadores acumulando monopolios y cobrando rentas elevadas. Incluye tarjetas de suerte, impuestos, hipotecas y mejoras como casas y hoteles."
+        },
+        {
+            "nombre": "Catan",
+            "creador": "Klaus Teuber",
+            "año_lanzamiento": 1995,
+            "fecha_lanzamiento": "1995-04-01",
+            "genero": "Estrategia",
+            "estilo_juego": "Gestión de recursos / Colonización",
+            "descripcion": "Los jugadores colonizan una isla, recolectan recursos (madera, ladrillo, lana, trigo y mineral) y construyen carreteras, pueblos y ciudades. El comercio entre jugadores es clave. Gana quien llegue a 10 puntos de victoria construyendo y negociando de forma efectiva."
+        },
+        {
+            "nombre": "Risk",
+            "creador": "Albert Lamorisse",
+            "año_lanzamiento": 1957,
+            "fecha_lanzamiento": "1957-08-15",
+            "genero": "Estrategia militar",
+            "estilo_juego": "Estrategia militar / Control de área",
+            "descripcion": "Juego de conquista global. Cada jugador controla un ejército y lucha por dominar territorios en un mapa mundial. Las batallas se resuelven con dados. Gana el jugador que conquiste todos los territorios o cumpla su misión secreta."
+        },
+        {
+            "nombre": "Clue (Cluedo)",
+            "creador": "Anthony E. Pratt",
+            "año_lanzamiento": 1949,
+            "fecha_lanzamiento": "1949-06-01",
+            "genero": "Misterio",
+            "estilo_juego": "Deducción / Misterio",
+            "descripcion": "Juego de asesinato en una mansión. Los jugadores deben descubrir quién cometió el crimen, con qué arma y en qué habitación. A través de la deducción lógica y las pistas ocultas, los jugadores eliminan posibilidades hasta resolver el caso."
+        },
+        {
+            "nombre": "Scrabble",
+            "creador": "Alfred Butts",
+            "año_lanzamiento": 1938,
+            "fecha_lanzamiento": "1938-07-01",
+            "genero": "Educativo / Palabras",
+            "estilo_juego": "Palabras / Competencia lingüística",
+            "descripcion": "Juego de formación de palabras. Los jugadores usan fichas con letras para formar palabras en un tablero. Cada letra tiene un valor, y hay casillas con bonificaciones. Gana quien acumule más puntos al final de la partida."
+        },
+        {
+            "nombre": "Uno",
+            "creador": "Merle Robbins",
+            "año_lanzamiento": 1971,
+            "fecha_lanzamiento": "1971-07-01",
+            "genero": "Familiar / Cartas",
+            "estilo_juego": "Cartas / Eliminación",
+            "descripcion": "Juego de cartas rápido donde los jugadores deben deshacerse de todas sus cartas combinando colores o números. Incluye cartas de acción como 'roba 2', 'salta', 'cambio de sentido' y 'comodines'. Grita 'UNO' al quedarte con una carta o recibirás penalización."
+        },
+        {
+            "nombre": "Jenga",
+            "creador": "Leslie Scott",
+            "año_lanzamiento": 1983,
+            "fecha_lanzamiento": "1983-04-15",
+            "genero": "Habilidad / Fiesta",
+            "estilo_juego": "Destreza / Física",
+            "descripcion": "Juego de habilidad en el que los jugadores retiran bloques de una torre de madera y los colocan en la parte superior sin que esta se derrumbe. Pierde quien haga caer la torre. Se juega por turnos y exige pulso y estrategia."
+        },
+        {
+            "nombre": "Trivial Pursuit",
+            "creador": "Scott Abbott y Chris Haney",
+            "año_lanzamiento": 1981,
+            "fecha_lanzamiento": "1981-12-10",
+            "genero": "Trivia / Conocimiento",
+            "estilo_juego": "Trivia / Conocimiento general",
+            "descripcion": "Juego de preguntas y respuestas. Los jugadores deben recorrer un tablero respondiendo preguntas de diferentes categorías para ganar cuñas. Gana quien complete su ficha con las seis cuñas de colores y responda correctamente la pregunta final."
+        },
+        {
+            "nombre": "Pictionary",
+            "creador": "Robert Angel",
+            "año_lanzamiento": 1985,
+            "fecha_lanzamiento": "1985-06-01",
+            "genero": "Fiesta / Dibujo",
+            "estilo_juego": "Dibujo / Juego de fiesta",
+            "descripcion": "Los jugadores deben dibujar una palabra o frase sin hablar, mientras su equipo intenta adivinarla antes de que se acabe el tiempo. Las categorías incluyen objetos, acciones y lugares. Gana el equipo que adivine más palabras."
+        },
+        {
+            "nombre": "Ajedrez",
+            "creador": "Origen histórico (India, siglo VI)",
+            "año_lanzamiento": 1475,
+            "fecha_lanzamiento": "1475-01-01",
+            "genero": "Clásico / Estrategia",
+            "estilo_juego": "Estrategia abstracta",
+            "descripcion": "Juego de estrategia para dos jugadores. Cada uno controla 16 piezas con movimientos únicos. El objetivo es dar jaque mate al rey rival. Considerado un clásico universal de lógica, táctica y pensamiento anticipado."
+        }
+    ],
+    "juegosVR": [
+        {
+            "nombre": "The Walking Dead: Saints & Sinners",
+            "año": 2020,
+            "tipo": "Juego completo",
+            "creador": "Skydance Interactive",
+            "género": "Survival Horror, Acción",
+            "descripcion": "En este juego de supervivencia en primera persona, te sumergís en una Nueva Orleans infestada de zombis. Con una física realista y un sistema de combate cuerpo a cuerpo preciso, podés usar armas improvisadas, cuchillos, armas de fuego y más. Es ideal para caminadoras como Virtuix Omni o Kat Walk C2, ya que permite una exploración libre y natural del entorno postapocalíptico, aumentando la inmersión al caminar y esquivar físicamente los ataques enemigos."
+        },
+        {
+            "nombre": "Pavlov VR",
+            "año": 2017,
+            "tipo": "Multijugador competitivo",
+            "creador": "Vankrupt Games",
+            "género": "FPS, Acción",
+            "descripcion": "Pavlov VR es un shooter multijugador en línea que ofrece partidas rápidas y realistas. Simula enfrentamientos entre soldados con armamento realista y una variedad de mapas inspirados en conflictos modernos y clásicos. Su soporte para caminadoras VR permite que los jugadores se muevan libremente por el campo de batalla con sus propios pasos, ideal para una experiencia de combate completamente física y envolvente."
+        },
+        {
+            "nombre": "Onward",
+            "año": 2016,
+            "tipo": "Multijugador táctico",
+            "creador": "Downpour Interactive",
+            "género": "FPS, Simulación militar",
+            "descripcion": "Onward es un shooter militar táctico que pone el foco en la cooperación en equipo, el realismo y la comunicación por voz. Compatible con caminadoras VR, el jugador puede moverse de forma física a través de los mapas, tomando coberturas, flanqueando enemigos y viviendo una experiencia de guerra táctica lo más realista posible. Es ideal para sesiones cooperativas o competitivas con inmersión total."
+        },
+        {
+            "nombre": "Blade & Sorcery",
+            "año": 2018,
+            "tipo": "Sandbox de combate",
+            "creador": "WarpFrog",
+            "género": "Acción, Simulación",
+            "descripcion": "Blade & Sorcery es una simulación de combate medieval basada en física realista. Los movimientos del cuerpo completo, el sistema de colisiones por huesos y el soporte para mods hacen que cada golpe, bloqueo y esquive se sienta auténtico. Con caminadoras VR, podés caminar, esquivar y luchar con total libertad física, haciendo que cada enfrentamiento cuerpo a cuerpo sea aún más visceral e inmersivo."
+        },
+        {
+            "nombre": "Skyrim VR",
+            "año": 2018,
+            "tipo": "RPG de mundo abierto",
+            "creador": "Bethesda Game Studios",
+            "género": "RPG, Fantasía, Aventura",
+            "descripcion": "Skyrim VR es la versión en realidad virtual del clásico RPG The Elder Scrolls V: Skyrim. Ofrece el mundo abierto completo con soporte para mods de cuerpo completo y caminadoras. Podés explorar ciudades, mazmorras y montañas caminando realmente con dispositivos como Kat Walk C2 o Virtuix Omni, luchando con espadas, arcos o hechizos con tus propios movimientos."
+        },
+        {
+            "nombre": "Boneworks / Bonelab",
+            "año": 2019,
+            "tipo": "Aventura de física avanzada",
+            "creador": "Stress Level Zero",
+            "género": "Acción, Aventura, Simulación Física",
+            "descripcion": "Boneworks y su secuela Bonelab están diseñados con un motor de física que rastrea el cuerpo completo. Cada parte del cuerpo tiene peso e interacción realista con el entorno. Son ideales para caminadoras VR, ya que podés caminar, trepar, escalar, empujar y explorar entornos complejos con total libertad física. Estos juegos ofrecen una experiencia intensa y desafiante con interacción 1:1 con el entorno."
+        },
+        {
+            "nombre": "Zero Caliber VR",
+            "año": 2020,
+            "tipo": "Shooter cooperativo",
+            "creador": "XREAL Games",
+            "género": "FPS, Acción militar",
+            "descripcion": "Zero Caliber VR es un shooter en primera persona ambientado en un conflicto moderno. Permite personalizar armas, trabajar en equipo y avanzar en una campaña narrativa. Compatible con caminadoras VR, permite que los jugadores se muevan libremente y adopten tácticas reales de combate usando su cuerpo, generando una experiencia similar a Call of Duty en VR con mucha inmersión."
+        }
+    ]
+}
+    
