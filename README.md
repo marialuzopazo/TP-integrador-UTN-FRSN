@@ -3,8 +3,6 @@
                  PROGRAMACIÓN 2 / utn frsn
        Aplicación de consola con conexión a API
 ---------------------------
-
-
 ## Nombres de integrantes de este trabajo : 👩 👩 👩
 
 *  Pilar
@@ -13,6 +11,8 @@
 ----------------------------------------
 # El Gestor de Juegos 
 es una aplicación de consola desarrollada en C# que permite a los usuarios organizar su colección personal de juegos (de mesa, consola y realidad virtual) una sala de juego y un historial que pueda guardar no solo los estados de los juegos si no un comentario sobre el mismo 
+
+![Gestor de colección](https://github.com/user-attachments/assets/c976e079-c353-4d75-908e-fe292c162cf5)
 
 # Objetivos de la aplicación: 
 Gestionar una colección personalizada de juegos con opciones para agregar, eliminar, modificar y visualizar detalles.
