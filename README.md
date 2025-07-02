@@ -51,3 +51,16 @@ https://app.diagrams.net/
 
 link de la Api simulada: 
 api https://run.mocky.io/v3/9b58d6ab-5447-449d-9f75-601dd6334f34
+--------------------------------------------
+## Observaciones  DEL DOCENTE:
+
+UML: Herencia señalada en sentido inverso. Lo nombres de las clases no deben tener espacios. La clase JuegoPorConsola parece estar demás. La relación de agregación de Juego con Usuario y SalaJuegos está al revés. Existe una relación entre SalaJuego y HistoriaDeEstados pero no se ve ninguna proiedad de un tipo u otro. Lo mismo pasa entre HistorialDeEstado y Juegos. Las relaciones de IChequeoEstado con las 3 clases no tienen sentido (mal graficada). Ademas no tiene sentido. CODIGO: en la clase Juego, la propiedad año no deberia tener caracteres especiales. La propiedad genero es de distinto tipo que en el diagrama UML. En la clase JuegoPorConsola tiene una propiedad que no está en el diagrama UML. En la clase Usuario, la propiedad contraseña no debe tener caracteres especiales. Ademas la propiedad sala (que no se usa) e historiales no están en el diagrama. Los métodos VerificarContrasena, MostrarColeccion, CambiarEstadoJuego, ObtenerHistorialJuego y MostrarEstadoJuegos no estan en el diagrama UML. En la clase SalaJuego, las propiedades propietario y fechaCreacion no se utilizan. En la clase HistoriaDeEstados la propiedad FechaEstado que esta en el diagrama UML no está en el código. Los métodos Iniciar, Pausar, Finalizar, RegistrarCambio, ObtenerDiasEnEstadoActual y ObtenerHistorialCompleto no estan en el diagrama UML. Las clases dentro de Class1 no estan en el diagrama UML. En el programa principal hay una mala practica al utilizar while (true). EJECUCION: Al ingresar datos incorrectos en inicio de sesion, luego de mostrar el cartel de datos incorrectos se deberia limpiar la pantalla y volver a redibujar el menu.
+
+## CORRECCIONES realizadas:
+
+- se realizó y actualizó el UML
+- se mejoraron partes del codigo
+- se expuso el tp grupal
+  
+ ## EL TRABAJO ESTÁ APROBADO ! ! !
+
