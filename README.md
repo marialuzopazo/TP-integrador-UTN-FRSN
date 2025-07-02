@@ -62,5 +62,5 @@ UML: Herencia señalada en sentido inverso. Lo nombres de las clases no deben te
 - se mejoraron partes del codigo
 - se expuso el tp grupal
   
- ## EL TRABAJO ESTÁ APROBADO ! ! !
+ ## 🎉 EL TRABAJO ESTÁ APROBADO ! ! 🎉
 
