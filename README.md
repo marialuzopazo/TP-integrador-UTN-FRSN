@@ -15,12 +15,12 @@ es una aplicación de consola desarrollada en C# que permite a los usuarios orga
 ![Gestor de colección](https://github.com/user-attachments/assets/c976e079-c353-4d75-908e-fe292c162cf5)
 
 # Objetivos de la aplicación: 
-Gestionar una colección personalizada de juegos con opciones para agregar, eliminar, modificar y visualizar detalles.
-gestionar una sala de juego en donde se pueda modificar los estados de los juegos ( ejemplo: juego finalizado ) 
-revisar el historial de juegos en donde no solo se podra ver los estados de los juegos si no que tambièn se pueda realizar un comentario sobre la experiencia con el mismo
- Implementar persistencia de datos mediante serialización en JSON para guardar y cargar la información del usuario.
- Consumir una API (en nuestro caso, simulada y personalizada) para obtener información adicional sobre los juegos.
- Aplicar conceptos de POO: herencia, encapsulamiento, interfaces, enumeraciones y relaciones de agregación/composición.
+- Gestionar una colección personalizada de juegos con opciones para agregar, eliminar, modificar y visualizar detalles.
+- gestionar una sala de juego en donde se pueda modificar los estados de los juegos ( ejemplo: juego finalizado ) 
+- revisar el historial de juegos en donde no solo se podra ver los estados de los juegos si no que tambièn se pueda realizar un comentario sobre la experiencia con el mismo
+- Implementar persistencia de datos mediante serialización en JSON para guardar y cargar la información del usuario.
+- Consumir una API (en nuestro caso, simulada y personalizada) para obtener información adicional sobre los juegos.
+- Aplicar conceptos de POO: herencia, encapsulamiento, interfaces, enumeraciones y relaciones de agregación/composición.
 
 --------------------------------------
 ## DIARIO DE AVANCES DEL EQUIPO: 📰
